@@ -1,0 +1,820 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Acta final de proyecto de grado siguiendo las pautas del anexo E de las
+ normas del libro USB
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{ACTA FINAL PROYECTO DE GRADO} 		% Agrega al
+ indice general
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 						  % Evita numeración sobre esta pagina
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center} 								 % Centra el logo de la uni
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename logoUSB.eps
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Titulo superior
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+large
+\backslash
+bfseries UNIVERSIDAD SIMÓN BOLÍVAR}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+large
+\backslash
+bfseries DECANATO DE ESTUDIOS PROFESIONALES}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+large
+\backslash
+bfseries COORDINACIÓN DE INGENIERÍA ELÉCTRICA}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize
+\backslash
+bfseries ACTA DE EVALUACI
+\backslash
+'ON DEL PROYECTO DE GRADO}
+\backslash
+
+\backslash
+[.5cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+CÓDIGO DE LA ASIGNATURA: EP ______
+\begin_inset space \hspace*{}
+\length 0.5cm
+\end_inset
+
+FECHA:
+\begin_inset space ~
+\end_inset
+
+__ / __ / ______
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ESTUDIANTE:________________________________CARNET:________
+\end_layout
+
+\begin_layout Standard
+TÍTULO DEL TRABAJO:____________________________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+TUTOR: Profs.
+ ________________ CO-TUTOR: Prof.
+ ________________
+\end_layout
+
+\begin_layout Standard
+JURADO: Profs.
+ ____________________________________________
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+____________________________________________
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+____________________________________________
+\end_layout
+
+\begin_layout Standard
+APROBADO ___
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+REPROBADO ____
+\end_layout
+
+\begin_layout Standard
+OBSERVACIONES: ____________________________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+El Jurado considera 
+\series bold
+por unanimidad
+\series default
+ que el trabajo es EXCEPCIONALMENTE BUENO
+\end_layout
+
+\begin_layout Standard
+SI: ___
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+NO: ___
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+En caso positivo, justificar razonadamente: ____________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+______________________________________________________
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Asignatura
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize C
+\backslash
+'ODIGO DE LA ASIGNATURA: EP     FECHA: }
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Estudiante
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize ESTUDIANTE: CARNET:}
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Titulo del trabajo
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+Large
+\backslash
+bfseries CONTROL VECTORIAL DE AEROGENERADORES UTILIZANDO PUENTES MULTINIVEL}
+\backslash
+
+\backslash
+[2cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Autor
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize Por:}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize José Rubén Sayritupac Vera}
+\backslash
+
+\backslash
+[2cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Tutor y cotutor
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize Realizado con la asesoría de:}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize Prof.
+ Eduardo Albánez}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize Prof.
+ Johnny Rengifo}
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Titulo inferior
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+large PROYECTO DE GRADO}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize Presentado ante la Ilustre Universidad Simón Bolívar}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize como requisito parcial para optar al título de}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize Ingeniero Electricista}
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Fecha
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textrm{
+\backslash
+normalsize
+\backslash
+bfseries Sartenejas, Noviembre de 2014}
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

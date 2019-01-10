@@ -1,0 +1,2183 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\use_default_options true
+\master ../../Principal_Tesis.lyx
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation 0.7cm
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Falta TITULO
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A lo largo de este capitulo se presentara un resumen de los antecedentes
+ e investigaciones relacionadas a sistemas fotovoltaicos con almacenamiento
+ de energía conectados a la red; así como definiciones de conceptos que
+ son fundamentales para comprender el desarrollo de este proyecto de grado.
+ 
+\end_layout
+
+\begin_layout Section*
+Antecedentes
+\end_layout
+
+\begin_layout Section*
+Marco Teórico
+\end_layout
+
+\begin_layout Section
+Estudio de Carga
+\end_layout
+
+\begin_layout Subsection
+Curva de carga
+\end_layout
+
+\begin_layout Standard
+Es la sucesión de valores de demanda como función del tiempo.
+ (Citar Archivo Distribuciones Caracterizacion de la demanda)
+\end_layout
+
+\begin_layout Subsection
+Perfil de carga
+\end_layout
+
+\begin_layout Standard
+Es la representación gráfica de la curva de carga.
+ Dicho perfil puede ser discreto o por integración; en el primer caso, se
+ registran los valores de energía de forma instantánea.
+ En el segundo caso, los valores de energía se registran cada vez que transcurre
+ un intervalo de tiempo.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Perfil de carga"
+
+\end_inset
+
+ se puede observar un perfil de carga discreto y por integración.
+ (Citar Archivo Distribuciones Caracterizacion de la demanda)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/perfil de carga.JPG
+	scale 85
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Perfil de carga discreto y por integración respectivamente.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Perfil de carga"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Registrador de Carga
+\end_layout
+
+\begin_layout Subsection
+Demanda Promedio
+\end_layout
+
+\begin_layout Subsection
+Demanda máxima coincidente??
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Radiación Solar???
+\end_layout
+
+\begin_layout Subsection
+Radiación solar
+\end_layout
+
+\begin_layout Standard
+Es la energía procedente del sol en forma de ondas electromagnéticas.
+ La radiación solar se distribuye y llega al planeta Tierra con los siguientes
+ porcentajes: un 47% en luz visible, un 46% en radiación infrarroja y un
+ 7% en ultravioleta.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Casa2012"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Esfera celestial
+\end_layout
+
+\begin_layout Standard
+Es una esfera, la cual es concentrica con el planeta Tierra y tiene un radio
+ arbitrario; en ella se representa el movimiento de los objetos celestiales
+ como el sol, la luna y las estrella, los cuales se encuentran a una distancia
+ muy lejana de nuestro planeta.
+ Cada punto en la esfera celestial se puede representar mediante dos ángulos,
+ los cuales son, la altitud y el acimut.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:esfera celestial"
+
+\end_inset
+
+ se puede apreciar lo mencionado anteriormente.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Esfera Celestial.jpg
+	scale 120
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esfera celestial.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:esfera celestial"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Cenit
+\end_layout
+
+\begin_layout Standard
+Es el punto de la esfera celestial que se encuentra encima del observador.
+ Ver la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:esfera celestial"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Acimut
+\end_layout
+
+\begin_layout Standard
+Es el angulo que se forma entre el Norte, y la proyección en el plano horizontal
+ (de la esfera celestial) del vector, que pasa por origen del sistema cartesiano
+ y por el objeto en cuestión.
+ En adición, el rango de este angulo es [0°, 360°], donde el Norte corresponde
+ a 0°, el Este 90°, el Sur 180° y el Oeste 270°.
+ Cabe destacar, que a lo largo de este trabajo el objeto con el cual se
+ trabajo fue el sol.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\theta$"
+description "Angulo Acimut"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Altitud
+\end_layout
+
+\begin_layout Standard
+Es el angulo que se forma entre el plano horizontal de la esfera celeste
+ y el vector que pasa por el origen del sistema cartesiano y por el objeto
+ en cuestión.
+ Este termino tiene un rango de [-90°, 90°].
+ Cabe destacar que, solo cuando el angulo es positivo el objeto es visible,
+ ya que en caso contrario, el objeto se encontraría por debajo del plano
+ horizontal.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Masa de aire (AM)
+\end_layout
+
+\begin_layout Standard
+Se puede definir como, la longitud de la ruta de la luz solar a través de
+ la atmósfera, normalizado con el camino más corta, es decir, cuando el
+ sol se encuentra directamente vertical a la superficie.
+ En lo que respecta a los módulos y celdas fotovoltaicas, las mediciones
+ de la masa de aire se realizan a 1.5, es decir, según la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:masa de aire"
+
+\end_inset
+
+, a un angulo de inclinación de 48.1896° grados respecto a la vertical.
+ NOSE SI PONER EL ESPECTRO DE LA MASA DE AIRE! 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+AM=\frac{1}{cos(θ)}\label{eq:masa de aire}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/masa de aire.JPG
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Masa de aire.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:masa de aire"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Irradiación
+\end_layout
+
+\begin_layout Standard
+Es la densidad de energía solar recibida en una superficie, se mide generalmente
+ en 
+\begin_inset Formula $\frac{Wh}{m^{2}}$
+\end_inset
+
+.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OscarSF"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Irradiancia
+\end_layout
+
+\begin_layout Standard
+Se puede definir como la densidad de potencia solar instantánea recibida
+ en una superficie, sus unidades son 
+\begin_inset Formula $\frac{W}{m^{2}}$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OscarSF"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Irradiancia Normal Directa (DNI) 
+\end_layout
+
+\begin_layout Standard
+Se puede definir como la irradiancia en una superficie perpendicular al
+ vector, desde el observador hasta el centro del sol, causada por la radiación
+ que no interactuó con la atmósfera.
+ Por otro lado, este termino se puede interpretar de forma diferente en
+ el mundo de la energía solar, la irradiancia normal directa representa
+ la radiación recibida de un pequeño ángulo centrado en el disco del sol.
+ Cabe destacar, que la unidad de este parámetro es 
+\begin_inset Formula $\frac{W}{m^{2}}$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NREL2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Irradiancia Horizontal Difusa (DHI) 
+\end_layout
+
+\begin_layout Standard
+La radiación del cielo en el hemisferio por encima de la horizontal local
+ se conoce como irradiancia horizontal difusa.
+ Una definición más técnica y práctica de DHI, es que representa toda la
+ radiación de la esfera celestial excepto la irradiancia normal directa.
+\end_layout
+
+\begin_layout Standard
+El DHI incluye la radiación reflejada o dispersada por las nubes, y la radiación
+ reflejada en el suelo, la cual se vuelve a reflejar hacia abajo por la
+ atmósfera o las nubes.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NREL2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Irradiancia Horizontal Global (GHI) 
+\end_layout
+
+\begin_layout Standard
+La radiación solar hemisférica total en una superficie horizontal es la
+ suma, de la densidad de flujo que resulta en el DNI a un determinado angulo
+ cenit, y el DHI.
+ Lo mencionado anteriormente, se puede observar en la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GHI"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+GHI=DNI\cdot cos(a)+DHI\label{eq:GHI}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la ecuación anterior, 
+\begin_inset Formula $a$
+\end_inset
+
+ representa el angulo cenit, DNI la irradiancia normal directa y el DHI
+ la irradiancia horizontal difusa.
+ Por ultimo, este parámetro tiene como unidad
+\begin_inset Formula $\frac{W}{m^{2}}$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NREL2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/graphics_solar_radiation_nrel.gif
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radiacion solar vista por un modulo fotovoltaico.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radiacion solar vista por un modulo fotovoltaico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Irradiancia total
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{T}=G_{dir}+G_{dif}+G_{ground}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{ground}=GHI\cdot a\cdot(1-SVF)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{dir}=DNI\cdot[cos(am)\cdot cos(as)+sen(am)\cdot sen(as)]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G_{dif}=0.1\cdot G_{dir}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hora de sol equivalentes (Equivalent Sun Hours)
+\end_layout
+
+\begin_layout Standard
+Es el promedio de la irradiancia global horizontal de la zona en un día
+ y sus unidades son 
+\begin_inset Formula $\frac{KWh}{^{m2}}día$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+ VERIFICAR NO ANDO MUY SEGURO OLINTO PAG 360
+\end_layout
+
+\begin_layout Subsection
+sun hora al dia??
+\end_layout
+
+\begin_layout Subsection
+Medidores de radiación solar
+\end_layout
+
+\begin_layout Subsubsection
+Piranometro
+\end_layout
+
+\begin_layout Standard
+Es un tipo de radiómetro utilizado para medir la irradiancia solar.
+ Los piranometros son utilizados para medir el GHI y el DHI; los dispositivos
+ que miden el GHI, son instalados en una superficie horizontal estable y
+ libre de obstrucciones locales.
+ Por otro lado, los piranometros que miden el DHI, son instalados en un
+ seguidor solar automático equipado con un mecanismo de sombreado o en una
+ plataforma de banda de sombra (REVISAR la palabra es shadowband) ajustada
+ manualmente para bloquear el DNI de la superficie del detector.
+\end_layout
+
+\begin_layout Standard
+Estos dispositivos, utilizan un detector termoeléctrico o fotoeléctrico
+ para convertir el flujo solar (
+\begin_inset Formula $\frac{W}{m^{2}}$
+\end_inset
+
+) en una señal eléctrica proporcional (en microvoltios y en corriente continua).
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medidores solares"
+
+\end_inset
+
+ se puede observar un piranometro.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NREL2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NOSE si poner el POA!!!
+\end_layout
+
+\begin_layout Subsubsection
+Pirheliómetro
+\end_layout
+
+\begin_layout Standard
+Es un tipo de radiómetro utilizado para medir la irradiancia solar.
+ Estos instrumentos son utilizado para medir el DNI, para ello son instalados
+ sobre un seguidor solar automático para su alineación con el disco solar.
+ Al igual que los piranometros mencionados anteriormente, estos dispositivos
+ también utilizan detectores termoeléctricos o fotoeléctricos para convertir
+ el flujo solar en una señal eléctrica.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medidores solares"
+
+\end_inset
+
+ se puede observar un pirheliometro.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NREL2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Celdas calibradas
+\end_layout
+
+\begin_layout Standard
+Son celdas fotovoltaicas, que un laboratorio acreditado ha puesto a prueba,
+ iluminándolas con luz solar artificial y estableciendo una relación proporciona
+l entre la radiación recibida y la producción eléctrica.
+ Se trata de medidores de menor precisión que los piranometros o pirheliometros
+ pero que, dado su bajo costo, son muy utilizados para medir la radiación
+ solar.
+ Colocando una de estas celdas, se puede contrastar la producción de la
+ instalación fotovoltaica, con la radiación aproximada recibida.
+ Cabe mencionar, que en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medidores solares"
+
+\end_inset
+
+ se puede observar una celda de referencia.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Casa2012"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/medidores.jpg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Piranometro, pirheliometro y celda calibrada respectivamente.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Medidores solares"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Modulo Solar???
+\end_layout
+
+\begin_layout Subsection
+Celda solar
+\end_layout
+
+\begin_layout Subsection
+Modulo solar
+\end_layout
+
+\begin_layout Standard
+Es un dispositivo conformado por un conjunto de celdas solares encapsuladas
+ conectadas en paralelo y en serie, de tal forma que, la potencia neta que
+ es capaz de generar el dispositivo aumente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/modulo solar.jpg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conexiones de celdas fotovoltaicas para formar un modulo solar.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conexiones de celdas fotovoltacias"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Generación de energía fotovoltaica
+\end_layout
+
+\begin_layout Subsection
+Parámetros de la celda y del modulo 
+\end_layout
+
+\begin_layout Subsubsection
+Resistencia serie
+\end_layout
+
+\begin_layout Subsubsection
+Resistencia paralelo
+\end_layout
+
+\begin_layout Subsubsection
+Factor de calidad del diodo
+\end_layout
+
+\begin_layout Subsection
+Condiciones de prueba estándar (Standard test conditions)
+\end_layout
+
+\begin_layout Standard
+Se refiere, a mediciones de voltaje y de corriente que se le realizan a
+ una celda o a un modulo fotovoltaico durante ciertas condiciones ambientales.
+ Dichas mediciones, tienen que realizarse a un radiación de 1000 
+\begin_inset Formula $\frac{W}{m^{2}}$
+\end_inset
+
+, a una temperatura de 25°C y a un espectro AM 1.5.
+ Generalmente, las mediciones que se realizan son: voltaje de circuito abierto,
+ corriente de cortocircuito y potencia, corriente y voltaje en el punto
+ de máxima potencia.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Circuitos equivalentes
+\end_layout
+
+\begin_layout Standard
+FALTA COLOCAR QUE ES CADA COSA DE LAS ECUACIONES
+\end_layout
+
+\begin_layout Standard
+Una celda o un modulo fotovoltaico puede representarse en diferentes circuitos
+ equivalentes, donde unos reflejan un comportamiento más cercano al real
+ que otros.
+ Se tienen tres configuraciones diferentes, las cuales son: un diodo sin
+ resistencia en paralelo, un diodo con resistencia en paralelo y dos diodos
+ con resistencia en paralelo.
+ El primero de estos tres circuitos equivalentes mencionados anteriormente,
+ es el más utilizado por los investigadores para realizar simulaciones de
+ un sistema de energía eléctrica fotovoltaica, ya que es el más simple de
+ los tres y presenta un comportamiento similar al ideal cuando los niveles
+ de radiación no son bajos (por encima de 200
+\begin_inset Formula $\frac{W}{^{m2}}$
+\end_inset
+
+).
+ NIVELES DE RADIACION NO BAJOS
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I=I_{ph}-I_{o}(e^{q(V+IRs)/A_{q}kT}-1)\label{eq:un diodo sin rp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/un diodo sin rp.JPG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo de un diodo sin resistencia en paralelo.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: un diodo sin rp"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El segundo circuito equivalente presenta una resistencia adicional, la cual
+ se encuentra en paralelo con el diodo.
+ Este modelo es mas preciso ya que, la nueva resistencia proporciona un
+ comportamiento mas adecuado cuando estamos en presencia de una radiación
+ baja
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I=I_{ph}-I_{o}(e^{q(V+IRs)/A_{q}kT}-1)-\frac{(V+IR_{s})}{R_{p}}\label{eq:un diodo con rp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/un diodo con rp.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo de un diodo con resistencia en paralelo.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:un diodo con rp"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por ultimo, tenemos el tercer modelo, el cual esta conformados por dos diodos
+ y una resistencia en paralelo y otra en serie.
+ Este modelo es capaz de dar una respuesta muy cercana al real, tanto para
+ altos como para bajos niveles de radiación.
+ El comportamiento de este circuito equivalente mejora si se esta tratando
+ de modelar celdas que están construidas son silicio policristalino.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/dos diodos con rp.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo de dos diodo con resistencia en paralelo.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: dos diodos con rp"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Curvas características
+\end_layout
+
+\begin_layout Standard
+Una celda o modulo fotovoltaico tienen dos curvas características, la primera
+ de ellas es la curva voltaje contra corriente.
+ Por otro lado, tenemos la curva de voltaje contra potencia.
+ Ambas curvas se pueden observar en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Curvas características de una celda fotovoltaica"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Curva Corriente - Voltaje
+\end_layout
+
+\begin_layout Standard
+Es una de las dos curvas características de una celda o modulo fotovoltaico.
+ Dicha curva representa los distintos puntos de operación a la que la celda
+ puede trabajar para distintos valores de carga.
+ En la curva corriente contra voltaje, se pueden observar varios puntos
+ esenciales, el primero de ellos es la corriente de cortocircuito, el cual
+ es el primer valor de la curva y esta denotado como 
+\begin_inset Formula $I_{sc}$
+\end_inset
+
+.
+ En segundo lugar tenemos el voltaje de circuito abierto, el cual representa
+ el valor final de la curva, y se representa por las siglas 
+\begin_inset Formula $V_{oc}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Por ultimo, tenemos la corriente y el voltaje en el punto de máxima potencia,
+ representados por 
+\begin_inset Formula $I_{mp}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{mp}$
+\end_inset
+
+ respectivamente.
+ El punto de máxima potencia es aquel donde, la potencia eléctrica producida
+ por la celda o modulo fotovoltaica es la máxima posible de acuerdo a las
+ condiciones ambientales presentes.
+ Cabe destacar que, al presentarse cambios en la irradiancia y/o en la temperatu
+ra, la curva se vera modificada.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Curva Potencia - Voltaje
+\end_layout
+
+\begin_layout Standard
+La curva de potencia contra voltaje, representa los distintos valores de
+ potencia que el modulo es capaz de entregar para distintos valores de carga.
+ La cúspide de la curva, representa el punto de máxima potencia y la potencia
+ máxima que es capaz de entregar el modulo o celda fotovoltaica, se denota
+ con las siglas 
+\begin_inset Formula $P_{mp}$
+\end_inset
+
+.
+ Cabe mencionar, que muchos algoritmo de MPPT como P&O o conductancia incrementa
+l, basan su operación en esta curva.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/a07_figura_01.gif
+	BoundingBox 0bp 0bp 363bp 236bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Curvas características de una celda fotovoltaica.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Curvas características de una celda fotovoltaica"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tipos de módulos
+\end_layout
+
+\begin_layout Subsubsection
+Monocristalina
+\end_layout
+
+\begin_layout Standard
+Las celdas solares monocristalinas ofrecen la mayor pureza de silicio.
+ Se fabrican mediante el método Czochralski, en el que se coloca una 'semilla'
+ de cristal de silicio en una cubeta de silicio fundido.
+ Su eficiencia oscila entre el 15% y el 22% (la más alta de todos los tipos
+ de módulos).
+ Dado que son tan eficientes energéticamente, también lo son en cuanto al
+ espacio, necesitando menos superficie para producir la misma cantidad de
+ energía que otros tipos de módulos fotovoltaicos, como los policristalinos.
+ La eficiencia del espacio, puede equilibrar el alto coste de producción
+ de silicio de alta pureza.
+ Por ultimo, cabe destacar, que los módulos monocristalinos tienen una larga
+ vida útil, de aproximadamente 25 años, y su apariencia es de color negro.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "WebBaker2016,WebSendy2017"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Policristalina
+\end_layout
+
+\begin_layout Standard
+Formado por el agrupamiento de cristales de silicio.
+ Tienen el aspecto de una amalgama de cristales de diferentes tonos azules
+ y grises con un brillo metálico.
+ El rendimiento no sobrepasa el 15% en modelos comerciales, esto causara
+ que se produzca generalmente una menor eficiencia por espacio en comparación
+ con los módulos monocristalinos.
+ Por otro lado, la complejidad de fabricación de este tipo de celdas es
+ menor al de las monocristalinas, por ende, el coste también es menor.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Casa2012,WebSendy2017"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Película delgada
+\end_layout
+
+\begin_layout Standard
+CREO QUE AMORFO ES LO MISMO QUE THIM FILM HAY Q BUSCAR
+\end_layout
+
+\begin_layout Subsubsection
+Amorfo
+\end_layout
+
+\begin_layout Standard
+En estos tipos de módulos, ha desaparecido la estructura cristalina ordenada
+ y el silicio se ha depositado formando una capa fina.
+ Sus colores son el marrón y el gris oscuro.
+ Se utiliza generalmente en calculadoras y otros objetos pequeños, aunque
+ también se utilizan (con menor frecuencia) para alimentar algunas casas
+ privadas, edificios e instalaciones remotas.
+ El rendimiento de estos módulos no sobrepasa el 9% en modelos comerciales.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Casa2012"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Tipos de modulos.JPG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Algunos tipos de módulos fotovoltaicos.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Algunos tipos de módulos fotovoltaicos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tipos de sistemas fotovoltaicos
+\end_layout
+
+\begin_layout Subsubsection
+Stand Alone
+\end_layout
+
+\begin_layout Standard
+Son aquellos sistemas fotovoltaicos que no están conectados a la red eléctrica
+ principal, solo cuentan con el suministro de energía eléctrica aportado
+ por los módulos solares.
+ Estos sistemas pueden poseer o no, un sistema de almacenamiento de energía
+ como lo son las baterías, cabe destacar que dichos dispositivos de almacenamien
+to deben ser capaces de alimentar la carga durante la noche y cuando se
+ presenten condiciones climáticas deficientes.
+ Por otro lado, este sistema fotovoltaico puede contener tanto cargas AC
+ o DC.
+ En las Figuras 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: un diodo sin rp"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Stand Alone 2"
+
+\end_inset
+
+, se presentan dos tipos de conexiones diferentes.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Stand Alone 1.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema de un sistema Stand Alone, con carga DC y sin almacenamiento de
+ energía.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stand Alone 1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Stand Alone 2.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema de un sistema Stand Alone, con carga DC, AC y con almacenamiento
+ de energía.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Stand Alone 2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Grid Conected
+\end_layout
+
+\begin_layout Standard
+Son sistemas fotovoltaicos que están conectados a la red eléctrica a través
+ de inversores, los cuales se encargan de convertir las señales en DC a
+ AC.
+ En caso de que los módulos solares no sean capaces de suplir la demanda
+ de la carga, la red actuaria entregando la potencia faltante; este fenómeno
+ se puede presentar debido a factores ambientales o durante la noche, donde
+ los módulos solares no generan energía eléctrica.
+ Por otro lado, estos sistemas no tienen la necesidad de tener un arreglo
+ de baterías para el almacenamiento de energía, debido a lo mencionado anteriorm
+ente, sin embargo esta configuración se está volviendo cada vez más popular.
+ Cabe señalar que, dichos sistemas también son capaces de trabajar con cargas
+ en corriente continua y alterna.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Grid Conected"
+
+\end_inset
+
+ se puede apreciar una configuración del sistema Grid Conected.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Grid Connected.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema de un sistema Gird Conected de tipo residencial.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Grid Conected"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Híbrido
+\end_layout
+
+\begin_layout Standard
+Los sistemas fotovoltaicos híbridos, son aquellos que cuentan con varias
+ fuentes de generación de energía ademas de la solar fotovoltaica, es decir,
+ son sistemas compuestos por módulos solares y una o varias fuentes de generació
+n de energía eléctrica complementaria, estas pueden ser: eólica, gasolina,
+ diésel, micro turbinas a gas, entre otros.
+ Cabe señalar, que estos sistemas pueden alimentar tanto cargas en corriente
+ alterna como en continua; por otro lado, pueden tener o no un sistema de
+ almacenamiento de energía.
+ Los sistemas híbridos pueden estar conectados a la red eléctrica principal
+ o también, pueden instalarse de forma aislada a la red.
+ Es importante destacar, que al incluir varias fuente de generación de energía,
+ es necesario implementar sistemas de control mas robustos y complicados
+ a los que se usan en los sistemas Stand Alone y Grid Conected.
+\end_layout
+
+\begin_layout Standard
+Estos sistemas generalmente se implementan en islas, pero también pueden
+ construirse en otros lugares.
+ Algunos de los principales sistemas fotovoltaicos híbridos los podemos
+ encontrar en: la isla Perllworm en Alemania, en las islas Canarias en España
+ o la isla Kythnos en Grecia.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Hibridos.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema de un sistema Híbrido con un generador diésel de respaldo.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Hibrido"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Balance del Sistema (BOS)
+\end_layout
+
+\begin_layout Standard
+El termino Balance del sistema o por sus siglas en ingles, BOS (Balance
+ of System), hace referencia a todos los elementos que componen un sistema
+ de energía solar fotovoltaico, véase: módulos solares, conversores DC-DC,
+ inversores, sistema de almacenamiento de energía, conductores, controladores
+ de carga, carga en corriente continua, cargas en corriente alterna, entre
+ otros.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Orientación y Angulo de inclinación???
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Algoritmos Evolutivos
+\end_layout
+
+\begin_layout Subsection
+Algoritmo Genético
+\end_layout
+
+\begin_layout Standard
+Es un tipo de algoritmo evolutivo inspirado en la teoría de la selección
+ natural de Charles Darwin.
+ Este algoritmo trata de simular los procesos que suceden en la naturaleza,
+ en donde, solo los individuos mas aptos de una población son capaces de
+ sobrevivir, y por ende, de reproducirse para así generar una nueva descendencia
+, la cual contendrá una mezcla del código genético de sus padres.
+ 
+\end_layout
+
+\begin_layout Standard
+En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Algoritmo genetico"
+
+\end_inset
+
+ se puede observar el diagrama de flujo de este algoritmo, como se puede
+ observar, en primer lugar se debe generar una población con sus cromosomas
+ de forma aleatoria, en donde cada cromosoma estará conformado por genes,
+ los cuales contendrán los parámetros requeridos; acto seguido, cada individuo
+ de la población es pasado por una función de costos para así determinar
+ cual es el grado de error entre cada muestra y el valor deseado.
+ Posteriormente, se debe seleccionar los individuos mas aptos para sobrevivir,
+ para ello existen varios métodos, los mas usados en la literatura son el
+ método de la ruleta y del torneo.
+ 
+\end_layout
+
+\begin_layout Standard
+Luego se debe proceder a generar los descendientes, para ello se deben seleccion
+ar dos padres, es decir, dos individuos que fueron seleccionados anteriormente
+ y se procede a realizar un cruce entre los genes de ambos individuos para
+ producir a los hijos.
+ Cabe señalar, que dicho cruce se puede realizar de varias maneras, fija,
+ intercalada o aleatoria.
+ A continuación, se procede a mutar a los descendientes, para ello, de forma
+ aleatoria se escogen algunos individuos y también aleatoriamente, se procede
+ a modificar uno o varios de los genes de su cromosoma por otros.
+\end_layout
+
+\begin_layout Standard
+Una vez obtenidos los descendiente, se procede a crear una nueva población
+ (de forma aleatoria) y se inserta en ella los hijos; posteriormente, se
+ vuelve a buscar el error de cada individuo a través de la función de costos.
+ Este proceso de repite constantemente, hasta que algún individuo de la
+ población tenga un error que cumpla con los parámetros establecidos por
+ el usuario.
+ Dicho individuo contendrá en los genes de su cromosoma, la solución del
+ problema.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Algoritmo Genetico Diagrama de Flujo.JPG
+	scale 110
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de flujo del algoritmo genético.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Algoritmo genetico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Electrónica de Potencia
+\end_layout
+
+\begin_layout Subsection
+Conversor DC-DC
+\end_layout
+
+\begin_layout Subsubsection
+Conversor Elevador
+\end_layout
+
+\begin_layout Subsubsection
+Conversor Reductor
+\end_layout
+
+\begin_layout Subsubsection
+Conversor Elevador-Reductor
+\end_layout
+
+\begin_layout Subsubsection
+Ciclo de trabajo
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
+\end_layout
+
+\begin_layout Standard
+Es una técnica usada en los conversores DC-DC para obtener la máxima potencia
+ de los módulos solares, para ello, se varia el ciclo de trabajo del conversor,
+ logrando así que la impedancia aparente que vea el modulo sea la del punto
+ de máxima potencia.
+ Cabe destacar, que este punto varia con la temperatura y con la radiación,
+ por ende va cambiando constantemente.
+ Hoy en día, existen diversos algoritmos para encontrar el MPP, entre las
+ más utilizadas en la literatura podemos encontrar: Pertub and Observe,
+ Incremental Conductance y Fuzzy Logic.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Perturb and Observe
+\end_layout
+
+\begin_layout Standard
+Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
+ buscar el punto de máxima potencia del módulo solar independientemente
+ de los niveles de radiación y temperatura que existan.
+ Mediante las variaciones de voltaje (que se producen mediante modificaciones
+ del ciclo se trabajó) y por ende, de potencia, se puede concluir en que
+ parte de la curva P-V nos encontramos.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Algoritmo-P&O."
+
+\end_inset
+
+ podemos ver el diagrama de flujo de este algoritmo, como vemos, se tiene
+ los valores de la iteración actual y de la anterior, a partir de la comparación
+ de estos términos se determina la acción que se debe tomar para alcanzar
+ el punto de máxima potencia del módulo solar.
+ Lo mencionado anteriormente, se puede explicar de la siguiente manera:
+ si la potencia obtenida en la iteración actual es superior a la de la anterior,
+ se concluye que el punto de operación del módulo avanzo en dirección al
+ punto de máxima potencia, pero en cambio, si la potencia disminuye significa
+ que el punto de operación se está distanciando del MPP, por lo cual, se
+ debe realizar una perturbación en sentido contrario a la generada anteriormente.
+ Cabe destacar, que la eficiencia de este método es de aproximadamente 96%,
+ pero puede mejorarse si se disminuye el «DELTA D» a medida que el algoritmo
+ alcanza el MPP.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Algoritmo P&O.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Algoritmo-P&O."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Algoritmo P&O"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Conversor DC-DC Bidireccional
+\end_layout
+
+\begin_layout Subsection
+Inversor
+\end_layout
+
+\begin_layout Subsubsection
+Inversor Trifasico
+\end_layout
+
+\begin_layout Subsubsection
+PLL
+\end_layout
+
+\begin_layout Standard
+FALTA
+\end_layout
+
+\begin_layout Standard
+o por sus siglas en ingles, Phase Locked Loop, es un sistema a lazo cerrado
+ que tiene como objetivo sincronizar señales, generalmente este tipo de
+ sistemas de control se utiliza en el campo de las comunicaciones y de la
+ computación, pero también se puede implementar en el campo de la electrónica
+ , para poder sincronizar la señal de salida del inversor con la señal de
+ la red eléctrica.
+ 
+\end_layout
+
+\begin_layout Standard
+El PLL mas simple esta conformado por un detectos de fase, un filtro y un
+ oscilador controlado por voltaje, esto se puede apreciar mejor en la Figura
+ .
+ El detector de fase, se encarga de comparar la fase de la señal de voltaje
+ de la red, con la fase de la señal de salida del oscilador controlado por
+ voltaje; la diferencia entre ambas señales sera la salida de este bloque.
+ Dicha señal ahora pasara por un filtro, el cual tiene como objetivo eliminar
+ las componentes de alta frecuencia
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PLL básico.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PLL"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+SRF-PLL
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Baterías
+\end_layout
+
+\begin_layout Subsection
+Tipos de baterías
+\end_layout
+
+\begin_layout Subsubsection
+Plomo-ácido
+\end_layout
+
+\begin_layout Subsubsection
+Ion-litio
+\end_layout
+
+\begin_layout Subsection
+Tiempo de autonomía
+\end_layout
+
+\begin_layout Subsection
+Controlador de carga
+\end_layout
+
+\begin_layout Subsection
+Sistema de manejo de baterías (BMS)
+\end_layout
+
+\begin_layout Subsection
+Estado de Carga (SOC)
+\end_layout
+
+\end_body
+\end_document

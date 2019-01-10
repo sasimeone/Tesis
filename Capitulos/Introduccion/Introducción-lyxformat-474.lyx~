@@ -1,0 +1,326 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\use_default_options true
+\master Principal_Tesis.lyx
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 1.5cm
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+INTRODUCCIÓN
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:INTRODUCCIÓN"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+thispagestyle{empty} 			% Evita numeración en la primera página del capitulo
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+rhead{
+\backslash
+thepage} 	   		  % Texto a la derecha de la cabecera 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{INTRODUCCI
+\backslash
+'ON}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% En la introducción se desarrolla la justificación e importancia del proyecto,
+ en él se puede referenciar a trabajos anteriores, presentar imagenes o
+ graficos que busquen argumentar el sentido del proyecto a desarrollar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Antecedentes
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Los antecedentes suelen ser mencionados en tesis de grado, ellos tienen
+ que ser antecedentes directos, es decir proyectos o trabajos de grado anteriore
+s en la USB y antecedentes internacionales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+ De carne lumbering animata corpora quaeritis.
+ Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead
+ survivor dictum mauris.
+ Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus
+ resi dentevil vultus comedat cerebella viventium.
+ Qui animated corpse, cricket bat max brucks terribilem incessu zomby.
+ The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus.
+ Zonbi tattered for solum oculi eorum defunctis go lum cerebro.
+ Nescio brains an Undead zombies.
+ Sicut malus putrid voodoo horror.
+ Nigh tofth eliv ingdead.
+\end_layout
+
+\begin_layout Standard
+Cum horribilem walking dead resurgere de crazed sepulcris creaturis, zombie
+ sicut de grave feeding iride et serpens.
+ Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams.
+ Pestilentia est plague haec decaying ambulabat mortuos.
+ Sicut zeder apathetic malus voodoo.
+ Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui
+ iam vivam unlife.
+ Qui tardius moveri, brid eof reanimator sed in magna copia sint terribiles
+ undeath legionis.
+ Alii missing oculis aliorum sicut serpere crabs nostram.
+ Putridi braindead odores kill and infect, aere implent left four dead.
+\end_layout
+
+\begin_layout Standard
+Lucio fulci tremor est dark vivos magna.
+ Expansis creepy arm yof darkness ulnis witchcraft missing carnem armis
+ Kirkman Moore and Adlard caeruleum in locis.
+ Romero morbo Congress amarus in auras.
+ Nihil horum sagittis tincidunt, zombie slack-jawed gelida survival portenta.
+ The unleashed virus est, et iam zombie mortui ambulabunt super terram.
+ Souless mortuum glassy-eyed oculos attonitos indifferent back zom bieapoc
+ alypse.
+ An hoc dead snow braaaiiiins sociopathic incipere Clairvius Narcisse, an
+ ante? Is bello mundi z?
+\end_layout
+
+\begin_layout Section*
+Justificación e Importancia
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Aenean mollis consectetur orci eget tempus.
+ Donec convallis, odio a rutrum feugiat, elit nulla pretium ante, ut congue
+ nisi dui sit amet dolor.
+ Praesent pellentesque, lectus ut ultrices porttitor, nulla dolor ultrices
+ urna, in suscipit nisi odio non eros.
+ In eleifend neque ac convallis faucibus.
+ Quisque ut luctus massa.
+ Fusce ante enim, eleifend in fermentum interdum, interdum at massa.
+ Quisque bibendum commodo elit, et pulvinar eros gravida a.
+ Maecenas vel volutpat diam.
+ Pellentesque tristique interdum velit.
+ Integer faucibus nisi blandit dolor mollis ornare.
+ Duis sit amet nunc vitae ipsum cursus feugiat et sit amet tortor.
+ Pellentesque posuere pellentesque nunc ac ultrices.
+ Nam gravida tincidunt vestibulum.
+\end_layout
+
+\begin_layout Section*
+Objetivo General
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Comienza con un verbo en infinitivo, cuya terminacion es en ar, er o ir,
+ ejemplo: Desarrollar, Investigar, Modelar...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Desarrollar una plantilla para proyectos de grado en \SpecialChar LyX
+ que siga el modelo
+ de la USB.
+\end_layout
+
+\begin_layout Section*
+Objetivos Específicos
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Cada objetivo espécifico puede o no tener sub-divisiones, estos deben
+ comenzar también con verbos en infinitivo.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Analizar trabajos de investigación anteriores.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Levantar una base de datos de proyectos pasados.
+\end_layout
+
+\begin_layout Enumerate
+Clasificar proyectos.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Modelar el sistema matemático o la fisca presente en el trabajo de investigación.
+\end_layout
+
+\begin_layout Enumerate
+Verificar con simulaciones.
+\end_layout
+
+\begin_layout Enumerate
+Estudiar resultados reales y simulados.
+\end_layout
+
+\begin_layout Section*
+Alcance????
+\end_layout
+
+\begin_layout Standard
+En esta sección se delimita el trabajo de investigación desarrollado.
+\end_layout
+
+\begin_layout Section*
+Contenido del Informe
+\end_layout
+
+\begin_layout Subsection*
+CAPITULO 1
+\end_layout
+
+\end_body
+\end_document
