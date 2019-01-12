@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-Falta TITULO
+MARCO TEÓRICO
 \end_layout
 
 \begin_layout Standard
@@ -99,19 +99,9 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 \end_layout
 
 \begin_layout Standard
-A lo largo de este capitulo se presentara un resumen de los antecedentes
- e investigaciones relacionadas a sistemas fotovoltaicos con almacenamiento
- de energía conectados a la red; así como definiciones de conceptos que
- son fundamentales para comprender el desarrollo de este proyecto de grado.
+A lo largo de este capitulo se presentara definiciones de términos que son
+ fundamentales para comprender el desarrollo de este proyecto de grado.
  
-\end_layout
-
-\begin_layout Section*
-Antecedentes
-\end_layout
-
-\begin_layout Section*
-Marco Teórico
 \end_layout
 
 \begin_layout Section

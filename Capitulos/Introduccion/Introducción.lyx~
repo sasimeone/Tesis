@@ -131,22 +131,6 @@ addcontentsline{toc}{chapter}{INTRODUCCI
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% En la introducción se desarrolla la justificación e importancia del proyecto,
- en él se puede referenciar a trabajos anteriores, presentar imagenes o
- graficos que busquen argumentar el sentido del proyecto a desarrollar.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section*
 Antecedentes
 \end_layout
@@ -168,45 +152,50 @@ s en la USB y antecedentes internacionales
 \end_layout
 
 \begin_layout Standard
-Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
- De carne lumbering animata corpora quaeritis.
- Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead
- survivor dictum mauris.
- Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus
- resi dentevil vultus comedat cerebella viventium.
- Qui animated corpse, cricket bat max brucks terribilem incessu zomby.
- The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus.
- Zonbi tattered for solum oculi eorum defunctis go lum cerebro.
- Nescio brains an Undead zombies.
- Sicut malus putrid voodoo horror.
- Nigh tofth eliv ingdead.
+Las fuentes de energía renovable van tomando mayor importancia con el pasar
+ de los años, dado a la continua necesidad de disminuir los impactos ambientales
+ que las energías convencionales tienen en el ambiente.
+ Muchos países en el mundo, se han avocado de lleno en estas nuevas tecnologías,
+ entre ellos podemos encontrar: Italia, Alemania, España, Francia, Grecia,
+ India, .......
+ Internacionalmente, podemos encontrar varios proyectos de energía solar
+ fotovoltaica, implementados tanto grid conected como off grid; por ejemplo,
+ en la isla de Khynos en Grecia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "KhynosIsland"
+
+\end_inset
+
+ se implemento un sistema híbrido que incluye solar fotovoltaica, la cual
+ produce unos 100KW en condiciones nominales.
+ También, se puede observar la implementación de este tipo de generación
+ de energía en las islas de Sicilia en Italia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ciriminna2016"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
-Cum horribilem walking dead resurgere de crazed sepulcris creaturis, zombie
- sicut de grave feeding iride et serpens.
- Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams.
- Pestilentia est plague haec decaying ambulabat mortuos.
- Sicut zeder apathetic malus voodoo.
- Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui
- iam vivam unlife.
- Qui tardius moveri, brid eof reanimator sed in magna copia sint terribiles
- undeath legionis.
- Alii missing oculis aliorum sicut serpere crabs nostram.
- Putridi braindead odores kill and infect, aere implent left four dead.
+Venezuela no es un país con una cultura enfocada en las energías renovables,
+ todo lo contrario, la mayor parte de la energía eléctrica proviene de las
+ centrales termoeléctricas e hidroeléctricas, aun así, se han realizado
+ proyectos enfocados en cambiar esto, es decir, a implementar sistemas de
+ generación de energía solar fotovoltaica en nuestro país.
+ En primer lugar, se pueden destacar varios informes de pasantias realizados
+ en nuestra casa de estudio, en donde, se h
 \end_layout
 
 \begin_layout Standard
-Lucio fulci tremor est dark vivos magna.
- Expansis creepy arm yof darkness ulnis witchcraft missing carnem armis
- Kirkman Moore and Adlard caeruleum in locis.
- Romero morbo Congress amarus in auras.
- Nihil horum sagittis tincidunt, zombie slack-jawed gelida survival portenta.
- The unleashed virus est, et iam zombie mortui ambulabunt super terram.
- Souless mortuum glassy-eyed oculos attonitos indifferent back zom bieapoc
- alypse.
- An hoc dead snow braaaiiiins sociopathic incipere Clairvius Narcisse, an
- ante? Is bello mundi z?
+Ademas, a medida que pasa el tiempo se busca mejorar esta tecnologia, logrando
+ que lo paneles sean mas eficientes, o buscando nuevas formas de implementarse,
+ como puede ser el caso de las nuevas carreteras hechas con modulos solares
+ que se pueden encontrar en
 \end_layout
 
 \begin_layout Section*
@@ -214,22 +203,28 @@ Justificación e Importancia
 \end_layout
 
 \begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Aenean mollis consectetur orci eget tempus.
- Donec convallis, odio a rutrum feugiat, elit nulla pretium ante, ut congue
- nisi dui sit amet dolor.
- Praesent pellentesque, lectus ut ultrices porttitor, nulla dolor ultrices
- urna, in suscipit nisi odio non eros.
- In eleifend neque ac convallis faucibus.
- Quisque ut luctus massa.
- Fusce ante enim, eleifend in fermentum interdum, interdum at massa.
- Quisque bibendum commodo elit, et pulvinar eros gravida a.
- Maecenas vel volutpat diam.
- Pellentesque tristique interdum velit.
- Integer faucibus nisi blandit dolor mollis ornare.
- Duis sit amet nunc vitae ipsum cursus feugiat et sit amet tortor.
- Pellentesque posuere pellentesque nunc ac ultrices.
- Nam gravida tincidunt vestibulum.
+En los últimos años la energía solar fotovoltaica ha tenido gran auge debido
+ a los avances tecnológicos en esta área, logrando progresos en lo referente
+ a la eficiencia de las celdas solares, al sistema de almacenamiento de
+ energía, a los dispositivos de electrónica de potencia y a las nuevas tecnologí
+as utilizadas para su construcción.
+ Por lo mencionado anteriormente, y debido a las deficiencias en la generación,
+ que se han presentado en el servicio eléctrico recientemente, se buscará
+ proponer un sistema de generación de energía solar PV con respaldo dentro
+ de las instalaciones de la Universidad Simón Bolívar con la misión de ayudar
+ a la red, a suplir parte de la demanda de los edificios seleccionados.
+ En caso de existir un exceso de energía, esta sería entregada a la red
+ eléctrica nacional.
+ 
+\end_layout
+
+\begin_layout Standard
+Este nuevo sistema traerá como beneficios una mayor confiabilidad del sistema
+ eléctrico y aumentará la calidad del servicio.
+ Por otro lado, como el sistema se encuentra interconectado con la red eléctrica
+ nacional, cuando exista un excedente de energía y la demanda de la carga
+ de la USB se encuentre satisfecha, la energía sobrante sera enviada a la
+ red, contribuyendo así con el sistema eléctrico.
 \end_layout
 
 \begin_layout Section*
@@ -252,9 +247,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-Desarrollar una plantilla para proyectos de grado en \SpecialChar LyX
- que siga el modelo
- de la USB.
+Efectuar un estudio para determinar la factibilidad de instalar generación
+ distribuida utilizando energía PV con un banco de baterías en las instalaciones
+ de la Universidad Simón Bolívar.
+ 
 \end_layout
 
 \begin_layout Section*
@@ -277,49 +273,132 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-Analizar trabajos de investigación anteriores.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Levantar una base de datos de proyectos pasados.
+Efectuar el estudio de carga de dos edificios de la Universidad Simón Bolívar
+ a los cuales suplirá la generación distribuida.
 \end_layout
 
 \begin_layout Enumerate
-Clasificar proyectos.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Modelar el sistema matemático o la fisca presente en el trabajo de investigación.
+Determinar la capacidad de generación a instalar y la cantidad de paneles
+ solares.
 \end_layout
 
 \begin_layout Enumerate
-Verificar con simulaciones.
+Diseñar el sistema de almacenamiento de energía y el algoritmo del controlador
+ de carga.
 \end_layout
 
 \begin_layout Enumerate
-Estudiar resultados reales y simulados.
+Diseñar la etapa de electrónica de potencia asociada con el proceso de generació
+n fotovoltaica y su interconexión con la red.
+\end_layout
+
+\begin_layout Enumerate
+Realizar el estudio de factibilidad por medio de simulaciones y emulaciones.
 \end_layout
 
 \begin_layout Section*
-Alcance????
+Alcance
 \end_layout
 
-\begin_layout Standard
-En esta sección se delimita el trabajo de investigación desarrollado.
+\begin_layout Itemize
+El sistema de energía solar fotovoltaico no se desconectara de la red eléctrica
+ nacional en caso de existir una falla en el sistema.
+ FALTA POLVO OBJETOS, ETC ESTO TIENE UN NOMBRE QUE NO ME ACUERDO CUAL ES
+ QUE ENGLOBA TODO HASTA SHADING
+\end_layout
+
+\begin_layout Itemize
+No se considera el efecto de la sombra sobre los módulos fotovoltaicos.
+\end_layout
+
+\begin_layout Itemize
+No se considera el efecto de envejecimiento en las baterías.
+\end_layout
+
+\begin_layout Itemize
+El sistema fotovoltaico diseñado no cuenta con control de potencia activa
+ o reactiva que se entregue a la red.
+\end_layout
+
+\begin_layout Itemize
+El sistema fotovoltaico no podrá sincronizarse adecuadamente a la red eléctrica
+ en caso de existir fallas en el sistema, debido a que se utilizo un SRFPLL.
+\end_layout
+
+\begin_layout Itemize
+No se consideran perdidas en los dispositivos electrónicos como: MOSFET,
+ inductores y capacitores.
+ CONDUCTORES??
 \end_layout
 
 \begin_layout Section*
 Contenido del Informe
 \end_layout
 
-\begin_layout Subsection*
-CAPITULO 1
+\begin_layout Standard
+\noindent
+
+\series bold
+CAPITULO 1:
+\series default
+ A lo largo de este capitulo se presentara definiciones de términos que
+ son fundamentales para comprender el desarrollo de este proyecto de grado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+CAPITULO 2:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+CAPITULO 3:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+CAPITULO 4:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+CAPITULO 5:
 \end_layout
 
 \end_body

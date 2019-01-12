@@ -47,9 +47,16 @@
 }
 
 @Electronic{OscarSF,
-  author = {Oscar Perpi~n{\'a}n},
+  author = {Oscar Perpi{\~n}{\'a}n},
   title  = {Radiaci{\'o}n Solar Energ{\'i}a Solar Fotovoltaica},
   url    = {http://oscarperpinan.github.io/esf/RadiacionSolar.pdf},
+}
+
+@Electronic{KhynosIsland,
+  title        = {Kythnos Island},
+  language     = {Ingles},
+  organization = {SMA},
+  url          = {http://www.globalislands.net/greenislands/docs/greece_kythnos.pdf},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

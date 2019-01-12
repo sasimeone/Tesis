@@ -378,7 +378,7 @@ mainmatter			 	% Numeracion en arabigo para el cuerpo del libro
 \backslash
 rhead{
 \backslash
-thepage} 	   	% Numeracion a la derecha para paginas ~= capitulos
+thepage} 	  	% Numeracion a la derecha para paginas ~= capitulos
 \end_layout
 
 \begin_layout Plain Layout
