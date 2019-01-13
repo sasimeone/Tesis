@@ -59,4 +59,29 @@
   url          = {http://www.globalislands.net/greenislands/docs/greece_kythnos.pdf},
 }
 
+@Article{Ciriminna2016,
+  author    = {Rosaria Ciriminna and Mario Pagliaro and Francesco Meneguzzo and Mario Pecoraino},
+  title     = {Solar energy for Sicily's remote islands: On the route from fossil to renewable energy},
+  journal   = {International Journal of Sustainable Built Environment},
+  year      = {2016},
+  volume    = {5},
+  number    = {1},
+  pages     = {132--140},
+  month     = {jun},
+  doi       = {10.1016/j.ijsbe.2016.04.003},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Garcia2016,
+  author = {Enrique Garc{\'i}a},
+  title  = {Dise{\~n}o de un Sistema de Generaci{\'o}n Fotovoltaica con Conexi{\'o}n a Red y Respaldo de Energ{\'i}a El{\'e}ctrica},
+  year   = {2016},
+}
+
+@Article{Lopez2014,
+  author = {Calos L{\'o}pez},
+  title  = {Dise{\~n}o e implementaci{\'o}n de un sistema solar para alimentar cargas de una vivienda unifamiliar},
+  year   = {2014},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

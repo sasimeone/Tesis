@@ -99,15 +99,6 @@ thispagestyle{empty} 			% Evita numeración en la primera página del capitulo
  
 \end_layout
 
-\begin_layout Plain Layout
-
-%
-\backslash
-rhead{
-\backslash
-thepage} 	   		  % Texto a la derecha de la cabecera 
-\end_layout
-
 \end_inset
 
 
@@ -157,7 +148,7 @@ Las fuentes de energía renovable van tomando mayor importancia con el pasar
  que las energías convencionales tienen en el ambiente.
  Muchos países en el mundo, se han avocado de lleno en estas nuevas tecnologías,
  entre ellos podemos encontrar: Italia, Alemania, España, Francia, Grecia,
- India, .......
+ India, Colombia, Chile, entre otros.
  Internacionalmente, podemos encontrar varios proyectos de energía solar
  fotovoltaica, implementados tanto grid conected como off grid; por ejemplo,
  en la isla de Khynos en Grecia 
@@ -167,8 +158,8 @@ key "KhynosIsland"
 
 \end_inset
 
- se implemento un sistema híbrido que incluye solar fotovoltaica, la cual
- produce unos 100KW en condiciones nominales.
+ se implemento un sistema eléctrico híbrido que incluye solar fotovoltaica,
+ la cual produce 100KW en condiciones nominales.
  También, se puede observar la implementación de este tipo de generación
  de energía en las islas de Sicilia en Italia 
 \begin_inset CommandInset citation
@@ -187,15 +178,24 @@ Venezuela no es un país con una cultura enfocada en las energías renovables,
  centrales termoeléctricas e hidroeléctricas, aun así, se han realizado
  proyectos enfocados en cambiar esto, es decir, a implementar sistemas de
  generación de energía solar fotovoltaica en nuestro país.
- En primer lugar, se pueden destacar varios informes de pasantias realizados
- en nuestra casa de estudio, en donde, se h
+ Se pueden destacar varios informes de pasantias realizados en nuestra casa
+ de estudio, en donde, se han diseñado e implementado sistemas de energía
+ solar fotovoltaica para alimentar diversas cargas.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Garcia2016,Lopez2014"
+
+\end_inset
+
+ REVISAR ULTIMA BIB
 \end_layout
 
 \begin_layout Standard
-Ademas, a medida que pasa el tiempo se busca mejorar esta tecnologia, logrando
- que lo paneles sean mas eficientes, o buscando nuevas formas de implementarse,
- como puede ser el caso de las nuevas carreteras hechas con modulos solares
- que se pueden encontrar en
+En adición, la tecnología de la energía fotovoltaica ha ido mejorando, logrando
+ que los módulos solares sean más eficientes, utilizando nuevos materiales
+ para su construcción como la perovskita, o buscando nuevas formas de implementa
+rlos, como puede ser el caso del pavimento hecho con celdas solares.
 \end_layout
 
 \begin_layout Section*
