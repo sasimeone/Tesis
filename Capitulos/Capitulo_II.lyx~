@@ -98,12 +98,6 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 
 \end_layout
 
-\begin_layout Standard
-A lo largo de este capitulo se presentara definiciones de términos que son
- fundamentales para comprender el desarrollo de este proyecto de grado.
- 
-\end_layout
-
 \begin_layout Section
 Estudio de Carga
 \end_layout
@@ -922,11 +916,103 @@ Modulo Solar???
 \end_layout
 
 \begin_layout Subsection
-Celda solar
+Unión p-n
+\end_layout
+
+\begin_layout Standard
+Se puede definir conceptualmente como un semiconductor dopado de tipo n
+ y tipo p, que tienen una superficie en común.
+ Cuando ambos semiconductores están separados, son eléctricamente neutros.
+ Tan pronto como se ponen en contacto, la mayoría de los portadores del
+ semiconductor de tipo n (los electrones) comienzan a esparcirse en el semicondu
+ctor de tipo p y viceversa.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Piazza2013"
+
+\end_inset
+
+ (Yo creo que esta bien así, si no se vuelve muy larga si explicamos el
+ proceso pero dime que opinas)
 \end_layout
 
 \begin_layout Subsection
-Modulo solar
+Celda fotovoltaica
+\end_layout
+
+\begin_layout Standard
+Es básicamente, una unión p-n con una región de agotamiento (depletion??)
+ central y dos zonas laterales cuasi-neutrales.
+ Al final de cada zona, se coloca un contacto eléctrico.
+ La zona más fuertemente dopada se llama zona emisora y la otra es la zona
+ base.
+\end_layout
+
+\begin_layout Standard
+A diferencia de un diodo, la celda fotovoltaica está diseñada para permitir
+ que se generen agujeros-electrones dentro de la unión debido a la luz incidente.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Piazza2013"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Funcionamiento de una celda fotovoltaica
+\end_layout
+
+\begin_layout Standard
+El efecto fotovoltaico es un proceso que genera tensión o corriente eléctrica
+ en una celda fotovoltaica cuando está expuesta a la luz solar.
+ Como ya se menciono anteriormente, las celdas fotovoltaicas están compuestas
+ por una unión p-n.
+ Al unir estos dos tipos de semiconductores, se forma un campo eléctrico
+ en la región de la unión a medida que los electrones se mueven hacia el
+ lado p positivo y los agujeros hacia el lado n negativo.
+ Este campo hace que las partículas con carga negativa se muevan en una
+ dirección y las partículas con carga positiva en la otra.
+\end_layout
+
+\begin_layout Standard
+La luz está compuesta de fotones, que son simplemente pequeños haces de
+ radiación o energía electromagnética.
+ Estos fotones pueden ser absorbidos por una celda fotovoltaica.
+ Cuando la luz de una longitud de onda adecuada incide en estas celdas,
+ la energía del fotón se transfiere a un átomo del material semiconductor
+ en la unión p-n.
+ Específicamente, la energía se transfiere a los electrones del material.
+ Esto hace, que los electrones salten a un estado de energía más alto conocido
+ como la banda de conducción.
+ Lo mencionado anteriormente, deja un "agujero" en la banda de valencia
+ de la que saltó el electrón.
+ Este movimiento del electrón como resultado de la energía añadida, crea
+ dos portadores de carga, un par electrón-hueco.
+\end_layout
+
+\begin_layout Standard
+Cuando no están excitados, los electrones mantienen unido el material semiconduc
+tor formando enlaces con los átomos circundantes y, por lo tanto, no pueden
+ moverse.
+ Sin embargo, en su estado excitado en la banda de conducción, estos electrones
+ son libres de moverse a través del material.
+ Debido al campo eléctrico que existe como resultado de la unión p-n, los
+ electrones y los agujeros se mueven en la dirección opuesta a la esperada.
+ En lugar de ser atraído hacia el lado p, el electrón liberado tiende a
+ moverse hacia el lado n.
+ Este movimiento del electrón crea una corriente eléctrica en la celda fotovolta
+ica.
+ Una vez que el electrón se mueve, queda un "agujero" que también se puede
+ mover, pero en la dirección opuesta al lado p.
+ Es este proceso el que crea una corriente en la celda.
+\end_layout
+
+\begin_layout Subsection
+Modulo fotovoltaico
 \end_layout
 
 \begin_layout Standard
@@ -979,10 +1065,6 @@ name "fig:Conexiones de celdas fotovoltacias"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Generación de energía fotovoltaica
 \end_layout
 
 \begin_layout Subsection
