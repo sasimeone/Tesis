@@ -225,5 +225,23 @@ Perturb and Observe
 )
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+SOC Estado de carga (
+\emph on
+State of Charge
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+SOH Estado de salud (
+\emph on
+State of Health
+\emph default
+)
+\end_layout
+
 \end_body
 \end_document

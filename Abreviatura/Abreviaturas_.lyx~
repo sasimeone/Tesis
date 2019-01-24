@@ -207,5 +207,23 @@ Open Circuit Voltage
  Potencia en el punto de máxima potencia
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+MPPT Buscador del punto de máxima potencia (
+\emph on
+Maximum Power Point Tracker
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+P&O Perturba y observa (
+\emph on
+Perturb and Observe
+\emph default
+)
+\end_layout
+
 \end_body
 \end_document
