@@ -98,4 +98,17 @@
   month  = {05},
 }
 
+@Book{Bueno2017,
+  title  = {Electr{\'o}nica de potencia. Aspectos generales y convertidores electr{\'o}nicos},
+  year   = {2017},
+  author = {Alexander Bueno},
+}
+
+@Electronic{AirMassSF,
+  author       = {Christiana Honsberg and Stuart Bowden},
+  title        = {Air mass},
+  organization = {PVEDUCATIONS.ORG},
+  url          = {https://www.pveducation.org/pvcdrom/properties-of-sunlight/air-mass},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

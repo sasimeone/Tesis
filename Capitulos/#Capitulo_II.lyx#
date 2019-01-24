@@ -103,20 +103,14 @@ Estudio de Carga
 \end_layout
 
 \begin_layout Subsection
-Curva de carga y perfil de carga
+Curva y perfil de carga
 \end_layout
 
 \begin_layout Standard
-Es la sucesión de valores de demanda como función del tiempo.
- (Citar Archivo Distribuciones Caracterizacion de la demanda)
-\end_layout
-
-\begin_layout Subsection
-Perfil de carga
-\end_layout
-
-\begin_layout Standard
-Es la representación gráfica de la curva de carga.
+La curva de carga se puede definir como la sucesión de valores de demanda
+ como función del tiempo.
+ Por otro lado, el perfil de carga es la representación gráfica de la curva
+ de carga.
  Dicho perfil puede ser discreto o por integración; en el primer caso, se
  registran los valores de energía de forma instantánea.
  En el segundo caso, los valores de energía se registran cada vez que transcurre
@@ -166,10 +160,6 @@ name "fig:Perfil de carga"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -315,7 +305,7 @@ key "Olinto2016"
 
 \end_inset
 
-????
+
 \end_layout
 
 \begin_layout Subsection
@@ -386,6 +376,13 @@ reference "eq:masa de aire"
 
 , a un angulo de inclinación de 48.1896° grados respecto a la vertical.
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "WEBAirMassSF,NREL2015"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -470,7 +467,7 @@ key "OscarSF"
 \end_layout
 
 \begin_layout Subsection
-Irradiancia??? irradianza
+Irradiancia
 \end_layout
 
 \begin_layout Standard
@@ -648,14 +645,41 @@ Irradiancia total
 \end_layout
 
 \begin_layout Standard
-FALTA
-\end_layout
+Es la suma de la irradiancia directa, la irradiancia difusa y la irradiancia
+ reflejada desde el suelo.
+ En las ecuaciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Gdir"
 
-\begin_layout Standard
-\begin_inset Formula 
-\[
-G_{T}=G_{dir}+G_{dif}+G_{ground}
-\]
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Gdif"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Gground"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:SVF"
+
+\end_inset
+
+ se refleja como obtener los parámetros mencionados anteriormente.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
 
 \end_inset
 
@@ -664,9 +688,9 @@ G_{T}=G_{dir}+G_{dif}+G_{ground}
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-G_{ground}=GHI\cdot a\cdot(1-SVF)
-\]
+\begin{equation}
+G_{T}=G_{dir}+G_{dif}+G_{ground}\label{eq:Gtotal}
+\end{equation}
 
 \end_inset
 
@@ -675,9 +699,9 @@ G_{ground}=GHI\cdot a\cdot(1-SVF)
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-G_{dir}=DNI\cdot[cos(am)\cdot cos(as)+sen(am)\cdot sen(as)]
-\]
+\begin{equation}
+G_{dir}=DNI\cdot[cos(am)\cdot cos(as)+sen(am)\cdot sen(as)]\label{eq:Gdir}
+\end{equation}
 
 \end_inset
 
@@ -686,9 +710,31 @@ G_{dir}=DNI\cdot[cos(am)\cdot cos(as)+sen(am)\cdot sen(as)]
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-G_{dif}=0.1\cdot G_{dir}
-\]
+\begin{equation}
+G_{dif}=0.1\cdot G_{dir}\label{eq:Gdif}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+G_{ground}=GHI\cdot\alpha\cdot(1-SVF)\label{eq:Gground}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+SVF=\frac{1+cos(\theta_{m})}{2}\label{eq:SVF}
+\end{equation}
 
 \end_inset
 
@@ -794,7 +840,7 @@ key "NREL2015"
 \end_layout
 
 \begin_layout Subsubsection
-Celdas calibradas BUSCAR MAS INFO
+Celdas calibradas ((BUSCAR MAS INFO))
 \end_layout
 
 \begin_layout Standard
@@ -1092,7 +1138,7 @@ key "Piazza2013"
 
 \end_inset
 
-NIVELES DE RADIACION NO BAJOS
+
 \end_layout
 
 \begin_layout Standard
@@ -1577,16 +1623,42 @@ Película delgada
 \end_layout
 
 \begin_layout Standard
-CREO QUE AMORFO ES LO MISMO QUE THIM FILM HAY Q BUSCAR
-\end_layout
-
-\begin_layout Subsubsection
-Amorfo
+Los módulos de película delgada son una tecnología totalmente diferente
+ a los módulos monocristalinos y policristalinos.
+ Dichos módulos pueden identificarse debido a que tienen una apariencia
+ negra sólida.
 \end_layout
 
 \begin_layout Standard
-En estos tipos de módulos, ha desaparecido la estructura cristalina ordenada
- y el silicio se ha depositado formando una capa fina.
+Las celdas de capa fina tienen la reputación de ser las "peores" de las
+ tecnologías de los módulos fotovoltaicos porque, tienen la menor eficiencia.
+ Sin embargo, esto se debe únicamente a que requieren mayor cantidad de
+ espacio para generar la misma cantidad de energía que otro tipo de módulo
+ fotovoltaico.
+ Debido a los bajos costes de material de la película delgada, se están
+ convirtiendo rápidamente en los módulos más económicos.
+ Dependiendo de la tecnología, los módulos de capa fina han alcanzado eficiencia
+s de entre el 7 y el 13%.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "WebSendy2017"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ANTES ((Amorfo: En estos tipos de módulos, ha desaparecido la estructura
+ cristalina ordenada y el silicio se ha depositado formando una capa fina.
  Sus colores son el marrón y el gris oscuro.
  Se utiliza generalmente en calculadoras y otros objetos pequeños, aunque
  también se utilizan (con menor frecuencia) para alimentar algunas casas
@@ -1599,7 +1671,7 @@ key "Casa2012"
 
 \end_inset
 
-
+))
 \end_layout
 
 \begin_layout Standard
