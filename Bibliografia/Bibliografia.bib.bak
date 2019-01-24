@@ -84,4 +84,18 @@
   year   = {2014},
 }
 
+@Electronic{Hanania2015,
+  author = {Jordan Hanania and Kailyn Stenhouse and Jason Donev},
+  year   = {2015},
+  title  = {Photovoltaic effect},
+  url    = {https://energyeducation.ca/encyclopedia/Photovoltaic_effect},
+}
+
+@PhdThesis{Shaw2015,
+  author = {Shaw, Priyabrata},
+  title  = {Modeling and control of a battery connected standalone photovoltaic system},
+  year   = {2015},
+  month  = {05},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

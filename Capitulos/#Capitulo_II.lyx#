@@ -103,7 +103,7 @@ Estudio de Carga
 \end_layout
 
 \begin_layout Subsection
-Curva de carga
+Curva de carga y perfil de carga
 \end_layout
 
 \begin_layout Standard
@@ -182,12 +182,11 @@ name "fig:Perfil de carga"
 Registrador de Carga
 \end_layout
 
-\begin_layout Subsection
-Demanda Promedio
-\end_layout
-
-\begin_layout Subsection
-Demanda máxima coincidente??
+\begin_layout Standard
+Instrumento eléctrico encargado de censar y registrar durante largos periodos
+ de tiempo distintas características de un circuito eléctrico, como la potencia,
+ la energía, voltajes, corrientes, armónicos, calidad del servicio eléctrico,
+ entre otros.
 \end_layout
 
 \begin_layout Standard
@@ -316,7 +315,7 @@ key "Olinto2016"
 
 \end_inset
 
-
+????
 \end_layout
 
 \begin_layout Subsection
@@ -327,8 +326,7 @@ Acimut
 Es el angulo que se forma entre el Norte, y la proyección en el plano horizontal
  (de la esfera celestial) del vector, que pasa por origen del sistema cartesiano
  y por el objeto en cuestión.
- En adición, el rango de este angulo es [0°, 360°], donde el Norte corresponde
- a 0°, el Este 90°, el Sur 180° y el Oeste 270°.
+ En adición, el rango de este angulo es [0°, 360°].
  Cabe destacar, que a lo largo de este trabajo el objeto con el cual se
  trabajo fue el sol.
  
@@ -358,10 +356,9 @@ Es el angulo que se forma entre el plano horizontal de la esfera celeste
  y el vector que pasa por el origen del sistema cartesiano y por el objeto
  en cuestión.
  Este termino tiene un rango de [-90°, 90°].
- Cabe destacar que, solo cuando el angulo es positivo el objeto es visible,
+ ((Cabe destacar que, solo cuando el angulo es positivo el objeto es visible,
  ya que en caso contrario, el objeto se encontraría por debajo del plano
- horizontal.
- 
+ horizontal.)) 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Olinto2016"
@@ -388,7 +385,7 @@ reference "eq:masa de aire"
 \end_inset
 
 , a un angulo de inclinación de 48.1896° grados respecto a la vertical.
- NOSE SI PONER EL ESPECTRO DE LA MASA DE AIRE! 
+ 
 \end_layout
 
 \begin_layout Standard
@@ -452,44 +449,13 @@ name "fig:masa de aire"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Irradiación
 \end_layout
 
 \begin_layout Standard
-Es la densidad de energía solar recibida en una superficie, se mide generalmente
- en 
+Es la densidad de energía solar recibida por unidad de superficie y se mide
+ generalmente en 
 \begin_inset Formula $\frac{Wh}{m^{2}}$
 \end_inset
 
@@ -504,7 +470,7 @@ key "OscarSF"
 \end_layout
 
 \begin_layout Subsection
-Irradiancia
+Irradiancia??? irradianza
 \end_layout
 
 \begin_layout Standard
@@ -682,6 +648,10 @@ Irradiancia total
 \end_layout
 
 \begin_layout Standard
+FALTA
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 G_{T}=G_{dir}+G_{dif}+G_{ground}
@@ -732,7 +702,7 @@ Hora de sol equivalentes (Equivalent Sun Hours)
 \begin_layout Standard
 Es el promedio de la irradiancia global horizontal de la zona en un día
  y sus unidades son 
-\begin_inset Formula $\frac{KWh}{^{m2}}día$
+\begin_inset Formula $\frac{KWh}{m^{2}día}$
 \end_inset
 
 .
@@ -744,10 +714,6 @@ key "Olinto2016"
 \end_inset
 
  VERIFICAR NO ANDO MUY SEGURO OLINTO PAG 360
-\end_layout
-
-\begin_layout Subsection
-sun hora al dia??
 \end_layout
 
 \begin_layout Subsection
@@ -795,7 +761,7 @@ key "NREL2015"
 \end_layout
 
 \begin_layout Standard
-NOSE si poner el POA!!!
+NOSE si poner el POA!!! LEER REFERENCIA
 \end_layout
 
 \begin_layout Subsubsection
@@ -828,7 +794,7 @@ key "NREL2015"
 \end_layout
 
 \begin_layout Subsubsection
-Celdas calibradas
+Celdas calibradas BUSCAR MAS INFO
 \end_layout
 
 \begin_layout Standard
@@ -1009,6 +975,14 @@ ica.
  Una vez que el electrón se mueve, queda un "agujero" que también se puede
  mover, pero en la dirección opuesta al lado p.
  Es este proceso el que crea una corriente en la celda.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hanania2015"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1068,19 +1042,7 @@ name "fig:Conexiones de celdas fotovoltacias"
 \end_layout
 
 \begin_layout Subsection
-Parámetros de la celda y del modulo 
-\end_layout
-
-\begin_layout Subsubsection
-Resistencia serie
-\end_layout
-
-\begin_layout Subsubsection
-Resistencia paralelo
-\end_layout
-
-\begin_layout Subsubsection
-Factor de calidad del diodo
+Parámetros de la celda fotovoltaica
 \end_layout
 
 \begin_layout Subsection
@@ -1109,20 +1071,11 @@ key "Olinto2016"
 \end_layout
 
 \begin_layout Subsection
-Circuitos equivalentes
+Circuitos equivalentes de una celda fotovoltaica
 \end_layout
 
 \begin_layout Standard
-FALTA COLOCAR QUE ES CADA COSA DE LAS ECUACIONES
-\end_layout
-
-\begin_layout Standard
-Una celda o un modulo fotovoltaico puede representarse en diferentes circuitos
- equivalentes, donde unos reflejan un comportamiento más cercano al real
- que otros.
- Se tienen tres configuraciones diferentes, las cuales son: un diodo sin
- resistencia en paralelo, un diodo con resistencia en paralelo y dos diodos
- con resistencia en paralelo.
+Existen tres representaciones circuitales.
  El primero de estos tres circuitos equivalentes mencionados anteriormente,
  es el más utilizado por los investigadores para realizar simulaciones de
  un sistema de energía eléctrica fotovoltaica, ya que es el más simple de
@@ -1132,7 +1085,14 @@ Una celda o un modulo fotovoltaico puede representarse en diferentes circuitos
 \end_inset
 
 ).
- NIVELES DE RADIACION NO BAJOS
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Piazza2013"
+
+\end_inset
+
+NIVELES DE RADIACION NO BAJOS
 \end_layout
 
 \begin_layout Standard
@@ -1144,6 +1104,43 @@ I=I_{ph}-I_{o}(e^{q(V+IRs)/A_{q}kT}-1)\label{eq:un diodo sin rp}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $I$
+\end_inset
+
+ es la corriente en terminales de la celda o modulo fotovoltaico, 
+\begin_inset Formula $I_{ph}$
+\end_inset
+
+ es la corriente foto-generada (la cual depende directamente de la irradiancia),
+ 
+\begin_inset Formula $I_{o}$
+\end_inset
+
+ es la corriente de saturación oscura, 
+\begin_inset Formula $q$
+\end_inset
+
+ es la carga de un electrón,
+\begin_inset Formula $V$
+\end_inset
+
+ es el voltaje en terminales de la celda o modulo fotovoltaico, 
+\begin_inset Formula $A_{q}$
+\end_inset
+
+, 
+\begin_inset Formula $k$
+\end_inset
+
+ es la constante de Boltzman y
+\begin_inset Formula $T$
+\end_inset
+
+ es la temperatura de la celda fotovoltaica.
 \end_layout
 
 \begin_layout Standard
@@ -1201,8 +1198,16 @@ name "fig: un diodo sin rp"
 El segundo circuito equivalente presenta una resistencia adicional, la cual
  se encuentra en paralelo con el diodo.
  Este modelo es mas preciso ya que, la nueva resistencia proporciona un
- comportamiento mas adecuado cuando estamos en presencia de una radiación
- baja
+ comportamiento más adecuado cuando estamos en presencia de una radiación
+ baja.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Piazza2013"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1214,6 +1219,27 @@ I=I_{ph}-I_{o}(e^{q(V+IRs)/A_{q}kT}-1)-\frac{(V+IR_{s})}{R_{p}}\label{eq:un diod
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $R_{s}$
+\end_inset
+
+ es la resistencia serie del modelo y 
+\begin_inset Formula $R_{p}$
+\end_inset
+
+ es la resistencia en paralelo de la celda fotovoltaica.
+ Cabe mencionar, que el resto de variables son las mismas que las mencionadas
+ en la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:un diodo sin rp"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1271,10 +1297,56 @@ name "fig:un diodo con rp"
 \begin_layout Standard
 Por ultimo, tenemos el tercer modelo, el cual esta conformados por dos diodos
  y una resistencia en paralelo y otra en serie.
- Este modelo es capaz de dar una respuesta muy cercana al real, tanto para
- altos como para bajos niveles de radiación.
- El comportamiento de este circuito equivalente mejora si se esta tratando
- de modelar celdas que están construidas son silicio policristalino.
+ Esta representación del comportamiento de las celdas fotovoltaicas, incorporand
+o los efectos de recombinación de la carga espacial mediante un componente
+ de corriente separado con su propia dependencia exponencial del voltaje,
+ es considerada por la literatura como la mas precisa, especialmente cuando
+ se lidia con ((bajos)) niveles de iluminación.
+ Este modelo es capaz de dar una respuesta muy cercana a la real, tanto
+ para altos como para bajos niveles de irradiación.
+ Cabe destacar, que el comportamiento de este circuito equivalente mejora
+ si se esta tratando de modelar celdas que están construidas son silicio
+ policristalino.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Piazza2013"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I=I_{ph}-I_{o1}(e^{q(V+IRs)/A_{q}kT}-1)-I_{o2}(e^{q(V+IRs)/2kT}-1)-\frac{(V+IR_{s})}{R_{p}}\label{eq:dos diodos}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $I_{o1}$
+\end_inset
+
+ es la corriente de saturación oscura del primer diodo, mientras que 
+\begin_inset Formula $I_{o2}$
+\end_inset
+
+ es la corriente de saturación oscura del segundo diodo.
+ Cabe mencionar, que el resto de variables son las mismas que las mencionadas
+ en la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:un diodo sin rp"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1282,10 +1354,6 @@ Por ultimo, tenemos el tercer modelo, el cual esta conformados por dos diodos
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1584,7 +1652,7 @@ Tipos de sistemas fotovoltaicos
 \end_layout
 
 \begin_layout Subsubsection
-Stand Alone
+Independiente (Stand Alone)
 \end_layout
 
 \begin_layout Standard
@@ -1709,7 +1777,7 @@ name "fig:Stand Alone 2"
 \end_layout
 
 \begin_layout Subsubsection
-Grid Conected
+Conectados a la red (Grid connected)
 \end_layout
 
 \begin_layout Standard
@@ -1805,14 +1873,6 @@ n de energía eléctrica complementaria, estas pueden ser: eólica, gasolina,
  Es importante destacar, que al incluir varias fuente de generación de energía,
  es necesario implementar sistemas de control mas robustos y complicados
  a los que se usan en los sistemas Stand Alone y Grid Conected.
-\end_layout
-
-\begin_layout Standard
-Estos sistemas generalmente se implementan en islas, pero también pueden
- construirse en otros lugares.
- Algunos de los principales sistemas fotovoltaicos híbridos los podemos
- encontrar en: la isla Perllworm en Alemania, en las islas Canarias en España
- o la isla Kythnos en Grecia.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1871,10 +1931,10 @@ Balance del Sistema (BOS)
 \begin_layout Standard
 El termino Balance del sistema o por sus siglas en ingles, BOS (Balance
  of System), hace referencia a todos los elementos que componen un sistema
- de energía solar fotovoltaico, véase: módulos solares, conversores DC-DC,
- inversores, sistema de almacenamiento de energía, conductores, controladores
- de carga, carga en corriente continua, cargas en corriente alterna, entre
- otros.
+ de generación de energía solar fotovoltaico, véase: módulos solares, conversore
+s DC-DC, inversores, sistema de almacenamiento de energía, conductores,
+ controladores de carga, carga en corriente continua, cargas en corriente
+ alterna, entre otros.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2043,8 +2103,8 @@ Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
 \begin_layout Standard
 Es una técnica usada en los conversores DC-DC para obtener la máxima potencia
  de los módulos solares, para ello, se varia el ciclo de trabajo del conversor,
- logrando así que la impedancia aparente que vea el modulo sea la del punto
- de máxima potencia.
+ logrando así que la impedancia aparente vista por el modulo sea la del
+ punto de máxima potencia.
  Cabe destacar, que este punto varia con la temperatura y con la radiación,
  por ende va cambiando constantemente.
  Hoy en día, existen diversos algoritmos para encontrar el MPP, entre las
@@ -2056,7 +2116,7 @@ Es una técnica usada en los conversores DC-DC para obtener la máxima potencia
 \begin_layout Subsubsection
 
 \series bold
-Perturb and Observe
+Perturba y Observa (Perturb and Observe)
 \end_layout
 
 \begin_layout Standard
@@ -2132,15 +2192,169 @@ name "Algoritmo P&O"
 Conversor DC-DC Bidireccional
 \end_layout
 
+\begin_layout Standard
+Es un dispositivo electrónico que tiene como objetivo principal permitir
+ el flujo de potencia en ambos sentidos.
+ Generalmente, estos conversores son ampliamente utilizados en aplicaciones
+ que requieran el uso de celdas de combustible, supercapacitores y baterías,
+ como es el caso de los sistemas fotovoltaicos.
+ Cabe mencionar, que estos conversores se pueden dividir en dos categorías,
+ en aquellos que se encuentra aislados y los que no se encuentran aislados.
+\end_layout
+
+\begin_layout Standard
+En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conversor-DC-DC-bidireccional"
+
+\end_inset
+
+ se puede observar un conversor de medio puente no aislado, este dispositivo
+ puede funcionar tanto como un conversor elevador como reductor, si se interactu
+á con el interruptor de potencia Q1 mientras Q2 se mantiene apagado, el
+ dispositivo funcionara como un conversor reductor, en caso contrario operara
+ como elevador.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shaw2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Bidireccional.JPG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conversor DC-DC bidireccional.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conversor-DC-DC-bidireccional"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Inversor
 \end_layout
 
-\begin_layout Subsubsection
-Inversor Trifasico
+\begin_layout Standard
+Es un dispositivo de electrónica de potencia, que tiene como objetivo llevar
+ las señales de corriente y voltaje en corriente continua a corriente alterna,
+ esto lo logra mediante el control de los interruptores de potencia que
+ conforman este dispositivo, con los cuales se puede variar la frecuencia
+ y la magnitud de las onda de salida.
+ Estos dispositivos tienen diversas aplicaciones, y generalmente se pueden
+ encontrar en UPS, en sistemas fotovoltaicos, en el control de velocidad
+ de una maquina de corriente alterna, entre otros.
+ 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
+Cabe señalar, que existen diversas topologias para estos dispositivos, en
+ lineas generales podemos encontrar la monofasica y la trifasica.
+ La primera de ellas, esta conformada por cuatros interruptores de potencias
+ y toma una señal monofasica en corriente directa, y la transforma en una
+ señal monofasica en corriente alterna.
+ Por otro lado, el inversor trifasico se encarga de llevar un señal monofasica
+ en DC a tres señales en AC desfasadas entre ellas 120°, esto lo logra gracias
+ a sus seis interruptores de potencia.
+ En la Figura , se pueden observar las topologias descritas anteriormente.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bueno2017"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Inversor.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Inversor monofasico y trifasico.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inversor 1F y 3F"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 PLL
 \end_layout
 
@@ -2240,15 +2454,15 @@ Tiempo de autonomía
 \end_layout
 
 \begin_layout Subsection
-Controlador de carga
-\end_layout
-
-\begin_layout Subsection
 Sistema de manejo de baterías (BMS)
 \end_layout
 
 \begin_layout Subsection
 Estado de Carga (SOC)
+\end_layout
+
+\begin_layout Subsection
+Estado de salud (SOH)
 \end_layout
 
 \end_body
