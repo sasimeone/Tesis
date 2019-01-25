@@ -113,6 +113,15 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
+AM Masa de aire (
+\emph on
+Air mass
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 DNI Irradiancia Normal Directa (
 \emph on
 Direct Normal Irradiance
@@ -134,6 +143,24 @@ Direct Horizontal Irradiance
 GHI Irradiancia Horizontal Global (
 \emph on
 Global Horizontal Irradiance
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ESH Horas de sol equivalentes (
+\emph on
+Equivalent Sun Hours
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+AOI Ángulo de Incidencia (
+\emph on
+Angle of Incidence
 \emph default
 )
 \end_layout
@@ -162,13 +189,10 @@ Alternating Current
 \end_inset
 
  Corriente de cortocircuito (
-\uuline on
-Short
 \emph on
-\uuline default
- Circuit Current
+Short
 \emph default
-)
+ Circuit Current)
 \end_layout
 
 \begin_layout Labeling
@@ -209,6 +233,15 @@ Open Circuit Voltage
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
+MPP Maximo punto de potencia (
+\emph on
+Maximum Power Point
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 MPPT Buscador del punto de máxima potencia (
 \emph on
 Maximum Power Point Tracker
@@ -239,6 +272,88 @@ State of Charge
 SOH Estado de salud (
 \emph on
 State of Health
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+STC Condiciones de prueba estándar (
+\emph on
+Standard test conditions
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+NREL Laboratorio Nacional de Energías Renovables (
+\emph on
+National Renewable Energy Laboratory
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\noindent
+\align block
+BOS Balance del Sistema (
+\emph on
+Balance of System
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+BMS Sistema de manejo de baterías (
+\emph on
+Battery Management System
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+DOD Profundidad de Descarga (
+\emph on
+Depth of Discharge
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+PWM Modelación por Ancho de Pulso (
+\emph on
+Pulse Width Modulation
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+PSIM Simulador de potencia (
+\emph on
+Power Simulator
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula $\triangle D$
+\end_inset
+
+ Diferencial de Ciclo de trabajo
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+PV Fotovoltaico (
+\emph on
+Photovoltaic
 \emph default
 )
 \end_layout

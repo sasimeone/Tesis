@@ -129,4 +129,20 @@
   url      = {http://www.bdigital.unal.edu.co/58395/1/1088651128.2015.pdf},
 }
 
+@Book{Teodorescu2011,
+  title     = {Grid Converters for Photovoltaic and Wind Power Systems},
+  publisher = {John Wiley {\&} Sons, Ltd},
+  year      = {2011},
+  author    = {Remus Teodorescu and Marco Liserre and Pedro Rodr{\'{\i}}guez},
+  month     = {jan},
+  doi       = {10.1002/9780470667057},
+}
+
+@Electronic{Quintero2017,
+  author   = {Carmen Quintero},
+  year     = {2017},
+  title    = {Caracterizaci{\'o} de la demanda},
+  language = {Español},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

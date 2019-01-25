@@ -123,7 +123,14 @@ reference "fig:Perfil de carga"
 \end_inset
 
  se puede observar un perfil de carga discreto y por integración.
- (Citar Archivo Distribuciones Caracterizacion de la demanda)
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Quintero2017"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -346,9 +353,10 @@ Es el angulo que se forma entre el plano horizontal de la esfera celeste
  y el vector que pasa por el origen del sistema cartesiano y por el objeto
  en cuestión.
  Este termino tiene un rango de [-90°, 90°].
- ((Cabe destacar que, solo cuando el angulo es positivo el objeto es visible,
+ Cabe destacar que, solo cuando el angulo es positivo el objeto es visible,
  ya que en caso contrario, el objeto se encontraría por debajo del plano
- horizontal.)) 
+ horizontal.
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Olinto2016"
@@ -742,7 +750,7 @@ SVF=\frac{1+cos(\theta_{m})}{2}\label{eq:SVF}
 \end_layout
 
 \begin_layout Subsection
-Hora de sol equivalentes (Equivalent Sun Hours)
+Horas de sol equivalentes (Equivalent Sun Hours)
 \end_layout
 
 \begin_layout Standard
@@ -836,7 +844,7 @@ key "NREL2015"
 \end_layout
 
 \begin_layout Subsubsection
-Celdas calibradas ((BUSCAR MAS INFO))
+Celdas calibradas
 \end_layout
 
 \begin_layout Standard
@@ -846,6 +854,8 @@ l entre la radiación recibida y la producción eléctrica.
  Se trata de medidores de menor precisión que los piranometros o pirheliometros
  pero que, dado su bajo costo, son muy utilizados para medir la radiación
  solar.
+ Las celdas de referencia están conformadas por un sensor de temperatura,
+ un cristal de protección, una celda fotovoltaica y un encapsulado robusto.
  Colocando una de estas celdas, se puede contrastar la producción de la
  instalación fotovoltaica, con la radiación aproximada recibida.
  Cabe mencionar, que en la Figura 
@@ -1505,8 +1515,8 @@ La curva de potencia contra voltaje, representa los distintos valores de
 \end_inset
 
 .
- Cabe mencionar, que muchos algoritmo de MPPT como P&O o conductancia incrementa
-l, basan su operación en esta curva.
+ Cabe mencionar, que muchos algoritmos de MPPT como P&O o conductancia increment
+al, basan su operación en esta curva.
 \end_layout
 
 \begin_layout Standard
@@ -2012,7 +2022,7 @@ key "Olinto2016"
 \end_layout
 
 \begin_layout Subsection
-Orientación y Angulo de inclinación???
+Orientación y Angulo de inclinación
 \end_layout
 
 \begin_layout Standard
@@ -2541,7 +2551,7 @@ name "fig:Algoritmo-P&O."
 \end_layout
 
 \begin_layout Subsection
-Lazo de bloqueo de fase (Phase Locked Loop)
+Lazo de bloqueo de fase (PLL)
 \end_layout
 
 \begin_layout Standard
