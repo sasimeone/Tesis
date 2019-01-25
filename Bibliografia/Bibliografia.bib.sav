@@ -104,11 +104,38 @@
   author = {Alexander Bueno},
 }
 
-@Electronic{WAirMassSF,
+@Electronic{WEBAirMassSF,
   author       = {Christiana Honsberg and Stuart Bowden},
   title        = {Air mass},
   organization = {PVEDUCATIONS.ORG},
   url          = {https://www.pveducation.org/pvcdrom/properties-of-sunlight/air-mass},
+}
+
+@Book{Skvarenina2001,
+  title     = {The Power Electronics Handbook},
+  publisher = {CRC Press},
+  year      = {2001},
+  author    = {Timothy Skvarenina},
+  isbn      = {9780849373367},
+  url       = {https://www.amazon.com/Power-Electronics-Handbook-Industrial/dp/0849373360?SubscriptionId=AKIAIOBINVZYXZQZ2U3A&tag=chimbori05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=0849373360},
+}
+
+@Electronic{Navarrete2015,
+  author   = {Mario Andr{\'e}s Bola{\~n}os Navarrete},
+  month    = oct,
+  year     = {2015},
+  title    = {T{\'e}cnicas de optimizaci{\'o}n en paneles solares: seguimiento del punto de m{\'a}xima potencia},
+  language = {Español},
+  url      = {http://www.bdigital.unal.edu.co/58395/1/1088651128.2015.pdf},
+}
+
+@Book{Teodorescu2011,
+  title     = {Grid Converters for Photovoltaic and Wind Power Systems},
+  publisher = {John Wiley {\&} Sons, Ltd},
+  year      = {2011},
+  author    = {Remus Teodorescu and Marco Liserre and Pedro Rodr{\'{\i}}guez},
+  month     = {jan},
+  doi       = {10.1002/9780470667057},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -806,10 +806,6 @@ key "NREL2015"
 
 \end_layout
 
-\begin_layout Standard
-NOSE si poner el POA!!! LEER REFERENCIA
-\end_layout
-
 \begin_layout Subsubsection
 Pirheliómetro
 \end_layout
@@ -1085,10 +1081,6 @@ name "fig:Conexiones de celdas fotovoltacias"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Parámetros de la celda fotovoltaica
 \end_layout
 
 \begin_layout Subsection
@@ -1772,6 +1764,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Stand Alone 1.jpg
+	scale 90
 
 \end_inset
 
@@ -1817,6 +1810,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Stand Alone 2.jpg
+	scale 90
 
 \end_inset
 
@@ -1849,7 +1843,7 @@ name "fig:Stand Alone 2"
 \end_layout
 
 \begin_layout Subsubsection
-Conectados a la red (Grid connected)
+Conectado a la red (Grid connected)
 \end_layout
 
 \begin_layout Standard
@@ -2150,93 +2144,72 @@ Electrónica de Potencia
 Conversor DC-DC
 \end_layout
 
-\begin_layout Subsubsection
-Conversor Elevador
-\end_layout
-
-\begin_layout Subsubsection
-Conversor Reductor
-\end_layout
-
-\begin_layout Subsubsection
-Conversor Elevador-Reductor
-\end_layout
-
-\begin_layout Subsubsection
-Ciclo de trabajo
-\end_layout
-
-\begin_layout Subsection
-
-\series bold
-Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
+\begin_layout Standard
+Es un dispositivo de electrónica de potencia, que tiene como propósito suministr
+ar una tensión de salida DC regulada a partir de una tensión de entrada
+ DC fluctuante.
+ Lo mencionado anteriormente, se logra gracias a los interruptores de potencia
+ y a los elementos almacenadores de energía como lo son los capacitores
+ he inductores.
+ Existen una gran variedad de convertidores DC-DC, pero los más básicos
+ son: el elevador, el reductor y el elevador-reductor.
 \end_layout
 
 \begin_layout Standard
-Es una técnica usada en los conversores DC-DC para obtener la máxima potencia
- de los módulos solares, para ello, se varia el ciclo de trabajo del conversor,
- logrando así que la impedancia aparente vista por el modulo sea la del
- punto de máxima potencia.
- Cabe destacar, que este punto varia con la temperatura y con la radiación,
- por ende va cambiando constantemente.
- Hoy en día, existen diversos algoritmos para encontrar el MPP, entre las
- más utilizadas en la literatura podemos encontrar: Pertub and Observe,
- Incremental Conductance y Fuzzy Logic.
- 
-\end_layout
-
-\begin_layout Subsubsection
-
-\series bold
-Perturba y Observa (Perturb and Observe)
-\end_layout
-
-\begin_layout Standard
-Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
- buscar el punto de máxima potencia del módulo solar independientemente
- de los niveles de radiación y temperatura que existan.
- Mediante las variaciones de voltaje (que se producen mediante modificaciones
- del ciclo se trabajó) y por ende, de potencia, se puede concluir en que
- parte de la curva P-V nos encontramos.
+En primer lugar, tenemos el conversor elevador, en el cual el voltaje de
+ salida siempre sera mayor o igual al voltaje de entrada del conversor.
+ Por otro lado, en el conversor reductor, el voltaje de salida siempre sera
+ menor o igual al voltaje de entrada.
+ Por ultimo, el conversor elevador-reductor, combina las propiedades de
+ los mencionados anteriormente, logrando así, aumentar o reducir el voltaje
+ de salida respecto al de entrada.
+ Para poder obtener el voltaje de salida deseado en estos convertidores
+ es necesario controlar el ciclo de trabajo, el cual se puede definir como
+ la relacion entre el tiempo de encendido y el periodo de la señal del interrupt
+or de potencia.
  En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Algoritmo-P&O."
+reference "fig:ConvertidorDC-DC"
 
 \end_inset
 
- podemos ver el diagrama de flujo de este algoritmo, como vemos, se tiene
- los valores de la iteración actual y de la anterior, a partir de la comparación
- de estos términos se determina la acción que se debe tomar para alcanzar
- el punto de máxima potencia del módulo solar.
- Lo mencionado anteriormente, se puede explicar de la siguiente manera:
- si la potencia obtenida en la iteración actual es superior a la de la anterior,
- se concluye que el punto de operación del módulo avanzo en dirección al
- punto de máxima potencia, pero en cambio, si la potencia disminuye significa
- que el punto de operación se está distanciando del MPP, por lo cual, se
- debe realizar una perturbación en sentido contrario a la generada anteriormente.
- Cabe destacar, que la eficiencia de este método es de aproximadamente 96%,
- pero puede mejorarse si se disminuye el «DELTA D» a medida que el algoritmo
- alcanza el MPP.
+, se pueden observar la topologia de los convertidores mencionados anteriormente.
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Skvarenina2001"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
 wide false
 sideways false
-status open
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/dc-dc converter.jpg
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Algoritmo P&O.
+Convertidor reductor, elevador y elevador-reductor.
  
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Algoritmo-P&O."
+name "fig:ConvertidorDC-DC"
 
 \end_inset
 
@@ -2246,12 +2219,9 @@ name "fig:Algoritmo-P&O."
 \end_inset
 
 
-\begin_inset CommandInset label
-LatexCommand label
-name "Algoritmo P&O"
+\end_layout
 
-\end_inset
-
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2282,7 +2252,7 @@ reference "fig:Conversor-DC-DC-bidireccional"
 
 \end_inset
 
- se puede observar un conversor de medio puente no aislado, este dispositivo
+, se puede observar un conversor de medio puente no aislado, este dispositivo
  puede funcionar tanto como un conversor elevador como reductor, si se interactu
 á con el interruptor de potencia Q1 mientras Q2 se mantiene apagado, el
  dispositivo funcionara como un conversor reductor, en caso contrario operara
@@ -2385,10 +2355,6 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Inversor.jpg
@@ -2426,78 +2392,6 @@ name "fig:Inversor 1F y 3F"
 
 \end_layout
 
-\begin_layout Subsection
-PLL
-\end_layout
-
-\begin_layout Standard
-FALTA
-\end_layout
-
-\begin_layout Standard
-o por sus siglas en ingles, Phase Locked Loop, es un sistema a lazo cerrado
- que tiene como objetivo sincronizar señales, generalmente este tipo de
- sistemas de control se utiliza en el campo de las comunicaciones y de la
- computación, pero también se puede implementar en el campo de la electrónica
- , para poder sincronizar la señal de salida del inversor con la señal de
- la red eléctrica.
- 
-\end_layout
-
-\begin_layout Standard
-El PLL mas simple esta conformado por un detectos de fase, un filtro y un
- oscilador controlado por voltaje, esto se puede apreciar mejor en la Figura
- .
- El detector de fase, se encarga de comparar la fase de la señal de voltaje
- de la red, con la fase de la señal de salida del oscilador controlado por
- voltaje; la diferencia entre ambas señales sera la salida de este bloque.
- Dicha señal ahora pasara por un filtro, el cual tiene como objetivo eliminar
- las componentes de alta frecuencia
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-PLL básico.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:PLL"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-SRF-PLL
-\end_layout
-
 \begin_layout Standard
 \begin_inset space ~
 \end_inset
@@ -2526,15 +2420,290 @@ Tiempo de autonomía
 \end_layout
 
 \begin_layout Subsection
-Sistema de manejo de baterías (BMS)
-\end_layout
-
-\begin_layout Subsection
 Estado de Carga (SOC)
 \end_layout
 
 \begin_layout Subsection
 Estado de salud (SOH)
+\end_layout
+
+\begin_layout Section
+Control
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
+\end_layout
+
+\begin_layout Standard
+Es una técnica usada en los conversores DC-DC para obtener la máxima potencia
+ de los módulos solares, para ello, se varia el ciclo de trabajo del conversor,
+ logrando así que la impedancia aparente vista por el modulo sea la del
+ punto de máxima potencia.
+ Cabe destacar, que este punto varia con la temperatura y con la radiación,
+ por ende va cambiando constantemente.
+ Hoy en día, existen diversos algoritmos para encontrar el MPP, entre las
+ más utilizadas en la literatura podemos encontrar: Perturba y observa (P&O),
+ Conductancia incremental y Lógica difusa (Fuzzy logic).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Perturba y Observa (Perturb and Observe)
+\end_layout
+
+\begin_layout Standard
+Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
+ buscar el punto de máxima potencia del módulo fotovoltaico independientemente
+ de los niveles de radiación y temperatura que existan.
+ Mediante las variaciones de voltaje (que se producen mediante modificaciones
+ del ciclo se trabajó) y por ende, de potencia, se puede concluir en que
+ parte de la curva P-V nos encontramos.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Algoritmo-P&O."
+
+\end_inset
+
+ podemos ver el diagrama de flujo de este algoritmo, como vemos, se tiene
+ los valores de la iteración actual y de la anterior, a partir de la comparación
+ de estos términos se determina la acción que se debe tomar para alcanzar
+ el punto de máxima potencia del módulo solar.
+ Lo mencionado anteriormente, se puede explicar de la siguiente manera:
+ si la potencia obtenida en la iteración actual es superior a la de la anterior,
+ se concluye que el punto de operación del módulo avanzo en dirección al
+ punto de máxima potencia, pero en cambio, si la potencia disminuye significa
+ que el punto de operación se está alejando del MPP, por lo cual, se debe
+ realizar una perturbación en sentido contrario a la generada anteriormente.
+ Cabe destacar, que la eficiencia de este método es de aproximadamente 96%,
+ pero puede mejorarse si se disminuye la tasa de cambio del ciclo de trabajo
+ (
+\begin_inset Formula $\triangle D$
+\end_inset
+
+) a medida que el algoritmo alcanza el MPP.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Navarrete2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/MPPT.JPG
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Algoritmo P&O.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Algoritmo-P&O."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Lazo de bloqueo de fase (Phase Locked Loop)
+\end_layout
+
+\begin_layout Standard
+El Phase Locked Loop o por sus siglas PLL, es un sistema a lazo cerrado
+ en el que se controla un oscilador interno para seguir el tiempo de alguna
+ señal periódica externa utilizando el lazo de realimentación.
+ Generalmente, estos tipos de sistemas de control se utilizan en el campo
+ de las comunicaciones y de la computación, pero también se puede implementar
+ en el campo de la electrónica, para por ejemplo, poder sincronizar las
+ señales de salida del inversor con las señales de la red eléctrica.
+ 
+\end_layout
+
+\begin_layout Standard
+El PLL más simple esta conformado por un detector de fase, un filtro y un
+ oscilador controlado por voltaje, esto se puede apreciar mejor en la Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:PLL"
+
+\end_inset
+
+.
+ El detector de fase, se encarga de comparar la señal de entrada, con la
+ señal de salida del oscilador controlado por voltaje; la diferencia entre
+ ambas señales sera la salida de este bloque.
+ Dicha señal ahora pasara por un filtro, el cual es de tipo pasa bajo para
+ eliminar las componentes de alta frecuencia.
+ La señal de salida del filtro va hacia el oscilador controlado por voltaje,
+ el cual genera en su salida, una señal en corriente alterna cuya frecuencia
+ se desplaza respecto a una frecuencia dada, hasta sincronizarse con la
+ señal de entrada.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teodorescu2011"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/PLL basico.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PLL básico.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PLL"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El PLL mencionado anteriormente es el mas básico, y solo funciona cuando
+ queremos sincronizar señales monofasicas, en el caso de querer sincronizar
+ señales trifasicas, es necesario implementar el Cuadro de referencia síncrono-l
+azo de bloqueo de fase (Synchronous Reference Frame-Phase Locked Loop) o
+ por sus siglas SRF-PLL.
+ Este PLL, traduce las señales de entrada trifásicas del marco abc al marco
+ de referencia giratorio dq utilizando la transformación de Clark y de Park.
+ La posición angular de este marco de referencia dq es controlada por un
+ lazo de retroalimentación que regula la componente q a cero.
+ ((El SRF-PLL esta compuesto por un filtro, un generador de frecuencia/angulo
+ de fase (FPG) y un detector de fase síncrono)).
+ El esquema de control de este PLL se puede observar en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SRF-PLL"
+
+\end_inset
+
+.Cabe señalar, que existen otros tipos de PLL que se encuentran diseñados
+ para atacar distintos problemas que se puedan presentar en la red eléctrica.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teodorescu2011"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/SRFPLL.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+SRF-PLL.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SRF-PLL"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sistema de manejo de baterías (BMS)
 \end_layout
 
 \end_body
