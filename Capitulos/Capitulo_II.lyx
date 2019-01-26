@@ -960,8 +960,8 @@ Celda fotovoltaica
 \end_layout
 
 \begin_layout Standard
-Es básicamente, una unión p-n con una región de agotamiento (depletion??)
- central y dos zonas laterales cuasi-neutrales.
+Es básicamente, una unión p-n con una región central disminuida y dos zonas
+ laterales cuasi-neutrales.
  Al final de cada zona, se coloca un contacto eléctrico.
  La zona más fuertemente dopada se llama zona emisora y la otra es la zona
  base.
@@ -1123,7 +1123,9 @@ Circuitos equivalentes de una celda fotovoltaica
 \end_layout
 
 \begin_layout Standard
-Existen tres representaciones circuitales.
+Existen tres representaciones circuitales, el modelo de un solo diodo sin
+ resistencia en paralelo, un diodo con resistencia en paralelo y el modelo
+ de dos diodos.
  El primero de estos tres circuitos equivalentes mencionados anteriormente,
  es el más utilizado por los investigadores para realizar simulaciones de
  un sistema de energía eléctrica fotovoltaica, ya que es el más simple de
@@ -1349,7 +1351,7 @@ Por ultimo, tenemos el tercer modelo, el cual esta conformados por dos diodos
 o los efectos de recombinación de la carga espacial mediante un componente
  de corriente separado con su propia dependencia exponencial del voltaje,
  es considerada por la literatura como la mas precisa, especialmente cuando
- se lidia con ((bajos)) niveles de iluminación.
+ se lidia con bajos niveles de iluminación.
  Este modelo es capaz de dar una respuesta muy cercana a la real, tanto
  para altos como para bajos niveles de irradiación.
  Cabe destacar, que el comportamiento de este circuito equivalente mejora

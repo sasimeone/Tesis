@@ -960,8 +960,8 @@ Celda fotovoltaica
 \end_layout
 
 \begin_layout Standard
-Es básicamente, una unión p-n con una región de agotamiento (depletion??)
- central y dos zonas laterales cuasi-neutrales.
+Es básicamente, una unión p-n con una región central disminuida y dos zonas
+ laterales cuasi-neutrales.
  Al final de cada zona, se coloca un contacto eléctrico.
  La zona más fuertemente dopada se llama zona emisora y la otra es la zona
  base.
@@ -2551,7 +2551,7 @@ name "fig:Algoritmo-P&O."
 \end_layout
 
 \begin_layout Subsection
-Lazo de bloqueo de fase (Phase Locked Loop)
+Lazo de bloqueo de fase (PLL)
 \end_layout
 
 \begin_layout Standard
