@@ -1578,8 +1578,6 @@ Monocristalina
 
 \begin_layout Standard
 Las celdas solares monocristalinas ofrecen la mayor pureza de silicio.
- Se fabrican mediante el método Czochralski, en el que se coloca una 'semilla'
- de cristal de silicio en una cubeta de silicio fundido.
  Su eficiencia oscila entre el 15% y el 22% (la más alta de todos los tipos
  de módulos).
  Dado que son tan eficientes energéticamente, también lo son en cuanto al
@@ -1651,31 +1649,6 @@ key "WebSendy2017"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-ANTES ((Amorfo: En estos tipos de módulos, ha desaparecido la estructura
- cristalina ordenada y el silicio se ha depositado formando una capa fina.
- Sus colores son el marrón y el gris oscuro.
- Se utiliza generalmente en calculadoras y otros objetos pequeños, aunque
- también se utilizan (con menor frecuencia) para alimentar algunas casas
- privadas, edificios e instalaciones remotas.
- El rendimiento de estos módulos no sobrepasa el 9% en modelos comerciales.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Casa2012"
-
-\end_inset
-
-))
 \end_layout
 
 \begin_layout Standard
