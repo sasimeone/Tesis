@@ -152,8 +152,8 @@
 }
 
 @Book{Mohan2009,
-  title     = {Electrónica de Potencia. Convertidores, Aplicaciones y Diseño},
-  publisher = {McGraw-Hill Interamericana Editores S.A. de C.V.},
+  title     = {Electr{\'o}nica de Potencia. Convertidores, Aplicaciones y Dise{\~n}o},
+  publisher = {McGraw-Hill Interamericana},
   year      = {2009},
   author    = {Ned Mohan},
   isbn      = {9701072480},

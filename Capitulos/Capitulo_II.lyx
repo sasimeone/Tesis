@@ -2103,13 +2103,38 @@ Algoritmo Genético
 \end_layout
 
 \begin_layout Standard
-Es un tipo de algoritmo evolutivo inspirado en la teoría de la selección
+Es un método de búsqueda heurística inspirado en la teoría de la selección
  natural de Charles Darwin.
  Este algoritmo trata de simular los procesos que suceden en la naturaleza,
  en donde, solo los individuos más aptos de una población son capaces de
  sobrevivir, y por ende, de reproducirse para así generar una nueva descendencia
 , la cual contendrá una mezcla del código genético de sus padres.
+ El algoritmo genético busca solucionar problemas matemáticos de gran complejida
+d, como lo puede ser la obtención de parámetros de una celda fotovoltaica.
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mallawaarachchi2017"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PARA EL MARCO METODOLÓGICO LO DE ABAJO NO BORRAR SOLO REORGANIZAR
+\end_layout
+
+\begin_layout Standard
+En primer lugar, se deben reconocer las incógnitas del problema, ya que
+ ellas serán los genes que unidos en conjuntos formaran un cromosoma.
 \end_layout
 
 \begin_layout Standard
@@ -2120,14 +2145,14 @@ reference "fig:Algoritmo genetico"
 
 \end_inset
 
- se puede observar el diagrama de flujo de este algoritmo, como se puede
- observar, en primer lugar se debe generar una población con sus cromosomas
- de forma aleatoria, en donde cada cromosoma estará conformado por genes,
- los cuales contendrán los parámetros requeridos; acto seguido, cada individuo
- de la población es pasado por una función de costos para así determinar
- cuál es el grado de error entre cada muestra y el valor deseado.
+ se puede observar el diagrama de flujo de este algoritmo, en primer lugar,
+ se debe generar una población con sus cromosomas de forma aleatoria, en
+ donde cada cromosoma estará conformado por genes.
+ Acto seguido, cada individuo de la población es pasado por una función
+ de costos para así determinar cuál es el grado de error entre cada muestra
+ y el valor deseado.
  Posteriormente, se debe seleccionar los individuos más aptos para sobrevivir,
- para ello existen varios métodos, los mas usados en la literatura son el
+ para ello existen varios métodos, los más usados en la literatura son el
  método de la ruleta y del torneo.
  
 \end_layout
