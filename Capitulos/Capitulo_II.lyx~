@@ -113,7 +113,7 @@ La curva de carga se puede definir como la sucesión de valores de demanda
  de carga.
  Dicho perfil puede ser discreto o por integración; en el primer caso, se
  registran los valores de energía de forma instantánea.
- En el segundo caso, los valores de energía se registran cada vez que transcurre
+ En el segundo caso, los valores de energía se registran luego de que transcurre
  un intervalo de tiempo.
  En la Figura 
 \begin_inset CommandInset ref
@@ -180,10 +180,10 @@ Registrador de Carga
 \end_layout
 
 \begin_layout Standard
-Instrumento eléctrico encargado de censar y registrar durante largos periodos
- de tiempo distintas características de un circuito eléctrico, como la potencia,
- la energía, voltajes, corrientes, armónicos, calidad del servicio eléctrico,
- entre otros.
+Instrumento eléctrico encargado de censar y registrar, de forma instantánea
+ o durante largos periodos de tiempo, un conjunto de variables de un sistema
+ eléctrico, como potencia, energía, voltaje, corriente, armónicos, desbalance
+ entre fases, entre otros.
 \end_layout
 
 \begin_layout Standard
@@ -217,16 +217,25 @@ key "Casa2012"
 \end_layout
 
 \begin_layout Subsection
-Esfera celestial
+Bóveda celestial
 \end_layout
 
 \begin_layout Standard
-Es una esfera, la cual es concentrica con el planeta Tierra y tiene un radio
- arbitrario; en ella se representa el movimiento de los objetos celestiales
- como el sol, la luna y las estrella, los cuales se encuentran a una distancia
+Es una esfera concéntrica con el planeta Tierra, la cual posee un radio
+ arbitrario.
+ En dicha bóveda, se representa el movimiento de los objetos celestiales
+ como el Sol, la luna y las estrella, los cuales se encuentran a una distancia
  muy lejana de nuestro planeta.
  Cada punto en la esfera celestial se puede representar mediante dos ángulos,
- los cuales son, la altitud y el acimut.
+ los cuales son, la altitud (
+\begin_inset Formula $\theta_{a}$
+\end_inset
+
+) y el acimut (
+\begin_inset Formula $\theta_{A}$
+\end_inset
+
+).
  En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -266,7 +275,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Esfera celestial.
+Bóveda celestial.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -296,7 +305,7 @@ Cenit
 \end_layout
 
 \begin_layout Standard
-Es el punto de la esfera celestial que se encuentra encima del observador.
+Es el punto de la bóveda celestial que se encuentra encima del observador.
  Ver la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -320,12 +329,19 @@ Acimut
 \end_layout
 
 \begin_layout Standard
-Es el angulo que se forma entre el Norte, y la proyección en el plano horizontal
- (de la esfera celestial) del vector, que pasa por origen del sistema cartesiano
- y por el objeto en cuestión.
- En adición, el rango de este angulo es [0°, 360°].
- Cabe destacar, que a lo largo de este trabajo el objeto con el cual se
- trabajo fue el sol.
+Es el ángulo que se forma entre el Norte, y la proyección en el plano horizontal
+ (de la bóveda celestial) del vector, que pasa por origen del sistema cartesiano
+ y por el objeto celestial (ver Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:esfera celestial"
+
+\end_inset
+
+).
+ En adición, el rango de este ángulo es [0°, 360°].
+ Cabe destacar, que a lo largo de este trabajo el objeto celestial con el
+ cual se trabajo fue el Sol.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -349,13 +365,19 @@ Altitud
 \end_layout
 
 \begin_layout Standard
-Es el angulo que se forma entre el plano horizontal de la esfera celeste
+Es el ángulo que se forma entre, el plano horizontal de la bóveda celestial
  y el vector que pasa por el origen del sistema cartesiano y por el objeto
- en cuestión.
- Este termino tiene un rango de [-90°, 90°].
- Cabe destacar que, solo cuando el angulo es positivo el objeto es visible,
- ya que en caso contrario, el objeto se encontraría por debajo del plano
- horizontal.
+ celestial (ver Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:esfera celestial"
+
+\end_inset
+
+).
+ Este término, tiene un rango de [-90°, 90°] aunque cabe destacar que, solo
+ cuando el ángulo es positivo el objeto es visible, ya que, en caso contrario,
+ el objeto se encontraría por debajo del plano horizontal.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -382,7 +404,7 @@ reference "eq:masa de aire"
 
 \end_inset
 
-, a un angulo de inclinación de 48.1896° grados respecto a la vertical.
+, a un ángulo de inclinación de 48.1896° grados respecto a la vertical.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -409,10 +431,6 @@ AM=\frac{1}{cos(θ)}\label{eq:masa de aire}
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -496,14 +514,14 @@ key "OscarSF"
 \end_layout
 
 \begin_layout Subsubsection
-Irradiancia Normal Directa (DNI) 
+Irradiancia Normal Directa (DNI) REVISAR!!!
 \end_layout
 
 \begin_layout Standard
 Se puede definir como la irradiancia en una superficie perpendicular al
- vector, desde el observador hasta el centro del sol, causada por la radiación
- que no interactuó con la atmósfera.
- Por otro lado, este termino se puede interpretar de forma diferente en
+ vector, (que va??) desde el observador hasta el centro del sol, (y es??)
+ causada por la radiación que no interactuó con la atmósfera.
+ Por otro lado, este término se puede interpretar de forma diferente en
  el mundo de la energía solar, la irradiancia normal directa representa
  la radiación recibida de un pequeño ángulo centrado en el disco del sol.
  Cabe destacar, que la unidad de este parámetro es 
@@ -529,7 +547,7 @@ Irradiancia Horizontal Difusa (DHI)
 La radiación del cielo en el hemisferio por encima de la horizontal local
  se conoce como irradiancia horizontal difusa.
  Una definición más técnica y práctica de DHI, es que representa toda la
- radiación de la esfera celestial excepto la irradiancia normal directa.
+ radiación de la bóveda celestial excepto la irradiancia normal directa.
 \end_layout
 
 \begin_layout Standard
@@ -552,7 +570,7 @@ Irradiancia Horizontal Global (GHI)
 
 \begin_layout Standard
 La radiación solar hemisférica total en una superficie horizontal es la
- suma, de la densidad de flujo que resulta en el DNI a un determinado angulo
+ suma, de la densidad de flujo que resulta en el DNI a un determinado ángulo
  cenit, y el DHI.
  Lo mencionado anteriormente, se puede observar en la ecuación 
 \begin_inset CommandInset ref
@@ -605,10 +623,6 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/graphics_solar_radiation_nrel.gif
@@ -623,7 +637,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Radiacion solar vista por un modulo fotovoltaico.
+Radiación solar vista por un módulo fotovoltaico.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -683,7 +697,7 @@ reference "eq:SVF"
 
 \end_inset
 
- se refleja como obtener los parámetros mencionados anteriormente.
+, se muestra cómo obtener los parámetros mencionados anteriormente.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -775,15 +789,15 @@ Medidores de radiación solar
 \end_layout
 
 \begin_layout Subsubsection
-Piranometro
+Piranómetro
 \end_layout
 
 \begin_layout Standard
 Es un tipo de radiómetro utilizado para medir la irradiancia solar.
- Los piranometros son utilizados para medir el GHI y el DHI; los dispositivos
+ Los piranómetros son utilizados para medir el GHI y el DHI; los dispositivos
  que miden el GHI, son instalados en una superficie horizontal estable y
  libre de obstrucciones locales.
- Por otro lado, los piranometros que miden el DHI, son instalados en un
+ Por otro lado, los piranómetros que miden el DHI, son instalados en un
  seguidor solar automático equipado con un mecanismo de sombreado o en una
  plataforma de banda de sombra (REVISAR la palabra es shadowband) ajustada
  manualmente para bloquear el DNI de la superficie del detector.
@@ -803,7 +817,7 @@ reference "fig:Medidores solares"
 
 \end_inset
 
- se puede observar un piranometro.
+ se puede observar un piranómetro.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -820,11 +834,11 @@ Pirheliómetro
 
 \begin_layout Standard
 Es un tipo de radiómetro utilizado para medir la irradiancia solar.
- Estos instrumentos son utilizado para medir el DNI, para ello son instalados
+ Estos instrumentos son utilizados para medir el DNI, para ello son instalados
  sobre un seguidor solar automático para su alineación con el disco solar.
- Al igual que los piranometros mencionados anteriormente, estos dispositivos
- también utilizan detectores termoeléctricos o fotoeléctricos para convertir
- el flujo solar en una señal eléctrica.
+ Al igual que los piranómetros mencionados anteriormente, estos dispositivos
+ utilizan detectores termoeléctricos o fotoeléctricos para convertir el
+ flujo solar en una señal eléctrica.
  En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -832,7 +846,7 @@ reference "fig:Medidores solares"
 
 \end_inset
 
- se puede observar un pirheliometro.
+ se puede observar este dispositivo.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -851,13 +865,13 @@ Celdas calibradas
 Son celdas fotovoltaicas, que un laboratorio acreditado ha puesto a prueba,
  iluminándolas con luz solar artificial y estableciendo una relación proporciona
 l entre la radiación recibida y la producción eléctrica.
- Se trata de medidores de menor precisión que los piranometros o pirheliometros
+ Se trata de medidores de menor precisión que los piranómetros o pirheliómetros
  pero que, dado su bajo costo, son muy utilizados para medir la radiación
  solar.
  Las celdas de referencia están conformadas por un sensor de temperatura,
  un cristal de protección, una celda fotovoltaica y un encapsulado robusto.
- Colocando una de estas celdas, se puede contrastar la producción de la
- instalación fotovoltaica, con la radiación aproximada recibida.
+ (((Colocando una de estas celdas, se puede contrastar la producción de
+ la instalación fotovoltaica, con la radiación aproximada recibida))) SOBRA.
  Cabe mencionar, que en la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -897,7 +911,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Piranometro, pirheliometro y celda calibrada respectivamente.
+Piranómetro, pirheliómetro y celda calibrada respectivamente.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -938,8 +952,8 @@ Unión p-n
 \end_layout
 
 \begin_layout Standard
-Se puede definir conceptualmente como un semiconductor dopado de tipo n
- y tipo p, que tienen una superficie en común.
+Se puede definir como un semiconductor dopado de tipo n y tipo p, que tienen
+ una superficie en común.
  Cuando ambos semiconductores están separados, son eléctricamente neutros.
  Tan pronto como se ponen en contacto, la mayoría de los portadores del
  semiconductor de tipo n (los electrones) comienzan a esparcirse en el semicondu
@@ -987,12 +1001,12 @@ Funcionamiento de una celda fotovoltaica
 \begin_layout Standard
 El efecto fotovoltaico es un proceso que genera tensión o corriente eléctrica
  en una celda fotovoltaica cuando está expuesta a la luz solar.
- Como ya se menciono anteriormente, las celdas fotovoltaicas están compuestas
+ Como ya se mencionó anteriormente, las celdas fotovoltaicas están compuestas
  por una unión p-n.
  Al unir estos dos tipos de semiconductores, se forma un campo eléctrico
  en la región de la unión a medida que los electrones se mueven hacia el
- lado p positivo y los agujeros hacia el lado n negativo.
- Este campo hace que las partículas con carga negativa se muevan en una
+ lado p (positivo) y los agujeros hacia el lado n (negativo).
+ Este campo hace que las partículas con carga negativa, se muevan en una
  dirección y las partículas con carga positiva en la otra.
 \end_layout
 
@@ -1004,10 +1018,10 @@ La luz está compuesta de fotones, que son simplemente pequeños haces de
  la energía del fotón se transfiere a un átomo del material semiconductor
  en la unión p-n.
  Específicamente, la energía se transfiere a los electrones del material.
- Esto hace, que los electrones salten a un estado de energía más alto conocido
+ Esto hace, que los electrones salten a un estado de energía más alto, conocido
  como la banda de conducción.
- Lo mencionado anteriormente, deja un "agujero" en la banda de valencia
- de la que saltó el electrón.
+ Lo mencionado anteriormente, deja un agujero en la banda de valencia de
+ la que saltó el electrón.
  Este movimiento del electrón como resultado de la energía añadida, crea
  dos portadores de carga, un par electrón-hueco.
 \end_layout
@@ -1024,9 +1038,9 @@ tor formando enlaces con los átomos circundantes y, por lo tanto, no pueden
  moverse hacia el lado n.
  Este movimiento del electrón crea una corriente eléctrica en la celda fotovolta
 ica.
- Una vez que el electrón se mueve, queda un "agujero" que también se puede
+ Una vez que el electrón se mueve, queda un agujero que también se puede
  mover, pero en la dirección opuesta al lado p.
- Es este proceso el que crea una corriente en la celda.
+ Este es el proceso con el cual se crea una corriente en la celda fotovoltaica.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1037,14 +1051,61 @@ key "Hanania2015"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Photovoltaiceffect.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Efecto fotovoltaico.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Efecto-fotovoltaico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Modulo fotovoltaico
+Módulo fotovoltaico
 \end_layout
 
 \begin_layout Standard
-Es un dispositivo conformado por un conjunto de celdas solares encapsuladas
- conectadas en paralelo y en serie, de tal forma que, la potencia neta que
- es capaz de generar el dispositivo aumente.
+Es un dispositivo conformado por un conjunto de celdas fotovoltaicas encapsulada
+s conectadas en paralelo y/o en serie.
+ Dicha conexión, nos permite aumentar la potencia neta que es capaz de generar
+ el dispositivo.
 \end_layout
 
 \begin_layout Standard
@@ -1054,13 +1115,10 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/modulo solar.jpg
+	scale 85
 
 \end_inset
 
@@ -1068,7 +1126,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Conexiones de celdas fotovoltaicas para formar un modulo solar.
+Conexiones de celdas fotovoltaicas para formar un módulo solar.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1099,15 +1157,14 @@ Condiciones de prueba estándar (Standard test conditions)
 
 \begin_layout Standard
 Se refiere, a mediciones de voltaje y de corriente que se le realizan a
- una celda o a un modulo fotovoltaico durante ciertas condiciones ambientales.
- Dichas mediciones, tienen que realizarse a un radiación de 1000 
+ una celda o a un módulo fotovoltaico durante ciertas condiciones ambientales.
+ Dichas mediciones, tienen que realizarse a un irradiancia de 1000 
 \begin_inset Formula $\frac{W}{m^{2}}$
 \end_inset
 
 , a una temperatura de 25°C y a un espectro AM 1.5.
  Generalmente, las mediciones que se realizan son: voltaje de circuito abierto,
- corriente de cortocircuito y potencia, corriente y voltaje en el punto
- de máxima potencia.
+ corriente de cortocircuito y potencia, corriente y voltaje en el MPP.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1123,16 +1180,48 @@ Circuitos equivalentes de una celda fotovoltaica
 \end_layout
 
 \begin_layout Standard
-Existen tres representaciones circuitales.
+Existen tres representaciones circuitales, el modelo de un solo diodo sin
+ resistencia en paralelo, un diodo con resistencia en paralelo y el modelo
+ de dos diodos.
+ Dichos modelos, se pueden observar las Figuras 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: un diodo sin rp"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:un diodo con rp"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: dos diodos con rp"
+
+\end_inset
+
+.
  El primero de estos tres circuitos equivalentes mencionados anteriormente,
  es el más utilizado por los investigadores para realizar simulaciones de
- un sistema de energía eléctrica fotovoltaica, ya que es el más simple de
- los tres y presenta un comportamiento similar al ideal cuando los niveles
- de radiación no son bajos (por encima de 200
+ una celda o módulo fotovoltaico, ya que es el más simple de los tres y
+ presenta un comportamiento similar al ideal cuando los niveles de radiación
+ no son bajos (por encima de 200
 \begin_inset Formula $\frac{W}{^{m2}}$
 \end_inset
 
 ).
+ La ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:un diodo sin rp"
+
+\end_inset
+
+ relaciona el voltaje con la corriente del dispositivo.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1177,10 +1266,14 @@ Donde
 \end_inset
 
  es el voltaje en terminales de la celda o modulo fotovoltaico, 
+\begin_inset Formula $R_{s}$
+\end_inset
+
+ es la resistencia serie, 
 \begin_inset Formula $A_{q}$
 \end_inset
 
-, 
+ FALTA!!!!!!, 
 \begin_inset Formula $k$
 \end_inset
 
@@ -1189,6 +1282,7 @@ Donde
 \end_inset
 
  es la temperatura de la celda fotovoltaica.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1245,9 +1339,9 @@ name "fig: un diodo sin rp"
 \begin_layout Standard
 El segundo circuito equivalente presenta una resistencia adicional, la cual
  se encuentra en paralelo con el diodo.
- Este modelo es mas preciso ya que, la nueva resistencia proporciona un
- comportamiento más adecuado cuando estamos en presencia de una radiación
- baja.
+ Este modelo es más preciso que el anterior, ya que, la nueva resistencia
+ proporciona un comportamiento más adecuado cuando estamos en presencia
+ de una radiación baja.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1270,11 +1364,6 @@ I=I_{ph}-I_{o}(e^{q(V+IRs)/A_{q}kT}-1)-\frac{(V+IR_{s})}{R_{p}}\label{eq:un diod
 \end_layout
 
 \begin_layout Standard
-Donde 
-\begin_inset Formula $R_{s}$
-\end_inset
-
- es la resistencia serie del modelo y 
 \begin_inset Formula $R_{p}$
 \end_inset
 
@@ -1343,17 +1432,13 @@ name "fig:un diodo con rp"
 \end_layout
 
 \begin_layout Standard
-Por ultimo, tenemos el tercer modelo, el cual esta conformados por dos diodos
- y una resistencia en paralelo y otra en serie.
- Esta representación del comportamiento de las celdas fotovoltaicas, incorporand
-o los efectos de recombinación de la carga espacial mediante un componente
- de corriente separado con su propia dependencia exponencial del voltaje,
- es considerada por la literatura como la mas precisa, especialmente cuando
- se lidia con ((bajos)) niveles de iluminación.
- Este modelo es capaz de dar una respuesta muy cercana a la real, tanto
- para altos como para bajos niveles de irradiación.
- Cabe destacar, que el comportamiento de este circuito equivalente mejora
- si se esta tratando de modelar celdas que están construidas son silicio
+Por último, tenemos el tercer modelo, el cual esta conformados por dos diodos
+ en paralelo y dos resistencias, una en paralelo y otra en serie.
+ Esta representación del comportamiento de las celdas fotovoltaicas, es
+ considerada por la literatura como la más precisa, especialmente cuando
+ se lidia con bajos niveles de iluminación.
+ Cabe destacar que, el comportamiento de este circuito equivalente mejora
+ si se está tratando de modelar celdas que están construidas son silicio
  policristalino.
  
 \begin_inset CommandInset citation
@@ -1390,7 +1475,7 @@ Donde
  en la ecuación 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:un diodo sin rp"
+reference "eq:un diodo con rp"
 
 \end_inset
 
@@ -1417,7 +1502,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Modelo de dos diodo con resistencia en paralelo.
+Modelo de dos diodos con resistencia en paralelo.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig: dos diodos con rp"
@@ -1446,10 +1531,10 @@ Curvas características
 \end_layout
 
 \begin_layout Standard
-Una celda o modulo fotovoltaico tienen dos curvas características, la primera
- de ellas es la curva voltaje contra corriente.
- Por otro lado, tenemos la curva de voltaje contra potencia.
- Ambas curvas se pueden observar en la Figura 
+Una celda o modulo fotovoltaico tienen dos curvas características, una de
+ ellas es la curva voltaje contra corriente, mientras que la segunda, es
+ la curva de voltaje contra potencia.
+ Ambas gráficas se pueden observar en la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Curvas características de una celda fotovoltaica"
@@ -1483,7 +1568,7 @@ Es una de las dos curvas características de una celda o modulo fotovoltaico.
 \end_layout
 
 \begin_layout Standard
-Por ultimo, tenemos la corriente y el voltaje en el punto de máxima potencia,
+Por último, tenemos la corriente y el voltaje en el punto de máxima potencia,
  representados por 
 \begin_inset Formula $I_{mp}$
 \end_inset
@@ -1496,8 +1581,8 @@ Por ultimo, tenemos la corriente y el voltaje en el punto de máxima potencia,
  El punto de máxima potencia es aquel donde, la potencia eléctrica producida
  por la celda o modulo fotovoltaica es la máxima posible de acuerdo a las
  condiciones ambientales presentes.
- Cabe destacar que, al presentarse cambios en la irradiancia y/o en la temperatu
-ra, la curva se vera modificada.
+ (((Cabe destacar que, al presentarse cambios en la irradiancia y/o en la
+ temperatura, la curva se vera modificada))) LO QUITAMOS??.
  
 \end_layout
 
@@ -1507,10 +1592,11 @@ Curva Potencia - Voltaje
 
 \begin_layout Standard
 La curva de potencia contra voltaje, representa los distintos valores de
- potencia que el modulo es capaz de entregar para distintos valores de carga.
- La cúspide de la curva, representa el punto de máxima potencia y la potencia
- máxima que es capaz de entregar el modulo o celda fotovoltaica, se denota
- con las siglas 
+ potencia que el módulo es capaz de entregar para diferentes valores de
+ carga.
+ La cúspide de la curva representa el MPP, y la potencia que es capaz de
+ entregar el módulo o celda fotovoltaica en dicho punto, se denota con las
+ siglas 
 \begin_inset Formula $P_{mp}$
 \end_inset
 
@@ -1576,17 +1662,15 @@ Monocristalina
 
 \begin_layout Standard
 Las celdas solares monocristalinas ofrecen la mayor pureza de silicio.
- Se fabrican mediante el método Czochralski, en el que se coloca una 'semilla'
- de cristal de silicio en una cubeta de silicio fundido.
  Su eficiencia oscila entre el 15% y el 22% (la más alta de todos los tipos
  de módulos).
  Dado que son tan eficientes energéticamente, también lo son en cuanto al
  espacio, necesitando menos superficie para producir la misma cantidad de
  energía que otros tipos de módulos fotovoltaicos, como los policristalinos.
  La eficiencia del espacio, puede equilibrar el alto coste de producción
- de silicio de alta pureza.
- Por ultimo, cabe destacar, que los módulos monocristalinos tienen una larga
- vida útil, de aproximadamente 25 años, y su apariencia es de color negro.
+ del silicio de alta pureza.
+ Por último, cabe destacar, que estos módulos tienen una larga vida útil
+ de aproximadamente 25 años, y su apariencia es de color negro.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1608,8 +1692,9 @@ Formado por el agrupamiento de cristales de silicio.
  El rendimiento no sobrepasa el 15% en modelos comerciales, esto causara
  que se produzca generalmente una menor eficiencia por espacio en comparación
  con los módulos monocristalinos.
- Por otro lado, la complejidad de fabricación de este tipo de celdas es
- menor al de las monocristalinas, por ende, el coste también es menor.
+ Por otro lado, la complejidad de fabricación de las celdas policristalinas
+ es menor al de los módulos mencionados anteriormente, por ende, el coste
+ también es menor.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1632,13 +1717,14 @@ Los módulos de película delgada son una tecnología totalmente diferente
 \end_layout
 
 \begin_layout Standard
-Las celdas de capa fina tienen la reputación de ser las "peores" de las
- tecnologías de los módulos fotovoltaicos porque, tienen la menor eficiencia.
+Las celdas de película delgada, tienen la reputación de ser las "peores"
+ entre la tecnología de los módulos fotovoltaicos porque, tienen la menor
+ eficiencia.
  Sin embargo, esto se debe únicamente a que requieren mayor cantidad de
  espacio para generar la misma cantidad de energía que otro tipo de módulo
  fotovoltaico.
- Debido a los bajos costes de material de la película delgada, se están
- convirtiendo rápidamente en los módulos más económicos.
+ Debido a los bajos costes de material de la película delgada, estos se
+ están convirtiendo rápidamente en los módulos más económicos.
  Dependiendo de la tecnología, los módulos de capa fina han alcanzado eficiencia
 s de entre el 7 y el 13%.
  
@@ -1652,31 +1738,6 @@ key "WebSendy2017"
 \end_layout
 
 \begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-ANTES ((Amorfo: En estos tipos de módulos, ha desaparecido la estructura
- cristalina ordenada y el silicio se ha depositado formando una capa fina.
- Sus colores son el marrón y el gris oscuro.
- Se utiliza generalmente en calculadoras y otros objetos pequeños, aunque
- también se utilizan (con menor frecuencia) para alimentar algunas casas
- privadas, edificios e instalaciones remotas.
- El rendimiento de estos módulos no sobrepasa el 9% en modelos comerciales.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Casa2012"
-
-\end_inset
-
-))
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1686,6 +1747,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Tipos de modulos.JPG
+	scale 85
 
 \end_inset
 
@@ -1732,13 +1794,13 @@ Independiente (Stand Alone)
 \begin_layout Standard
 Son aquellos sistemas fotovoltaicos que no están conectados a la red eléctrica
  principal, solo cuentan con el suministro de energía eléctrica aportado
- por los módulos solares.
+ por los módulos fotovoltaicos.
  Estos sistemas pueden poseer o no, un sistema de almacenamiento de energía
  como lo son las baterías, cabe destacar que dichos dispositivos de almacenamien
 to deben ser capaces de alimentar la carga durante la noche y cuando se
  presenten condiciones climáticas deficientes.
  Por otro lado, este sistema fotovoltaico puede contener tanto cargas AC
- o DC.
+ como DC.
  En las Figuras 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1858,17 +1920,17 @@ Conectado a la red (Grid connected)
 
 \begin_layout Standard
 Son sistemas fotovoltaicos que están conectados a la red eléctrica a través
- de inversores, los cuales se encargan de convertir las señales en DC a
- AC.
- En caso de que los módulos solares no sean capaces de suplir la demanda
+ de inversores, los cuales se encargan de convertir las señales DC en AC.
+ En caso de que los módulos fotovoltaicos no sean capaces de suplir la demanda
  de la carga, la red actuaria entregando la potencia faltante; este fenómeno
  se puede presentar debido a factores ambientales o durante la noche, donde
- los módulos solares no generan energía eléctrica.
+ los módulos no generan energía eléctrica.
  Por otro lado, estos sistemas no tienen la necesidad de tener un arreglo
  de baterías para el almacenamiento de energía, debido a lo mencionado anteriorm
-ente, sin embargo esta configuración se está volviendo cada vez más popular.
- Cabe señalar que, dichos sistemas también son capaces de trabajar con cargas
- en corriente continua y alterna.
+ente, sin embargo, su implementación se está volviendo cada vez más popular
+ en estos sistemas.
+ Cabe señalar que, los sistemas conectados a la red también son capaces
+ de trabajar con cargas en corriente continua y alterna.
  En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1937,18 +1999,18 @@ Híbrido
 
 \begin_layout Standard
 Los sistemas fotovoltaicos híbridos, son aquellos que cuentan con varias
- fuentes de generación de energía ademas de la solar fotovoltaica, es decir,
- son sistemas compuestos por módulos solares y una o varias fuentes de generació
-n de energía eléctrica complementaria, estas pueden ser: eólica, gasolina,
- diésel, micro turbinas a gas, entre otros.
+ fuentes de generación de energía además de la solar fotovoltaica, es decir,
+ son sistemas compuestos por módulos fotovoltaicos y una o varias fuentes
+ de generación de energía eléctrica complementaria, estas pueden ser: eólica,
+ gasolina, diésel, micro turbinas a gas, entre otros.
  Cabe señalar, que estos sistemas pueden alimentar tanto cargas en corriente
  alterna como en continua; por otro lado, pueden tener o no un sistema de
  almacenamiento de energía.
  Los sistemas híbridos pueden estar conectados a la red eléctrica principal
  o también, pueden instalarse de forma aislada a la red.
- Es importante destacar, que al incluir varias fuente de generación de energía,
- es necesario implementar sistemas de control mas robustos y complicados
- a los que se usan en los sistemas Stand Alone y Grid Conected.
+ Es importante destacar, que al incluir varias fuentes de generación de
+ energía, es necesario implementar sistemas de control más robustos y complicado
+s a los que se usan en los sistemas Stand Alone y Grid Conected.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2005,8 +2067,8 @@ Balance del Sistema (BOS)
 \end_layout
 
 \begin_layout Standard
-El termino Balance del sistema o por sus siglas en ingles, BOS (Balance
- of System), hace referencia a todos los elementos que componen un sistema
+El termino Balance del sistema o por sus siglas en ingles BOS (Balance of
+ System), hace referencia a todos los elementos que componen un sistema
  de generación de energía solar fotovoltaico, véase: módulos solares, conversore
 s DC-DC, inversores, sistema de almacenamiento de energía, conductores,
  controladores de carga, carga en corriente continua, cargas en corriente
@@ -2044,7 +2106,7 @@ Algoritmo Genético
 Es un tipo de algoritmo evolutivo inspirado en la teoría de la selección
  natural de Charles Darwin.
  Este algoritmo trata de simular los procesos que suceden en la naturaleza,
- en donde, solo los individuos mas aptos de una población son capaces de
+ en donde, solo los individuos más aptos de una población son capaces de
  sobrevivir, y por ende, de reproducirse para así generar una nueva descendencia
 , la cual contendrá una mezcla del código genético de sus padres.
  
@@ -2063,8 +2125,8 @@ reference "fig:Algoritmo genetico"
  de forma aleatoria, en donde cada cromosoma estará conformado por genes,
  los cuales contendrán los parámetros requeridos; acto seguido, cada individuo
  de la población es pasado por una función de costos para así determinar
- cual es el grado de error entre cada muestra y el valor deseado.
- Posteriormente, se debe seleccionar los individuos mas aptos para sobrevivir,
+ cuál es el grado de error entre cada muestra y el valor deseado.
+ Posteriormente, se debe seleccionar los individuos más aptos para sobrevivir,
  para ello existen varios métodos, los mas usados en la literatura son el
  método de la ruleta y del torneo.
  
@@ -2083,7 +2145,7 @@ ar dos padres, es decir, dos individuos que fueron seleccionados anteriormente
 \end_layout
 
 \begin_layout Standard
-Una vez obtenidos los descendiente, se procede a crear una nueva población
+Una vez obtenidos los descendientes, se procede a crear una nueva población
  (de forma aleatoria) y se inserta en ella los hijos; posteriormente, se
  vuelve a buscar el error de cada individuo a través de la función de costos.
  Este proceso de repite constantemente, hasta que algún individuo de la
@@ -2159,24 +2221,28 @@ Es un dispositivo de electrónica de potencia, que tiene como propósito suminis
 ar una tensión de salida DC regulada a partir de una tensión de entrada
  DC fluctuante.
  Lo mencionado anteriormente, se logra gracias a los interruptores de potencia
- y a los elementos almacenadores de energía como lo son los capacitores
- he inductores.
- Existen una gran variedad de convertidores DC-DC, pero los más básicos
+ y a los elementos almacenadores de energía que conforman este dispositivo,
+ como lo son los capacitores he inductores.
+ Existen una gran variedad de convertidores DC-DC, pero los más utilizados
  son: el elevador, el reductor y el elevador-reductor.
 \end_layout
 
 \begin_layout Standard
 En primer lugar, tenemos el conversor elevador, en el cual el voltaje de
- salida siempre sera mayor o igual al voltaje de entrada del conversor.
- Por otro lado, en el conversor reductor, el voltaje de salida siempre sera
+ salida siempre será mayor o igual al voltaje de entrada del conversor.
+ Por otro lado, en el conversor reductor, el voltaje de salida siempre será
  menor o igual al voltaje de entrada.
- Por ultimo, el conversor elevador-reductor, combina las propiedades de
- los mencionados anteriormente, logrando así, aumentar o reducir el voltaje
- de salida respecto al de entrada.
- Para poder obtener el voltaje de salida deseado en estos convertidores
- es necesario controlar el ciclo de trabajo, el cual se puede definir como
- la relacion entre el tiempo de encendido y el periodo de la señal del interrupt
-or de potencia.
+ Por último, el conversor elevador-reductor, combina las propiedades de
+ los dispositivos mencionados anteriormente, logrando así, aumentar o reducir
+ el voltaje de salida respecto al de entrada.
+ 
+\end_layout
+
+\begin_layout Standard
+Para poder obtener el voltaje de salida deseado en estos convertidores,
+ es necesario controlar el ciclo de trabajo de los interruptores, el cual
+ se puede definir como la relación entre el tiempo de encendido y el periodo
+ de la señal del interruptor de potencia.
  En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2184,11 +2250,68 @@ reference "fig:ConvertidorDC-DC"
 
 \end_inset
 
-, se pueden observar la topologia de los convertidores mencionados anteriormente.
+, se pueden observar las topologías de los convertidores mencionados anteriormen
+te.
+ En las ecuaciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Buck"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Boost"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Buck-Boost"
+
+\end_inset
+
+, se muestra la relación entre el voltaje de salida y el voltaje de entrada
+ del conversor reductor, elevador y elevador-reductor respectivamente.
  
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Skvarenina2001"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{out}=DV_{in}\label{eq:Buck}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{out}=\frac{1}{1-D}V_{in}\label{eq: Boost}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{out}=\frac{D}{1-D}V_{in}\label{eq:Buck-Boost}
+\end{equation}
 
 \end_inset
 
@@ -2250,8 +2373,9 @@ Es un dispositivo electrónico que tiene como objetivo principal permitir
  Generalmente, estos conversores son ampliamente utilizados en aplicaciones
  que requieran el uso de celdas de combustible, supercapacitores y baterías,
  como es el caso de los sistemas fotovoltaicos.
- Cabe mencionar, que estos conversores se pueden dividir en dos categorías,
- en aquellos que se encuentra aislados y los que no se encuentran aislados.
+ Cabe mencionar, que los conversores DC-DC bidireccionales se pueden dividir
+ en dos categorías, aquellos que se encuentra aislados y los que no se encuentra
+n aislados.
 \end_layout
 
 \begin_layout Standard
@@ -2263,8 +2387,8 @@ reference "fig:Conversor-DC-DC-bidireccional"
 \end_inset
 
 , se puede observar un conversor de medio puente no aislado, este dispositivo
- puede funcionar tanto como un conversor elevador como reductor, si se interactu
-á con el interruptor de potencia Q1 mientras Q2 se mantiene apagado, el
+ puede funcionar tanto como un conversor elevador como reductor, si se interactú
+a con el interruptor de potencia Q1 mientras Q2 se mantiene apagado, el
  dispositivo funcionara como un conversor reductor, en caso contrario operara
  como elevador.
  
@@ -2329,25 +2453,35 @@ Inversor
 \begin_layout Standard
 Es un dispositivo de electrónica de potencia, que tiene como objetivo llevar
  las señales de corriente y voltaje en corriente continua a corriente alterna,
- esto lo logra mediante el control de los interruptores de potencia que
- conforman este dispositivo, con los cuales se puede variar la frecuencia
- y la magnitud de las onda de salida.
+ esto se puede lograr mediante el control de los interruptores de potencia
+ que conforman este dispositivo, con los cuales se puede variar la frecuencia
+ y la magnitud de las ondas de salida.
  Estos dispositivos tienen diversas aplicaciones, y generalmente se pueden
  encontrar en UPS, en sistemas fotovoltaicos, en el control de velocidad
- de una maquina de corriente alterna, entre otros.
+ de una máquina de corriente alterna, entre otros.
  
 \end_layout
 
 \begin_layout Standard
-Cabe señalar, que existen diversas topologias para estos dispositivos, en
- lineas generales podemos encontrar la monofasica y la trifasica.
- La primera de ellas, esta conformada por cuatros interruptores de potencias
- y toma una señal monofasica en corriente directa, y la transforma en una
- señal monofasica en corriente alterna.
- Por otro lado, el inversor trifasico se encarga de llevar un señal monofasica
- en DC a tres señales en AC desfasadas entre ellas 120°, esto lo logra gracias
+Cabe señalar que, existen diversas topologías para estos dispositivos, en
+ líneas generales podemos encontrar la monofásica y la trifásica.
+ La primera de ellas, está conformada por cuatros interruptores de potencias
+ y toma una señal monofásica en corriente directa, y la transforma en una
+ señal monofásica en corriente alterna.
+ Por otro lado, el inversor trifásico se encarga de llevar una señal monofásica
+ en DC a tres señales en AC desfasadas 120° entre ellas, esto lo logra gracias
  a sus seis interruptores de potencia.
- En la Figura , se pueden observar las topologias descritas anteriormente.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inversor 1F y 3F"
+
+\end_inset
+
+, se pueden observar las topologías descritas anteriormente.
+ Cabe destacar, que los inversores mencionados anteriormente se controlan
+ gracias a una PWM, con la cual se puede ajustar tanto la frecuencia como
+ la amplitud de la onda de salida.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2378,10 +2512,254 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Inversor monofasico y trifasico.
+Inversor monofásica y trifásico.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Inversor 1F y 3F"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Modulación por ancho de pulso (PWM)
+\end_layout
+
+\begin_layout Standard
+Es una señal que se genera al comparar dos ondas, las cuales reciben el
+ nombre de portadora y referencia.
+ Siempre que la señal de referencia sea superior a la portadora, la PWM
+ será igual a uno, en caso contrario será cero.
+ La señal de la modulación por ancho de pulso va hacia los interruptores
+ de potencia, logrando así controlar su encendido y apagado, lo cual nos
+ permite manipular el voltaje de salida del dispositivo (inversor, conversor
+ DC-DC, entre otros).
+ (((Cabe señalar, que las ondas de referencia y portadoras varían dependiendo
+ de su aplicación, en el caso de un inversor se puede utilizar una sinusoidal
+ y una triangular respectivamente))) QUITAR???.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bueno2017"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/PWM.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modulación por ancho de pulso.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PWM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Indice de modulación de frecuencia
+\end_layout
+
+\begin_layout Standard
+Se define como la relación entre la frecuencia de la onda portadora y la
+ onda de referencia.
+ La señal de salida de inversor, tendrá una frecuencia igual a la de la
+ onda de referencia y presentará armónicos en y alrededor de los múltiplos
+ de la frecuencia de la onda portadora.
+ Cabe señalar que, un índice de modulación elevado ayuda al filtrado de
+ armónicos de la señal de entrada del inversor, pero aumenta las perdidas
+ en los interruptores.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bueno2017,Mohan2009"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+m_{f}=\frac{f_{portadora}}{f_{referencia}}\label{eq:indice de modulacion de frecuencia}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Índice de modulación de amplitud
+\end_layout
+
+\begin_layout Standard
+Es la relación entre el voltaje pico de la onda de referencia y la onda
+ portadora.
+ Es importante destacar que si este índice es menor o igual a uno, el voltaje
+ efectivo de salida del inversor en su componente fundamental será directamente
+ proporcional al índice de modulación; en la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:indice de modulación de amplitud 2"
+
+\end_inset
+
+ se puede observar dicha relación para un inversor trifásico.
+ Cabe destacar que, la sobremodulación causara que el voltaje de salida
+ del inversor contenga muchas más armónicos en comparación con el rango
+ lineal (
+\begin_inset Formula $m_{a}$
+\end_inset
+
+ menor o igual a uno).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bueno2017,Mohan2009"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+m_{a}=\frac{V_{pico_{referencia}}}{V_{pico_{portadora}}}\label{eq:indice de modulacion de amplitud}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{LL_{rms1}}=\frac{\sqrt{3}}{2\sqrt{2}}m_{a}V_{DC}\label{eq:indice de modulación de amplitud 2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Enlace CD (DC link)
+\end_layout
+
+\begin_layout Standard
+Es un capacitor que se coloca entre el conversor DC-DC y el inversor, el
+ cual se encarga de disminuir el rizado del voltaje a la salida del conversor
+ DC-DC y, además, limita las fluctuaciones de voltaje en la entrada del
+ inversor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Filtro
+\end_layout
+
+\begin_layout Standard
+Es un circuito capaz de dejar pasar un rango de frecuencias deseado, logrando
+ así, reducir el contenido armónico de la señal de entrada.
+ Existe una gran cantidad de topologías para los filtros, pero en lo que
+ respecta a los sistemas fotovoltaicos, los más utilizados son los filtros
+ L, LC y LCL, los cuales se colocan a la salida del inversor.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Filtro"
+
+\end_inset
+
+ se pueden apreciar las topologías de los filtros mencionados anteriormente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Filtro.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Filtro L, LC y LCL.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Filtro"
 
 \end_inset
 
@@ -2448,15 +2826,15 @@ Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
 \end_layout
 
 \begin_layout Standard
-Es una técnica usada en los conversores DC-DC para obtener la máxima potencia
- de los módulos solares, para ello, se varia el ciclo de trabajo del conversor,
- logrando así que la impedancia aparente vista por el modulo sea la del
- punto de máxima potencia.
- Cabe destacar, que este punto varia con la temperatura y con la radiación,
- por ende va cambiando constantemente.
- Hoy en día, existen diversos algoritmos para encontrar el MPP, entre las
- más utilizadas en la literatura podemos encontrar: Perturba y observa (P&O),
- Conductancia incremental y Lógica difusa (Fuzzy logic).
+Es una técnica utilizada en los conversores DC-DC para obtener la máxima
+ potencia de los módulos fotovoltaicos, para ello, se varía el ciclo de
+ trabajo del dispositivo, logrando así que la impedancia aparente vista
+ por el módulo sea la del punto de máxima potencia.
+ Cabe destacar, que este punto varia con la temperatura y con la radiación
+ solar, por ende va cambiando constantemente.
+ Hoy en día, existen diversos algoritmos para encontrar el MPP, entre los
+ más utilizadas por la literatura podemos encontrar: Perturba y observa
+ (P&O), Conductancia incremental y Lógica difusa (Fuzzy logic).
  
 \end_layout
 
@@ -2471,7 +2849,7 @@ Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
  buscar el punto de máxima potencia del módulo fotovoltaico independientemente
  de los niveles de radiación y temperatura que existan.
  Mediante las variaciones de voltaje (que se producen mediante modificaciones
- del ciclo se trabajó) y por ende, de potencia, se puede concluir en que
+ del ciclo se trabajó) y, por ende, de potencia, se puede concluir en que
  parte de la curva P-V nos encontramos.
  En la Figura 
 \begin_inset CommandInset ref
@@ -2542,167 +2920,6 @@ name "fig:Algoritmo-P&O."
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Lazo de bloqueo de fase (PLL)
-\end_layout
-
-\begin_layout Standard
-El Phase Locked Loop o por sus siglas PLL, es un sistema a lazo cerrado
- en el que se controla un oscilador interno para seguir el tiempo de alguna
- señal periódica externa utilizando el lazo de realimentación.
- Generalmente, estos tipos de sistemas de control se utilizan en el campo
- de las comunicaciones y de la computación, pero también se puede implementar
- en el campo de la electrónica, para por ejemplo, poder sincronizar las
- señales de salida del inversor con las señales de la red eléctrica.
- 
-\end_layout
-
-\begin_layout Standard
-El PLL más simple esta conformado por un detector de fase, un filtro y un
- oscilador controlado por voltaje, esto se puede apreciar mejor en la Figura
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:PLL"
-
-\end_inset
-
-.
- El detector de fase, se encarga de comparar la señal de entrada, con la
- señal de salida del oscilador controlado por voltaje; la diferencia entre
- ambas señales sera la salida de este bloque.
- Dicha señal ahora pasara por un filtro, el cual es de tipo pasa bajo para
- eliminar las componentes de alta frecuencia.
- La señal de salida del filtro va hacia el oscilador controlado por voltaje,
- el cual genera en su salida, una señal en corriente alterna cuya frecuencia
- se desplaza respecto a una frecuencia dada, hasta sincronizarse con la
- señal de entrada.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Teodorescu2011"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/PLL basico.jpg
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-PLL básico.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:PLL"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-El PLL mencionado anteriormente es el mas básico, y solo funciona cuando
- queremos sincronizar señales monofasicas, en el caso de querer sincronizar
- señales trifasicas, es necesario implementar el Cuadro de referencia síncrono-l
-azo de bloqueo de fase (Synchronous Reference Frame-Phase Locked Loop) o
- por sus siglas SRF-PLL.
- Este PLL, traduce las señales de entrada trifásicas del marco abc al marco
- de referencia giratorio dq utilizando la transformación de Clark y de Park.
- La posición angular de este marco de referencia dq es controlada por un
- lazo de retroalimentación que regula la componente q a cero.
- El esquema de control de este PLL se puede observar en la Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:SRF-PLL"
-
-\end_inset
-
-.
- Cabe señalar, que existen otros tipos de PLL que se encuentran diseñados
- para atacar distintos problemas que se puedan presentar en la red eléctrica.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Teodorescu2011"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/SRFPLL.jpg
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-SRF-PLL.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:SRF-PLL"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
