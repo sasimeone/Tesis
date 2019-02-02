@@ -1,9 +1,7 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
-\save_transient_properties true
-\origin unavailable
 \textclass book
 \use_default_options true
 \maintain_unincluded_children false
@@ -11,16 +9,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
-\font_math "auto" "auto"
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100 100
-\font_tt_scale 100 100
+\font_sf_scale 100
+\font_tt_scale 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -54,8 +52,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 2
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -77,7 +75,7 @@ status open
 
 \begin_layout Plain Layout
 
-% Portada del libro, siguiendo las pautas del anexo D de las normas del
+% Caratula del libro, siguiendo las pautas del anexo C de las normas del
  libro USB
 \end_layout
 
@@ -85,21 +83,14 @@ status open
 
 
 \backslash
-addcontentsline{toc}{chapter}{PORTADA} 		% Agrega al indice general
+thispagestyle{empty} 			% Evita numeración sobre la pagina
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-thispagestyle{empty} 						  % Evita numeración sobre esta pagina
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 								 % Centra el logo de la uni
+begin{center} 				   % Centra el logo de la uni
 \end_layout
 
 \end_inset
@@ -110,7 +101,7 @@ begin{center} 								 % Centra el logo de la uni
 \begin_layout Standard
 \begin_inset Graphics
 	filename logoUSB.eps
-	scale 50
+	scale 30
 
 \end_inset
 
@@ -175,7 +166,7 @@ bfseries COORDINACIÓN DE TECNOLOGÍA E INGENIERÍA ELÉCTRICA}
 \backslash
 
 \backslash
-[2.5cm]
+[5cm]
 \end_layout
 
 \begin_layout Plain Layout
@@ -207,12 +198,11 @@ textrm{
 \backslash
 large
 \backslash
-bfseries Factibilidad de implementar energia solar fotovoltaica en las instalaci
-ones de la Universidad Simon Bolivar}
+bfseries (TITULO DEL PROYECTO DE GRADO O INFORME DE PASANTÍA)}
 \backslash
 
 \backslash
-[2cm]
+[4cm]
 \end_layout
 
 \end_inset
@@ -248,77 +238,11 @@ normalsize Por:}
 \backslash
 textrm{
 \backslash
-normalsize Francisco Bastardo 13-10126}
+normalsize (NOMBRE DEL AUTOR)}
 \backslash
 
 \backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Samuel Simeone 13-11362}
-\backslash
-
-\backslash
-[2cm]
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Tutor y cotutor
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Realizado con la asesoría de:}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Anibal Carpio}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Victor Guzman}
-\backslash
-
-\backslash
-[2cm]
+[3.4cm]
 \end_layout
 
 \end_inset
@@ -341,7 +265,7 @@ status open
 \backslash
 textrm{
 \backslash
-normalsize PROYECTO DE GRADO EN AVANCES}
+normalsize PROYECTO DE GRADO A DEDICACIÓN EXCLUSIVA / INFORME DE PASANTÍA}
 \backslash
 
 \backslash
@@ -384,7 +308,7 @@ normalsize Ingeniero Electricista}
 \backslash
 
 \backslash
-[1.5cm]
+[1cm]
 \end_layout
 
 \end_inset

@@ -15,7 +15,7 @@
 }
 
 @Book{Casa2012,
-  title     = {Instalaciones solares fotovoltacias},
+  title     = {Instalaciones solares fotovoltaicas},
   publisher = {marcombo},
   year      = {2012},
   author    = {M. Casa and M. Barrio},
@@ -158,6 +158,14 @@
   author    = {Ned Mohan},
   isbn      = {9701072480},
   url       = {https://www.amazon.com/Electr%C3%B3nica-Potencia-Convertidores-Aplicaciones-Spanish/dp/9701072480?SubscriptionId=AKIAIOBINVZYXZQZ2U3A&tag=chimbori05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=9701072480},
+}
+
+@Electronic{Mallawaarachchi2017,
+  author = {Vijini Mallawaarachchi},
+  month  = jul,
+  year   = {2017},
+  title  = {Introduction to Genetic Algorithms },
+  url    = {https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

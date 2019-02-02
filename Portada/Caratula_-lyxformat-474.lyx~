@@ -54,8 +54,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 2
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -77,7 +77,7 @@ status open
 
 \begin_layout Plain Layout
 
-% Portada del libro, siguiendo las pautas del anexo D de las normas del
+% Caratula del libro, siguiendo las pautas del anexo C de las normas del
  libro USB
 \end_layout
 
@@ -85,21 +85,14 @@ status open
 
 
 \backslash
-addcontentsline{toc}{chapter}{PORTADA} 		% Agrega al indice general
+thispagestyle{empty} 			% Evita numeración sobre la pagina
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-thispagestyle{empty} 						  % Evita numeración sobre esta pagina
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 								 % Centra el logo de la uni
+begin{center} 				   % Centra el logo de la uni
 \end_layout
 
 \end_inset
@@ -110,7 +103,7 @@ begin{center} 								 % Centra el logo de la uni
 \begin_layout Standard
 \begin_inset Graphics
 	filename logoUSB.eps
-	scale 50
+	scale 30
 
 \end_inset
 
@@ -175,7 +168,7 @@ bfseries COORDINACIÓN DE TECNOLOGÍA E INGENIERÍA ELÉCTRICA}
 \backslash
 
 \backslash
-[2.5cm]
+[5cm]
 \end_layout
 
 \begin_layout Plain Layout

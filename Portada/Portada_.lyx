@@ -110,7 +110,7 @@ begin{center} 								 % Centra el logo de la uni
 \begin_layout Standard
 \begin_inset Graphics
 	filename logoUSB.eps
-	scale 50
+	scale 40
 
 \end_inset
 

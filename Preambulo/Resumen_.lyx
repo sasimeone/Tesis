@@ -6,6 +6,7 @@
 \origin unavailable
 \textclass book
 \use_default_options true
+\master Principal_Tesis.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -77,29 +78,9 @@ status open
 
 \begin_layout Plain Layout
 
-% Portada del libro, siguiendo las pautas del anexo D de las normas del
- libro USB
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-addcontentsline{toc}{chapter}{PORTADA} 		% Agrega al indice general
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty} 						  % Evita numeración sobre esta pagina
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center} 								 % Centra el logo de la uni
+begin{center}
 \end_layout
 
 \end_inset
@@ -109,8 +90,8 @@ begin{center} 								 % Centra el logo de la uni
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename logoUSB.eps
-	scale 50
+	filename ../Portada/logoUSB.eps
+	scale 30
 
 \end_inset
 
@@ -120,18 +101,6 @@ begin{center} 								 % Centra el logo de la uni
 \begin_layout Standard
 \begin_inset ERT
 status open
-
-\begin_layout Plain Layout
-
-% Titulo superior
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -145,44 +114,7 @@ bfseries UNIVERSIDAD SIMÓN BOLÍVAR}
 \backslash
 
 \backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize
-\backslash
-bfseries DECANATO DE ESTUDIOS PROFESIONALES}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize
-\backslash
-bfseries COORDINACIÓN DE TECNOLOGÍA E INGENIERÍA ELÉCTRICA}
-\backslash
-
-\backslash
-[2.5cm]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
+[0.5cm]
 \end_layout
 
 \end_inset
@@ -212,21 +144,7 @@ ones de la Universidad Simon Bolivar}
 \backslash
 
 \backslash
-[2cm]
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Autor
+[0.5cm]
 \end_layout
 
 \begin_layout Plain Layout
@@ -235,7 +153,7 @@ status open
 \backslash
 textrm{
 \backslash
-normalsize Por:}
+normalsize INFORME DE TESIS}
 \backslash
 
 \backslash
@@ -248,157 +166,11 @@ normalsize Por:}
 \backslash
 textrm{
 \backslash
-normalsize Francisco Bastardo 13-10126}
+normalsize Realizado por: Francisco Bastardo y Samuel Simeone}
 \backslash
 
 \backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Samuel Simeone 13-11362}
-\backslash
-
-\backslash
-[2cm]
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Tutor y cotutor
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Realizado con la asesoría de:}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Anibal Carpio}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Victor Guzman}
-\backslash
-
-\backslash
-[2cm]
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Titulo inferior
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize PROYECTO DE GRADO EN AVANCES}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Presentado ante la Ilustre Universidad Simón Bolívar}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize como requisito parcial para optar al título de}
-\backslash
-
-\backslash
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-textrm{
-\backslash
-normalsize Ingeniero Electricista}
-\backslash
-
-\backslash
-[1.5cm]
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Fecha
+[0.5cm]
 \end_layout
 
 \begin_layout Plain Layout
@@ -409,11 +181,11 @@ textrm{
 \backslash
 normalsize
 \backslash
-bfseries Sartenejas, (MES Y AÑO DEL ACTO DE GRADO)}
+bfseries RESUMEN}
 \backslash
 
 \backslash
-
+[0.5cm]
 \end_layout
 
 \end_inset
@@ -434,7 +206,7 @@ end{center}
 
 \end_inset
 
-
+ 
 \end_layout
 
 \end_body

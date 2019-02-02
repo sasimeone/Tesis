@@ -162,7 +162,7 @@
 \color #00aaff
 \end_index
 \leftmargin 3cm
-\topmargin 2cm
+\topmargin 2.5cm
 \rightmargin 2cm
 \bottommargin 2cm
 \headsep 0.5cm
@@ -182,6 +182,34 @@
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thepage}{} 		% Evita incluir en la numeracion a la caratula
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Portada/Caratula_.lyx"
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Standard
 \begin_inset ERT
@@ -238,7 +266,7 @@ status open
 
 
 \backslash
-setcounter{page}{2}
+includepdf{Acta_de_evaluacion.pdf}
 \end_layout
 
 \end_inset
@@ -247,8 +275,77 @@ setcounter{page}{2}
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{RESUMEN} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Preambulo/Resumen_.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{DEDICATORIA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Preambulo/Dedicatorialibro.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{AGRADECIMIENTOS}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Preambulo/Agradecimientos&reconocimiento_.lyx"
 
 \end_inset
 
@@ -267,6 +364,15 @@ addcontentsline{toc}{chapter}{
 \backslash
 'INDICE GENERAL}
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
@@ -374,20 +480,18 @@ mainmatter			 	% Numeracion en arabigo para el cuerpo del libro
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 rhead{
 \backslash
-thepage} 	  	% Numeracion a la derecha para paginas ~= capitulos
+thepage} 	   	% Numeracion a la derecha para paginas ~= capitulos
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-cfoot{
-\backslash
-thepage}			% Texto al centro del pie
+cfoot{}				    % Texto al centro del pie
 \end_layout
 
 \begin_layout Plain Layout
@@ -424,9 +528,15 @@ renewcommand{
 footrulewidth}{0pt} }
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Capitulos/Introduccion/Introducción.lyx"
 
 \end_inset
 
@@ -487,6 +597,15 @@ chapter}{0pt}{-2.5cm}{1cm}
 \end_layout
 
 \begin_layout Standard
+\start_of_appendix
+\begin_inset FormulaMacro
+\newcommand{\bibname}{References}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -510,7 +629,7 @@ uppercase{Referencias Bibliográficas}}
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "Bibliografia/Bibliografia"
-options "plain"
+options "ieeetr"
 
 \end_inset
 
@@ -528,6 +647,73 @@ status open
 addcontentsline{toc}{chapter}{REFERENCIAS BIBLIOGRAF
 \backslash
 'ICAS}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+titleformat{
+\backslash
+chapter}[block]%         
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+center
+\backslash
+bfseries
+\backslash
+large}					% formatting (fonts etc.)         
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+large APÉNDICE ~
+\backslash
+thechapter}	  		% defining the number before the title         
+\end_layout
+
+\begin_layout Plain Layout
+
+{0pt}							   		% space between the number and the title         
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+
+\backslash
+[7pt]}						   		% text/command between the number and the title       
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+[]										  % text/command after the title
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+titlespacing*{
+\backslash
+chapter}{0pt}{-1.5cm}{1cm}  % 2 cm de margen en los apéndices
 \end_layout
 
 \end_inset
