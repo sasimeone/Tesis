@@ -717,6 +717,28 @@ SVF=\frac{1+cos(\theta_{m})}{2}\label{eq:SVF}
 
 \end_layout
 
+\begin_layout Subsubsection
+Ángulo de Incidencia (AOI)
+\end_layout
+
+\begin_layout Standard
+Tomando en cuenta la posición del Sol respecto al panel, visto desde el
+ panel, es el ángulo 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ formado entre la superficie normal y la dirección de incidencia de los
+ rayos solares.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Subsection
 Medidores de radiación solar
 \end_layout
