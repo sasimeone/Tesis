@@ -269,15 +269,6 @@ State of Charge
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-SOH Estado de salud (
-\emph on
-State of Health
-\emph default
-)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
 STC Condiciones de prueba estándar (
 \emph on
 Standard test conditions
@@ -301,24 +292,6 @@ National Renewable Energy Laboratory
 BOS Balance del Sistema (
 \emph on
 Balance of System
-\emph default
-)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-BMS Sistema de manejo de baterías (
-\emph on
-Battery Management System
-\emph default
-)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-DOD Profundidad de Descarga (
-\emph on
-Depth of Discharge
 \emph default
 )
 \end_layout
@@ -354,6 +327,24 @@ Power Simulator
 PV Fotovoltaico (
 \emph on
 Photovoltaic
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+CC Corriente constante (
+\emph on
+Constant Current
+\emph default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+CV Voltaje constante (
+\emph on
+Constant Voltage
 \emph default
 )
 \end_layout

@@ -194,26 +194,7 @@ Instrumento eléctrico encargado de censar y registrar, de forma instantánea
 \end_layout
 
 \begin_layout Section
-Radiación Solar???
-\end_layout
-
-\begin_layout Subsection
-Radiación solar
-\end_layout
-
-\begin_layout Standard
-Es la energía procedente del sol en forma de ondas electromagnéticas.
- La radiación solar se distribuye y llega al planeta Tierra con los siguientes
- porcentajes: un 47% en luz visible, un 46% en radiación infrarroja y un
- 7% en ultravioleta.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Casa2012"
-
-\end_inset
-
-
+Posición de Sol
 \end_layout
 
 \begin_layout Subsection
@@ -426,46 +407,19 @@ AM=\frac{1}{cos(θ)}\label{eq:masa de aire}
 
 \end_layout
 
+\begin_layout Subsection
+Radiación solar
+\end_layout
+
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/masa de aire.JPG
-	scale 80
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Masa de aire.
+Es la energía procedente del sol en forma de ondas electromagnéticas.
+ La radiación solar se distribuye y llega al planeta Tierra con los siguientes
+ porcentajes: un 47% en luz visible, un 46% en radiación infrarroja y un
+ 7% en ultravioleta.
  
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:masa de aire"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Casa2012"
 
 \end_inset
 
@@ -764,27 +718,6 @@ SVF=\frac{1+cos(\theta_{m})}{2}\label{eq:SVF}
 \end_layout
 
 \begin_layout Subsection
-Horas de sol equivalentes (Equivalent Sun Hours)
-\end_layout
-
-\begin_layout Standard
-Es el promedio de la irradiancia global horizontal de la zona en un día
- y sus unidades son 
-\begin_inset Formula $\frac{KWh}{m^{2}día}$
-\end_inset
-
-.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Olinto2016"
-
-\end_inset
-
- VERIFICAR NO ANDO MUY SEGURO OLINTO PAG 360
-\end_layout
-
-\begin_layout Subsection
 Medidores de radiación solar
 \end_layout
 
@@ -809,15 +742,7 @@ Estos dispositivos, utilizan un detector termoeléctrico o fotoeléctrico
 \begin_inset Formula $\frac{W}{m^{2}}$
 \end_inset
 
-) en una señal eléctrica proporcional (en microvoltios y en corriente continua).
- En la Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Medidores solares"
-
-\end_inset
-
- se puede observar un piranómetro.
+) en una señal eléctrica proporcional (en microvoltios y en corriente continua)
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -839,14 +764,6 @@ Es un tipo de radiómetro utilizado para medir la irradiancia solar.
  Al igual que los piranómetros mencionados anteriormente, estos dispositivos
  utilizan detectores termoeléctricos o fotoeléctricos para convertir el
  flujo solar en una señal eléctrica.
- En la Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Medidores solares"
-
-\end_inset
-
- se puede observar este dispositivo.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -870,66 +787,10 @@ l entre la radiación recibida y la producción eléctrica.
  solar.
  Las celdas de referencia están conformadas por un sensor de temperatura,
  un cristal de protección, una celda fotovoltaica y un encapsulado robusto.
- (((Colocando una de estas celdas, se puede contrastar la producción de
- la instalación fotovoltaica, con la radiación aproximada recibida))) SOBRA.
- Cabe mencionar, que en la Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Medidores solares"
-
-\end_inset
-
- se puede observar una celda de referencia.
  
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Casa2012"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/medidores.jpg
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Piranómetro, pirheliómetro y celda calibrada respectivamente.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Medidores solares"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -943,8 +804,29 @@ name "fig:Medidores solares"
 
 \end_layout
 
+\begin_layout Subsection
+Horas de sol equivalentes (Equivalent Sun Hours)
+\end_layout
+
+\begin_layout Standard
+Es el promedio de la irradiancia global horizontal de la zona en un día
+ y sus unidades son 
+\begin_inset Formula $\frac{KWh}{m^{2}día}$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+ VERIFICAR NO ANDO MUY SEGURO OLINTO PAG 360
+\end_layout
+
 \begin_layout Section
-Modulo Solar???
+Celdas y módulos fotovoltaicos
 \end_layout
 
 \begin_layout Subsection
@@ -1145,30 +1027,6 @@ name "fig:Conexiones de celdas fotovoltacias"
 \begin_layout Plain Layout
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Condiciones de prueba estándar (Standard test conditions)
-\end_layout
-
-\begin_layout Standard
-Se refiere, a mediciones de voltaje y de corriente que se le realizan a
- una celda o a un módulo fotovoltaico durante ciertas condiciones ambientales.
- Dichas mediciones, tienen que realizarse a un irradiancia de 1000 
-\begin_inset Formula $\frac{W}{m^{2}}$
-\end_inset
-
-, a una temperatura de 25°C y a un espectro AM 1.5.
- Generalmente, las mediciones que se realizan son: voltaje de circuito abierto,
- corriente de cortocircuito y potencia, corriente y voltaje en el MPP.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Olinto2016"
 
 \end_inset
 
@@ -1527,6 +1385,30 @@ name "fig: dos diodos con rp"
 \end_layout
 
 \begin_layout Subsection
+Condiciones de prueba estándar (Standard test conditions)
+\end_layout
+
+\begin_layout Standard
+Se refiere, a mediciones de voltaje y de corriente que se le realizan a
+ una celda o a un módulo fotovoltaico durante ciertas condiciones ambientales.
+ Dichas mediciones, tienen que realizarse a un irradiancia de 1000 
+\begin_inset Formula $\frac{W}{m^{2}}$
+\end_inset
+
+, a una temperatura de 25°C y a un espectro AM 1.5.
+ Generalmente, las mediciones que se realizan son: voltaje de circuito abierto,
+ corriente de cortocircuito y potencia, corriente y voltaje en el MPP.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Curvas características
 \end_layout
 
@@ -1737,46 +1619,21 @@ key "WebSendy2017"
 
 \end_layout
 
+\begin_layout Subsection
+Balance del Sistema (BOS)
+\end_layout
+
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/Tipos de modulos.JPG
-	scale 85
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Algunos tipos de módulos fotovoltaicos.
+El termino Balance del sistema o por sus siglas en ingles BOS (Balance of
+ System), hace referencia a todos los elementos que componen un sistema
+ de generación de energía solar fotovoltaico, véase: módulos solares, conversore
+s DC-DC, inversores, sistema de almacenamiento de energía, conductores,
+ controladores de carga, carga en corriente continua, cargas en corriente
+ alterna, entre otros.
  
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Algunos tipos de módulos fotovoltaicos"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
 
 \end_inset
 
@@ -2063,28 +1920,7 @@ name "fig:Hibrido"
 \end_layout
 
 \begin_layout Subsection
-Balance del Sistema (BOS)
-\end_layout
-
-\begin_layout Standard
-El termino Balance del sistema o por sus siglas en ingles BOS (Balance of
- System), hace referencia a todos los elementos que componen un sistema
- de generación de energía solar fotovoltaico, véase: módulos solares, conversore
-s DC-DC, inversores, sistema de almacenamiento de energía, conductores,
- controladores de carga, carga en corriente continua, cargas en corriente
- alterna, entre otros.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Olinto2016"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Orientación y Angulo de inclinación
+Orientación y ángulo de inclinación
 \end_layout
 
 \begin_layout Standard
@@ -2115,111 +1951,6 @@ d, como lo puede ser la obtención de parámetros de una celda fotovoltaica.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Mallawaarachchi2017"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-PARA EL MARCO METODOLÓGICO LO DE ABAJO NO BORRAR SOLO REORGANIZAR
-\end_layout
-
-\begin_layout Standard
-En primer lugar, se deben reconocer las incógnitas del problema, ya que
- ellas serán los genes que unidos en conjuntos formaran un cromosoma.
-\end_layout
-
-\begin_layout Standard
-En la Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Algoritmo genetico"
-
-\end_inset
-
- se puede observar el diagrama de flujo de este algoritmo, en primer lugar,
- se debe generar una población con sus cromosomas de forma aleatoria, en
- donde cada cromosoma estará conformado por genes.
- Acto seguido, cada individuo de la población es pasado por una función
- de costos para así determinar cuál es el grado de error entre cada muestra
- y el valor deseado.
- Posteriormente, se debe seleccionar los individuos más aptos para sobrevivir,
- para ello existen varios métodos, los más usados en la literatura son el
- método de la ruleta y del torneo.
- 
-\end_layout
-
-\begin_layout Standard
-Luego se debe proceder a generar los descendientes, para ello se deben seleccion
-ar dos padres, es decir, dos individuos que fueron seleccionados anteriormente
- y se procede a realizar un cruce entre los genes de ambos individuos para
- producir a los hijos.
- Cabe señalar, que dicho cruce se puede realizar de varias maneras, fija,
- intercalada o aleatoria.
- A continuación, se procede a mutar a los descendientes, para ello, de forma
- aleatoria se escogen algunos individuos y también aleatoriamente, se procede
- a modificar uno o varios de los genes de su cromosoma por otros.
-\end_layout
-
-\begin_layout Standard
-Una vez obtenidos los descendientes, se procede a crear una nueva población
- (de forma aleatoria) y se inserta en ella los hijos; posteriormente, se
- vuelve a buscar el error de cada individuo a través de la función de costos.
- Este proceso de repite constantemente, hasta que algún individuo de la
- población tenga un error que cumpla con los parámetros establecidos por
- el usuario.
- Dicho individuo contendrá en los genes de su cromosoma, la solución del
- problema.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/Algoritmo Genetico Diagrama de Flujo.JPG
-	scale 110
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Diagrama de flujo del algoritmo genético.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Algoritmo genetico"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -2386,6 +2117,126 @@ name "fig:ConvertidorDC-DC"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
+\end_layout
+
+\begin_layout Standard
+Es una técnica utilizada en los conversores DC-DC para obtener la máxima
+ potencia de los módulos fotovoltaicos, para ello, se varía el ciclo de
+ trabajo del dispositivo, logrando así que la impedancia aparente vista
+ por el módulo sea la del punto de máxima potencia.
+ Cabe destacar, que este punto varia con la temperatura y con la radiación
+ solar, por ende va cambiando constantemente.
+ Hoy en día, existen diversos algoritmos para encontrar el MPP, entre los
+ más utilizadas por la literatura podemos encontrar: Perturba y observa
+ (P&O), Conductancia incremental y Lógica difusa (Fuzzy logic).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Perturba y Observa (Perturb and Observe)
+\end_layout
+
+\begin_layout Standard
+Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
+ buscar el punto de máxima potencia del módulo fotovoltaico independientemente
+ de los niveles de radiación solar y temperatura que existan.
+ Mediante las variaciones de voltaje (que se producen mediante modificaciones
+ del ciclo se trabajó) y, por ende, de potencia, se puede deducir en que
+ parte de la curva P-V nos encontramos.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Algoritmo-P&O."
+
+\end_inset
+
+ podemos ver el diagrama de flujo de este algoritmo, como vemos, se tiene
+ los valores de la iteración actual y de la anterior, a partir de la comparación
+ de estos términos se determina la acción que se debe tomar para alcanzar
+ el MPP del módulo fotovoltaico.
+ Lo mencionado anteriormente, se puede explicar de la siguiente manera:
+ si la potencia obtenida en la iteración actual es superior a la anterior,
+ se concluye que el punto de operación del módulo avanzo en dirección al
+ punto de máxima potencia, pero en cambio, si la potencia disminuye significa
+ que el punto de operación se está alejando del MPP, por lo cual, se debe
+ realizar una perturbación en sentido contrario a la producida anteriormente.
+ Cabe destacar, que la eficiencia de este método es de aproximadamente 96%,
+ pero puede mejorarse si se disminuye la tasa de cambio del ciclo de trabajo
+ (
+\begin_inset Formula $\triangle D$
+\end_inset
+
+) a medida que el algoritmo alcanza el punto de máxima potencia.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Navarrete2015"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/MPPT.JPG
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Algoritmo P&O.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Algoritmo-P&O."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Enlace CD (DC link)
+\end_layout
+
+\begin_layout Standard
+Es un capacitor que se coloca entre el conversor DC-DC y el inversor, el
+ cual se encarga de disminuir el rizado del voltaje a la salida del conversor
+ DC-DC y, además, limita las fluctuaciones de voltaje en la entrada del
+ inversor.
 \end_layout
 
 \begin_layout Subsection
@@ -2722,25 +2573,7 @@ V_{LL_{rms1}}=\frac{\sqrt{3}}{2\sqrt{2}}m_{a}V_{DC}\label{eq:indice de modulaci�
 
 \end_layout
 
-\begin_layout Section
-Enlace CD (DC link)
-\end_layout
-
-\begin_layout Standard
-Es un capacitor que se coloca entre el conversor DC-DC y el inversor, el
- cual se encarga de disminuir el rizado del voltaje a la salida del conversor
- DC-DC y, además, limita las fluctuaciones de voltaje en la entrada del
- inversor.
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Filtro
 \end_layout
 
@@ -2796,10 +2629,6 @@ name "fig:Filtro"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2831,15 +2660,53 @@ Tecnologías y Clasificación de los Sistemas de Almacenamiento de energía
 Existen distintas tecnologías de almacenamiento de energía disponibles en
  el mercado y pueden clasificarse de muchas formas, en cuanto a su consumidor
  pueden clasificarse por tamaño o tecnología.
- Según su tamaño pueden ser como lo sugiere la siguiente tabla:
+ Según su tamaño pueden ser como lo sugiere en la Cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Clasificación de Sistemas de Almacenamiento de acuerdo a su tamaño"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Clasificación de Sistemas de Almacenamiento de acuerdo a su tamaño.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Clasificación de Sistemas de Almacenamiento de acuerdo a su tamaño"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
-<features tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="8cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -2876,11 +2743,11 @@ Almacenamiento a gran escala (GW)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Hidroeléctrica reversible (bombeo), Almacenamiento térmico 
+Hidroeléctrica reversible (bombeo), Almacenamiento térmico
 \end_layout
 
 \end_inset
@@ -2901,7 +2768,7 @@ Almacenamiento en redes (MW)
 
 \begin_layout Plain Layout
 Pilas y baterías, Condensadores y supercondensadores, Superconductores,
- Volantes de inercia 
+ Volantes de inercia
 \end_layout
 
 \end_inset
@@ -2921,7 +2788,7 @@ Almacenamiento para consumidor final (KW)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Baterías, Superconductores, Volantes de inercia 
+Baterías, Superconductores, Volantes de inercia
 \end_layout
 
 \end_inset
@@ -2934,18 +2801,60 @@ Baterías, Superconductores, Volantes de inercia
 
 \end_layout
 
-\begin_layout Standard
-Por otra parte, pueden clasificarse no solo por su consumidor final sino
- el tipo de tecnología.
- Según su tecnología pueden clasificarse como lo sugiere la siguiente tabla:
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+Por otra parte, pueden clasificarse no solo por su consumidor final sino
+ también por el tipo de tecnología, tal y como se indica en la Cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Clasificación de Sistemas de Almacenamiento de acuerdo al tipo de tecnología"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Clasificación de Sistemas de Almacenamiento de acuerdo al tipo de tecnología.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Clasificación de Sistemas de Almacenamiento de acuerdo al tipo de tecnología"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="2">
-<features tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="12cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -3001,7 +2910,7 @@ Térmicas
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3022,7 +2931,7 @@ Electromagnéticas
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3056,8 +2965,8 @@ Almacenamiento de H
 
 \end_inset
 
-, Baterías de flujo, Baterías estáticas: Plomo ácido, Níquel-Cadmio,Ni-Metal-H,S
-odio-Sulfuro,Zebra(NANiCl) 
+, Baterías de flujo, Baterías estáticas: Plomo ácido, Níquel-Cadmio, Ni-Metal-H,
+ Sodio-Sulfuro, Zebra (NANiCl) 
 \end_layout
 
 \end_inset
@@ -3070,11 +2979,16 @@ odio-Sulfuro,Zebra(NANiCl)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Subsubsection
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Baterías 
 \end_layout
 
@@ -3088,14 +3002,22 @@ Es un dispositivo capaz de convertir energía química en energía eléctrica
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Densidad específica y volumétrica de Energía
 \end_layout
 
 \begin_layout Standard
 Está definida como la cantidad disponible de energía de una batería totalmente
  cargada por unidad de volumen o por su peso en Kg; es decir que pueden
- caracterizarse en Wh/Kg o Wh/L.
+ caracterizarse en 
+\begin_inset Formula $\frac{Wh}{Kg}$
+\end_inset
+
+ o 
+\begin_inset Formula $\frac{Wh}{L}$
+\end_inset
+
+.
  El primero se conoce como energía específica y el segundo como densidad
  de energía volumétrica.
  Basado en la aplicación o el contexto se preferirá el uso de una unidad
@@ -3103,7 +3025,7 @@ Está definida como la cantidad disponible de energía de una batería totalment
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Batería de litio
 \end_layout
 
@@ -3113,7 +3035,7 @@ Es un tipo de batería que emplea como electrolito una sal de Litio donde
  que tiene lugar entre el cátodo y el ánodo.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Características de las Baterías Ion-litio 
 \end_layout
 
@@ -3122,7 +3044,7 @@ Alto coste por vatio instalado.
 \end_layout
 
 \begin_layout Itemize
-No poseen efecto memoria 
+No poseen efecto memoria.
 \end_layout
 
 \begin_layout Itemize
@@ -3131,7 +3053,7 @@ Son menos estables y por lo tanto más peligrosas que otros tipos de batería.
 \end_layout
 
 \begin_layout Itemize
-Eficiencia de 80-90% 
+Eficiencia de 80-90%.
 \end_layout
 
 \begin_layout Itemize
@@ -3140,17 +3062,25 @@ Necesitan un control de carga y descarga.
 \end_layout
 
 \begin_layout Itemize
-Son baterías de alto voltaje de operación 3.7 v por celda.
+Son baterías de alto voltaje de operación 3.7 voltios por celda.
  
 \end_layout
 
 \begin_layout Itemize
-Alta densidad de energía volumétrica 200-280 Wh/L.
+Alta densidad de energía volumétrica 200-280 
+\begin_inset Formula $\frac{Wh}{L}$
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Itemize
-Alta energía especifica 90-115 Wh/Kg.
+Alta energía especifica 90-115 
+\begin_inset Formula $\frac{Wh}{Kg}$
+\end_inset
+
+.
  
 \end_layout
 
@@ -3160,11 +3090,11 @@ Bajo porcentaje de fuga de energía en reposo 1-10% por mes.
 \end_layout
 
 \begin_layout Itemize
-Entre 500-1000 ciclos de vida 
+Entre 500-1000 ciclos de vida .
 \end_layout
 
 \begin_layout Itemize
-No soportan altas temperaturas de operación 20-50 ºC 
+No soportan altas temperaturas de operación 20-50ºC .
 \end_layout
 
 \begin_layout Subsubsection
@@ -3178,10 +3108,6 @@ Un banco de baterías como definición se puede decir que es un conjunto de
  no funcionan o no están disponibles.
 \end_layout
 
-\begin_layout Paragraph
-Conexión del Banco de Baterías
-\end_layout
-
 \begin_layout Subparagraph*
 Banco de baterías conectados en serie
 \end_layout
@@ -3189,13 +3115,53 @@ Banco de baterías conectados en serie
 \begin_layout Standard
 Esta es la manera mas habitual de conectar un banco de baterías.
  Se conectan entre sí de polo positivo a negativo sumando sus voltajes y
- maneniendo la intensidad.
+ manteniendo la intensidad.
+ La configuracion se puede ver en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conexión de un banco de baterías en serie"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Banco en serie.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conexión de un banco de baterías en serie.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conexión de un banco de baterías en serie"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3207,16 +3173,57 @@ Bancos de baterías conectados en paralelo
 \end_layout
 
 \begin_layout Standard
-Se utilizan para sumar intensidades y conseguir una batería más potente.
+Por otro lado, tenemos los bancos de baterías conectados en paralelo.
+ Estos se utilizan para sumar intensidades y conseguir una batería más potente.
  Se conectan entre sí entre polos de misma polaridad, los positivos entre
  sí y los negativos entre sí y conectados al equipo, vehículo o instalación
  que queramos alimentar con el banco.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conexión de un banco de baterías en paralelo"
+
+\end_inset
+
+ se puede apreciar esta conexión.
 \end_layout
 
 \begin_layout Standard
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Banco en serie paralelo.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conexión de un banco de baterías en paralelo.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conexión de un banco de baterías en paralelo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3230,13 +3237,53 @@ Bancos de baterías conectados en serie y paralelo
 \begin_layout Standard
 Es una combinación de los dos tipos de conexiones anteriores, las disposiciones
  son múltiples.
- La siguiente imagen ilustra un ejemplo de un banco de 4x2.
+ La Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conexión de un banco de baterías en serie y paralelo"
+
+\end_inset
+
+, ilustra un ejemplo de un banco con cuatro baterías en serie y dos ramas
+ conectadas en paralelo.
 \end_layout
 
 \begin_layout Standard
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Banco en serie paralelo.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conexión de un banco de baterías en serie y paralelo.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conexión de un banco de baterías en serie y paralelo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3290,19 +3337,58 @@ Algoritmo de Carga de Baterías de Ion Litio
 Debido a que las baterías de litio son molecularmente inestables, se procura
  que la carga se realice de forma controlada.
  De esta forma su ciclo de carga se hace CC/CV (corriente constante/ voltaje
- constante por sus siglas en inglés) segun las especificaciones de su fabricante.
- la bateria incrementará su voltaje hasta un valor límite (Voltaje nominal
+ constante por sus siglas en inglés) según las especificaciones de su fabricante.
+ La batería incrementará su voltaje hasta un valor límite (Voltaje nominal
  de la batería) a un C-rate constante y luego cambia de modo a voltaje constante
  con un C-rate exponencial decreciente hasta un valor umbral , normalmente
- 0.01 C-rate.
- La imagen siguiente ilustra el comportamiento antes descrito
+ 0.01C-rate.
+ La Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Voltaje y corriente de carga de la batería"
+
+\end_inset
+
+, ilustra el comportamiento antes descrito
 \end_layout
 
 \begin_layout Standard
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Imagenes/Capitulo I/Carga Batería.JPG
-	scale 60
+	scale 85
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Voltaje y corriente de carga de la batería.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Voltaje y corriente de carga de la batería"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3314,7 +3400,7 @@ Pulsos de carga
 \end_layout
 
 \begin_layout Standard
-Es una tecnica que consiste en usar pequeños pulsos de corriente y voltaje
+Es una técnica que consiste en usar pequeños pulsos de corriente y voltaje
  para cargar las baterías.
  Cambiando el ancho de estos pulsos el valor promedio de voltaje o corriente
  se pueden controlar.
@@ -3343,123 +3429,6 @@ Tiempo restante de carga (remaining run-time)
 Es el estimado de tiempo en el cual, una batería puede entregar potencia
  a un dispositivo portátil bajo válidas condiciones de descarga antes de
  dejar de funcionar.
-\end_layout
-
-\begin_layout Section
-Control
-\end_layout
-
-\begin_layout Subsection
-
-\series bold
-Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
-\end_layout
-
-\begin_layout Standard
-Es una técnica utilizada en los conversores DC-DC para obtener la máxima
- potencia de los módulos fotovoltaicos, para ello, se varía el ciclo de
- trabajo del dispositivo, logrando así que la impedancia aparente vista
- por el módulo sea la del punto de máxima potencia.
- Cabe destacar, que este punto varia con la temperatura y con la radiación
- solar, por ende va cambiando constantemente.
- Hoy en día, existen diversos algoritmos para encontrar el MPP, entre los
- más utilizadas por la literatura podemos encontrar: Perturba y observa
- (P&O), Conductancia incremental y Lógica difusa (Fuzzy logic).
- 
-\end_layout
-
-\begin_layout Subsubsection
-
-\series bold
-Perturba y Observa (Perturb and Observe)
-\end_layout
-
-\begin_layout Standard
-Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
- buscar el punto de máxima potencia del módulo fotovoltaico independientemente
- de los niveles de radiación solar y temperatura que existan.
- Mediante las variaciones de voltaje (que se producen mediante modificaciones
- del ciclo se trabajó) y, por ende, de potencia, se puede deducir en que
- parte de la curva P-V nos encontramos.
- En la Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Algoritmo-P&O."
-
-\end_inset
-
- podemos ver el diagrama de flujo de este algoritmo, como vemos, se tiene
- los valores de la iteración actual y de la anterior, a partir de la comparación
- de estos términos se determina la acción que se debe tomar para alcanzar
- el MPP del módulo fotovoltaico.
- Lo mencionado anteriormente, se puede explicar de la siguiente manera:
- si la potencia obtenida en la iteración actual es superior a la anterior,
- se concluye que el punto de operación del módulo avanzo en dirección al
- punto de máxima potencia, pero en cambio, si la potencia disminuye significa
- que el punto de operación se está alejando del MPP, por lo cual, se debe
- realizar una perturbación en sentido contrario a la producida anteriormente.
- Cabe destacar, que la eficiencia de este método es de aproximadamente 96%,
- pero puede mejorarse si se disminuye la tasa de cambio del ciclo de trabajo
- (
-\begin_inset Formula $\triangle D$
-\end_inset
-
-) a medida que el algoritmo alcanza el punto de máxima potencia.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Navarrete2015"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Imagenes/Capitulo I/MPPT.JPG
-	scale 90
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Algoritmo P&O.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Algoritmo-P&O."
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Sistema de manejo de baterías (BMS)
 \end_layout
 
 \end_body
