@@ -1,0 +1,13 @@
+diff a/Bibliografia/Bibliografia.bib b/Bibliografia/Bibliografia.bib	(rejected hunks)
+@@ -104,4 +104,11 @@
+   author = {Alexander Bueno},
+ }
+ 
++@Electronic{WEBAirMassSF,
++  author       = {Christiana Honsberg and Stuart Bowden},
++  title        = {Air mass},
++  organization = {PVEDUCATIONS.ORG},
++  url          = {https://www.pveducation.org/pvcdrom/properties-of-sunlight/air-mass},
++}
++
+ @Comment{jabref-meta: databaseType:bibtex;}

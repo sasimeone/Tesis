@@ -2111,6 +2111,14 @@ Es un método de búsqueda heurística inspirado en la teoría de la selección
 , la cual contendrá una mezcla del código genético de sus padres.
  El algoritmo genético busca solucionar problemas matemáticos de gran complejida
 d, como lo puede ser la obtención de parámetros de una celda fotovoltaica.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mallawaarachchi2017"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2805,11 +2813,118 @@ name "fig:Filtro"
 \end_layout
 
 \begin_layout Section
-Baterías
+Sistemas de almacenamiento de energía 
+\end_layout
+
+\begin_layout Standard
+Los sistemas de almacenamiento de energía diseñados para aplicaciones en
+ sistemas de generación de energía cumplen con dos tareas fundamentales.
+ Primero aplanar la curva de demanda y segundo coadyuvan a la integración
+ de energías renovables.
 \end_layout
 
 \begin_layout Subsection
-Tipos de baterías
+Tecnologías y Clasificación de los Sistemas de Almacenamiento de energía
+\end_layout
+
+\begin_layout Standard
+Existen distintas tecnologías de almacenamiento de energía disponibles en
+ el mercado y pueden clasificarse de muchas formas, en cuanto a su consumidor
+ pueden clasificarse por tamaño o tecnología.
+ Según su tamaño pueden ser como lo sugiere la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tamaño
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ejemplos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection

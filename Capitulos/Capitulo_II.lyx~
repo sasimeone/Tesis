@@ -2111,6 +2111,14 @@ Es un método de búsqueda heurística inspirado en la teoría de la selección
 , la cual contendrá una mezcla del código genético de sus padres.
  El algoritmo genético busca solucionar problemas matemáticos de gran complejida
 d, como lo puede ser la obtención de parámetros de una celda fotovoltaica.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mallawaarachchi2017"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2805,31 +2813,503 @@ name "fig:Filtro"
 \end_layout
 
 \begin_layout Section
-Baterías
+Sistemas de almacenamiento de energía 
+\end_layout
+
+\begin_layout Standard
+Los sistemas de almacenamiento de energía diseñados para aplicaciones en
+ sistemas de generación de energía cumplen con dos tareas fundamentales.
+ Primero aplanar la curva de demanda y segundo coadyuvan a la integración
+ de energías renovables.
 \end_layout
 
 \begin_layout Subsection
-Tipos de baterías
+Tecnologías y Clasificación de los Sistemas de Almacenamiento de energía
+\end_layout
+
+\begin_layout Standard
+Existen distintas tecnologías de almacenamiento de energía disponibles en
+ el mercado y pueden clasificarse de muchas formas, en cuanto a su consumidor
+ pueden clasificarse por tamaño o tecnología.
+ Según su tamaño pueden ser como lo sugiere la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Tamaño
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Ejemplos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almacenamiento a gran escala (GW)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hidroeléctrica reversible (bombeo), Almacenamiento térmico 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almacenamiento en redes (MW)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pilas y baterías, Condensadores y supercondensadores, Superconductores,
+ Volantes de inercia 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almacenamiento para consumidor final (KW)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Baterías, Superconductores, Volantes de inercia 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otra parte, pueden clasificarse no solo por su consumidor final sino
+ el tipo de tecnología.
+ Según su tecnología pueden clasificarse como lo sugiere la siguiente tabla:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Ejemplos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mecánicas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aire comprimido: 40-70% eficiencia, Hidráulico de bombeo: 72-80% eficiencia,
+ Volantes de inercia: >85% eficiencia 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Térmicas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almacenamiento de sales fundidas: 80-90% eficiencia, Material con cambio
+ de fase: 80-90% eficiencia 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Electromagnéticas 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Supercondensadores Pb-ácido,Ni-Cd, Li-ion 75-99% de eficiencia, Imanes supercond
+uctores 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Electroquímicas 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almacenamiento de H
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, Baterías de flujo, Baterías estáticas: Plomo ácido, Níquel-Cadmio,Ni-Metal-H,S
+odio-Sulfuro,Zebra(NANiCl) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection
-Plomo-ácido
+Baterías 
+\end_layout
+
+\begin_layout Standard
+Es un dispositivo capaz de convertir energía química en energía eléctrica
+ y viceversa.
+ La energía química esta almacenada en la parte electro activa entre dos
+ electrodos dentro de la batería.
+ La conversión ocurre a través de un proceso electroquímico de oxidación-reducci
+ón o de reacción de transferencia de carga.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Densidad específica y volumétrica de Energía
+\end_layout
+
+\begin_layout Standard
+Está definida como la cantidad disponible de energía de una batería totalmente
+ cargada por unidad de volumen o por su peso en Kg; es decir que pueden
+ caracterizarse en Wh/Kg o Wh/L.
+ El primero se conoce como energía específica y el segundo como densidad
+ de energía volumétrica.
+ Basado en la aplicación o el contexto se preferirá el uso de una unidad
+ o de otra.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Batería de litio
+\end_layout
+
+\begin_layout Standard
+Es un tipo de batería que emplea como electrolito una sal de Litio donde
+ se obtienen los iones necesarios para la reacción electroquímica reversible
+ que tiene lugar entre el cátodo y el ánodo.
+\end_layout
+
+\begin_layout Paragraph
+Características de las Baterías Ion-litio 
+\end_layout
+
+\begin_layout Itemize
+Alto coste por vatio instalado.
+\end_layout
+
+\begin_layout Itemize
+No poseen efecto memoria 
+\end_layout
+
+\begin_layout Itemize
+Son menos estables y por lo tanto más peligrosas que otros tipos de batería.
+ 
+\end_layout
+
+\begin_layout Itemize
+Eficiencia de 80-90% 
+\end_layout
+
+\begin_layout Itemize
+Necesitan un control de carga y descarga.
+ 
+\end_layout
+
+\begin_layout Itemize
+Son baterías de alto voltaje de operación 3.7 v por celda.
+ 
+\end_layout
+
+\begin_layout Itemize
+Alta densidad de energía volumétrica 200-280 Wh/L.
+ 
+\end_layout
+
+\begin_layout Itemize
+Alta energía especifica 90-115 Wh/Kg.
+ 
+\end_layout
+
+\begin_layout Itemize
+Bajo porcentaje de fuga de energía en reposo 1-10% por mes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Entre 500-1000 ciclos de vida 
+\end_layout
+
+\begin_layout Itemize
+No soportan altas temperaturas de operación 20-50 ºC 
 \end_layout
 
 \begin_layout Subsubsection
-Ion-litio
+Banco de Baterías
+\end_layout
+
+\begin_layout Standard
+Un banco de baterías como definición se puede decir que es un conjunto de
+ baterías conectadas entre sí en paralelo o en serie, que sirven para proveer
+ de electricidad en el momento en que otras fuentes de energía primarias
+ no funcionan o no están disponibles.
+\end_layout
+
+\begin_layout Paragraph
+Conexión del Banco de Baterías
+\end_layout
+
+\begin_layout Subparagraph*
+Banco de baterías conectados en serie
+\end_layout
+
+\begin_layout Standard
+Esta es la manera mas habitual de conectar un banco de baterías.
+ Se conectan entre sí de polo positivo a negativo sumando sus voltajes y
+ maneniendo la intensidad.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Banco en serie.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Bancos de baterías conectados en paralelo
+\end_layout
+
+\begin_layout Standard
+Se utilizan para sumar intensidades y conseguir una batería más potente.
+ Se conectan entre sí entre polos de misma polaridad, los positivos entre
+ sí y los negativos entre sí y conectados al equipo, vehículo o instalación
+ que queramos alimentar con el banco.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Banco en serie paralelo.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Bancos de baterías conectados en serie y paralelo
+\end_layout
+
+\begin_layout Standard
+Es una combinación de los dos tipos de conexiones anteriores, las disposiciones
+ son múltiples.
+ La siguiente imagen ilustra un ejemplo de un banco de 4x2.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Imagenes/Capitulo I/Banco en serie paralelo.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Capacidad de la Batería
+\end_layout
+
+\begin_layout Standard
+Este parámetro indica la cantidad de carga que puede ser extraída de una
+ batería totalmente cargada hasta que quede totalmente descargada.
+ Un efecto importante en las baterías es que mientras más grande es la cantidad
+ de corriente que se le demande, menor será la capacidad disponible de la
+ batería.
+ Teóricamente, la capacidad de la batería se define como la cantidad de
+ corriente extraída de una batería que la descargue completamente en una
+ hora exactamente.
+ La unidad de capacidad de una batería es amperios-hora (Ah).
+ 
 \end_layout
 
 \begin_layout Subsection
-Tiempo de autonomía
+Controlador de Carga
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+Es un dispositivo que se encarga de controlar el flujo de corriente entre
+ las baterías, la carga y el arreglo de paneles fotovoltaicos para asegurar
+ que los parámetros eléctricos presentes en la batería se mantengan dentro
+ de los límites sugeridos por el fabricante, para así prolongar su vida
+ útil y mantener al máximo el número de ciclos de carga y descarga de las
+ mismas.
+ Las baterías son susceptibles a las sobrecargas y descargas profundas y
+ afectan su rendimiento, de igual forma al aumento excesivo de temperatura.
+ El controlador de carga monitorea constantemente estas variables y está
+ diseñado para tomar acciones en pro del funcionamiento óptimo del banco
+ de baterías.
+\end_layout
+
+\begin_layout Subsubsection
+Control de Carga y Descarga
+\end_layout
+
+\begin_layout Paragraph
+Algoritmo de Carga de Baterías de Ion Litio
+\end_layout
+
+\begin_layout Paragraph
+Proceso de descarga de la Batería de Ion Litio
+\end_layout
+
+\begin_layout Subsubsection
 Estado de Carga (SOC)
 \end_layout
 
-\begin_layout Subsection
-Estado de salud (SOH)
+\begin_layout Standard
+Es el porcentaje de la carga máxima posible que está presente en una batería
+ recargable.
+ Este parámetro es obtenido mediante un modelado del sistema de baterías,
+ mientras más detalles se tomen en cuenta más preciso será éste.
+ Su valor se encuentra entre 0-100%.
+\end_layout
+
+\begin_layout Subsubsection
+Tiempo restante de carga (remaining run-time)
+\end_layout
+
+\begin_layout Standard
+Es el estimado de tiempo en el cual, una batería puede entregar potencia
+ a un dispositivo portátil bajo válidas condiciones de descarga antes de
+ dejar de funcionar.
 \end_layout
 
 \begin_layout Section
