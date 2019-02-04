@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-ESTUDIO DE BASE DE DATOS Y VARIABLES CLIMÁTICAS
+DISEÑO DE LA ELECTRÓNICA DE POTENCIA
 \end_layout
 
 \begin_layout Standard
@@ -99,35 +99,23 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 \end_layout
 
 \begin_layout Section
-Base de datos
+Diseño del conversor DC-DC
 \end_layout
 
 \begin_layout Section
-Análisis de la base de datos
+Implementación del algoritmo del MPPT
 \end_layout
 
 \begin_layout Section
-Trayecto Solar
+Diseño del inversor
 \end_layout
 
 \begin_layout Section
-Algoritmos Evolutivos
+Implementación del control de voltaje
 \end_layout
 
 \begin_layout Section
-Estudio de la carga
-\end_layout
-
-\begin_layout Subsection
-Población
-\end_layout
-
-\begin_layout Subsection
-Medición de carga
-\end_layout
-
-\begin_layout Subsection
-Análisis de las mediciones
+Filtrado de la señal de salida del inversor
 \end_layout
 
 \end_body

@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-ESTUDIO DE BASE DE DATOS Y VARIABLES CLIMÁTICAS
+DISEÑO DEL SISTEMA DE ALMACENAMIENTO
 \end_layout
 
 \begin_layout Standard
@@ -99,35 +99,23 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 \end_layout
 
 \begin_layout Section
-Base de datos
+Escogencia del banco de baterías 
 \end_layout
 
 \begin_layout Section
-Análisis de la base de datos
+Diseño del sistema de almacenamiento
 \end_layout
 
 \begin_layout Section
-Trayecto Solar
-\end_layout
-
-\begin_layout Section
-Algoritmos Evolutivos
-\end_layout
-
-\begin_layout Section
-Estudio de la carga
+Diseño del conversor bidireccional
 \end_layout
 
 \begin_layout Subsection
-Población
+Controlador de carga
 \end_layout
 
 \begin_layout Subsection
-Medición de carga
-\end_layout
-
-\begin_layout Subsection
-Análisis de las mediciones
+Controlador de descarga
 \end_layout
 
 \end_body

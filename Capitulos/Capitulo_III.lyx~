@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-ESTUDIO DE BASE DE DATOS Y VARIABLES CLIMÁTICAS
+MODELA DEL ARREGLO PV
 \end_layout
 
 \begin_layout Standard
@@ -99,39 +99,15 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 \end_layout
 
 \begin_layout Section
-Base de datos
+Modela de la celda fotovoltaica
 \end_layout
 
 \begin_layout Section
-Análisis de la base de datos
+Extracción de parámetros
 \end_layout
 
-\begin_layout Section
-Trayecto Solar
-\end_layout
-
-\begin_layout Section
-Algoritmos Evolutivos
-\end_layout
-
-\begin_layout Section
-Estudio de la carga
-\end_layout
-
-\begin_layout Subsection
-Población
-\end_layout
-
-\begin_layout Subsection
-Medición de carga
-\end_layout
-
-\begin_layout Subsection
-Análisis de las mediciones
-\end_layout
-
-\begin_layout Subsection
-Algoritmo Genético
+\begin_layout Standard
+ALGORITMO GENETICO
 \end_layout
 
 \begin_layout Standard
@@ -143,7 +119,7 @@ En primer lugar, se deben reconocer las incógnitas del problema, ya que
 En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Algoritmo genetico"
+reference "fig:Algoritmo genetico-1"
 
 \end_inset
 
@@ -207,7 +183,7 @@ status collapsed
 Diagrama de flujo del algoritmo genético.
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Algoritmo genetico"
+name "fig:Algoritmo genetico-1"
 
 \end_inset
 
@@ -222,6 +198,14 @@ name "fig:Algoritmo genetico"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Curvas I-V
+\end_layout
+
+\begin_layout Section
+Diseño del arreglo fotovoltaico
 \end_layout
 
 \end_body

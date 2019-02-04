@@ -1919,8 +1919,26 @@ name "fig:Hibrido"
 
 \end_layout
 
-\begin_layout Subsection
-Orientación y ángulo de inclinación
+\begin_layout Subsubsection
+Ángulo de Incidencia (AOI)
+\end_layout
+
+\begin_layout Standard
+Tomando en cuenta la posición del Sol respecto al panel, visto desde el
+ panel, es el ángulo 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ formado entre la superficie normal y la dirección de incidencia de los
+ rayos solares.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2122,7 +2140,7 @@ name "fig:ConvertidorDC-DC"
 \begin_layout Subsection
 
 \series bold
-Seguimiento del punto de máxima potencia ("Maximum Power Point Tracker")
+Seguimiento del punto de máxima potencia (Maximum Power Point Tracker)
 \end_layout
 
 \begin_layout Standard
@@ -3023,6 +3041,13 @@ Está definida como la cantidad disponible de energía de una batería totalment
  Basado en la aplicación o el contexto se preferirá el uso de una unidad
  o de otra.
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chakraborty2013"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3033,6 +3058,14 @@ Batería de litio
 Es un tipo de batería que emplea como electrolito una sal de Litio donde
  se obtienen los iones necesarios para la reacción electroquímica reversible
  que tiene lugar entre el cátodo y el ánodo.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Plett2015"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3095,6 +3128,14 @@ Entre 500-1000 ciclos de vida .
 
 \begin_layout Itemize
 No soportan altas temperaturas de operación 20-50ºC .
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Plett2015,Messenger2010"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3323,6 +3364,14 @@ Es un dispositivo que se encarga de controlar el flujo de corriente entre
  El controlador de carga monitorea constantemente estas variables y está
  diseñado para tomar acciones en pro del funcionamiento óptimo del banco
  de baterías.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olinto2016"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3419,6 +3468,14 @@ Es el porcentaje de la carga máxima posible que está presente en una batería
  Este parámetro es obtenido mediante un modelado del sistema de baterías,
  mientras más detalles se tomen en cuenta más preciso será éste.
  Su valor se encuentra entre 0-100%.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Danilov2008"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3429,6 +3486,14 @@ Tiempo restante de carga (remaining run-time)
 Es el estimado de tiempo en el cual, una batería puede entregar potencia
  a un dispositivo portátil bajo válidas condiciones de descarga antes de
  dejar de funcionar.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Danilov2008"
+
+\end_inset
+
+
 \end_layout
 
 \end_body

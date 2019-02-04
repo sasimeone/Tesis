@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-ESTUDIO DE BASE DE DATOS Y VARIABLES CLIMÁTICAS
+RESULTADOS Y CONCLUSIONES
 \end_layout
 
 \begin_layout Standard
@@ -96,38 +96,6 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Base de datos
-\end_layout
-
-\begin_layout Section
-Análisis de la base de datos
-\end_layout
-
-\begin_layout Section
-Trayecto Solar
-\end_layout
-
-\begin_layout Section
-Algoritmos Evolutivos
-\end_layout
-
-\begin_layout Section
-Estudio de la carga
-\end_layout
-
-\begin_layout Subsection
-Población
-\end_layout
-
-\begin_layout Subsection
-Medición de carga
-\end_layout
-
-\begin_layout Subsection
-Análisis de las mediciones
 \end_layout
 
 \end_body

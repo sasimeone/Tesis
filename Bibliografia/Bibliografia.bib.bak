@@ -164,8 +164,49 @@
   author = {Vijini Mallawaarachchi},
   month  = jul,
   year   = {2017},
-  title  = {Introduction to Genetic Algorithms },
+  title  = {Introduction to Genetic Algorithms},
   url    = {https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3},
+}
+
+@Book{Plett2015,
+  title     = {Battery Management Systems},
+  publisher = {Artech House Publishers},
+  year      = {2015},
+  author    = {Plett, Gregory},
+  isbn      = {1630810231},
+  date      = {2015-09-30},
+  ean       = {9781630810238},
+  pagetotal = {346},
+  url       = {https://www.ebook.de/de/product/24312292/gregory_plett_battery_management_systems.html},
+}
+
+@Book{Chakraborty2013,
+  title     = {Power Electronics for Renewable and Distributed Energy Systems},
+  publisher = {Springer London},
+  year      = {2013},
+  author    = {Sudipta Chakraborty and Marcelo G. Simõesa and William E. Kramer},
+  date      = {2013-06-12},
+  ean       = {9781447151043},
+  url       = {https://www.ebook.de/de/product/21309376/power_electronics_for_renewable_and_distributed_energy_systems.html},
+}
+
+@Book{Messenger2010,
+  title     = {Photovoltaic Systems Engineering, Third Edition},
+  publisher = {CRC Press},
+  year      = {2010},
+  author    = {Roger A. Messenger and Amir Abtahi},
+  isbn      = {978-1439802922},
+  url       = {https://www.amazon.com/Photovoltaic-Systems-Engineering-Third-Messenger/dp/1439802920?SubscriptionId=AKIAIOBINVZYXZQZ2U3A&tag=chimbori05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1439802920},
+}
+
+@Book{Danilov2008,
+  title     = {Battery Management Systems},
+  publisher = {Springer Netherlands},
+  year      = {2008},
+  author    = {Danilov, Dmitry and Bergveld, Henk Jan and Regtien, Paul P.  L. and Notten, Peter H.  L. and Pop, Valer},
+  date      = {2008-05-28},
+  ean       = {9781402069451},
+  url       = {https://www.ebook.de/de/product/8896996/dmitry_danilov_henk_jan_bergveld_paul_p_l_regtien_peter_h_l_notten_valer_pop_battery_management_systems.html},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
