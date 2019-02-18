@@ -3211,9 +3211,10 @@ Banco de Baterías
 \end_layout
 
 \begin_layout Standard
-Un banco de baterías es un conjunto de baterías conectadas entre sí en paralelo
- o en serie, que sirven para proveer de electricidad en el momento en que
- otras fuentes de energía primarias no funcionan o no están disponibles.
+Un banco de baterías como definición se puede decir que es un conjunto de
+ baterías conectadas entre sí en paralelo o en serie, que sirven para proveer
+ de electricidad en el momento en que otras fuentes de energía primarias
+ no funcionan o no están disponibles.
 \end_layout
 
 \begin_layout Subparagraph*
@@ -3224,14 +3225,14 @@ Banco de baterías conectados en serie
 Esta es la manera mas habitual de conectar un banco de baterías.
  Se conectan entre sí de polo positivo a negativo sumando sus voltajes y
  manteniendo la intensidad.
- La Figura 
+ La configuracion se puede ver en la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Conexión de un banco de baterías en serie"
 
 \end_inset
 
- presenta esta configuración.
+.
 \end_layout
 
 \begin_layout Standard
@@ -3281,19 +3282,19 @@ Bancos de baterías conectados en paralelo
 \end_layout
 
 \begin_layout Standard
-Estos se utilizan para sumar intensidades y conseguir una batería más potente.
+Por otro lado, tenemos los bancos de baterías conectados en paralelo.
+ Estos se utilizan para sumar intensidades y conseguir una batería más potente.
  Se conectan entre sí entre polos de misma polaridad, los positivos entre
  sí y los negativos entre sí y conectados al equipo, vehículo o instalación
  que queramos alimentar con el banco.
- La Figura 
+ En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Conexión de un banco de baterías en paralelo"
 
 \end_inset
 
- muestra esta conexión.
- 
+ se puede apreciar esta conexión.
 \end_layout
 
 \begin_layout Standard
@@ -3465,7 +3466,7 @@ reference "fig:Voltaje y corriente de carga de la batería"
 
 \end_inset
 
- presenta lo antes descrito
+ ilustra el comportamiento antes descrito
 \end_layout
 
 \begin_layout Standard

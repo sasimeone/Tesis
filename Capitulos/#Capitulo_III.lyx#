@@ -136,7 +136,6 @@ name "tab:Especificaciones-CS6K-300MS"
 \end_layout
 
 \begin_layout Plain Layout
-\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
 <features booktabs="true" tabularvalignment="middle">
@@ -315,10 +314,8 @@ Cabe destacar, que este dispositivo se escogio en primer lugar, por su alta
 \begin_layout Standard
 En lo que se refiere al edifcio de Electronica, se trabajo con los modulos
  fotovoltaicos que ya se encontraban instalados en el tejado.
- Dichos dispositivos cuentan con unos datos de placa, pero la informacion
- que aporta es muy basica, por lo que no proporcionaba informacion sobre
- datos más tecnicos, como lo puede ser la variacion de la corriente de cortocirc
-uito respecto a la temperatura.
+ Dichos dispositivos cuentan con unos datos de placa bascios, pero no proporcion
+an datos .
  A continuacion se presentan los datos de placas de los modulos mencionados.
 \end_layout
 
@@ -333,13 +330,6 @@ status open
 
 \begin_layout Plain Layout
 Especificaciones modulo Biblio.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Especificaciones-modulo-Bibli"
-
-\end_inset
-
  REFERENCIA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 \end_layout
 
@@ -349,7 +339,6 @@ name "tab:Especificaciones-modulo-Bibli"
 \end_layout
 
 \begin_layout Plain Layout
-\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="2">
 <features booktabs="true" tabularvalignment="middle">

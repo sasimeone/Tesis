@@ -145,15 +145,15 @@ s en la USB y antecedentes internacionales
 \begin_layout Standard
 Las fuentes de energía renovable van tomando mayor importancia con el pasar
  de los años, dado a la continua necesidad de disminuir los impactos ambientales
- que las energías convencionales tienen en el ambiente.
- Muchos países en el mundo, se han avocado de lleno en estas nuevas tecnologías,
- entre ellos podemos encontrar: Italia, Alemania, España, Francia, Grecia,
- India, Colombia, Chile, Brasil, entre otros.
- Internacionalmente, podemos encontrar varios proyectos de energía solar
- fotovoltaica, implementados tanto conectados a la red como desconectados
- de la red; por ejemplo, en la isla de Khynos en Grecia se implemento un
- sistema eléctrico híbrido que incluye solar fotovoltaica, la cual produce
- 100KW en condiciones nominales.
+ que las fuentes de energías convencionales tienen en el ambiente.
+ Muchos países en el mundo se han abocado de lleno en estas nuevas tecnologías,
+ entre ellos podemos encontrar: Estados Unidos, China, Italia, Alemania,
+ España, Francia, Grecia, India, Colombia, Chile, Brasil, entre otros.
+ Internacionalmente, podemos encontrar varios proyectos con el uso de energía
+ solar fotovoltaica, implementados tanto conectados a la red como desconectados
+ de la red; por ejemplo, en la isla de Khynos en Grecia se implementó un
+ sistema eléctrico híbrido que incluye un sistema de generación solar fotovoltai
+ca, la cual produce 100KW en condiciones nominales.
  También, se puede observar la implementación de este tipo de generación
  de energía en las islas de Sicilia en Italia 
 \begin_inset CommandInset citation
@@ -167,12 +167,13 @@ key "Ciriminna2016"
 \end_layout
 
 \begin_layout Standard
-Venezuela no es un país con una cultura enfocada en las energías renovables,
- todo lo contrario, la mayor parte de la energía eléctrica proviene de las
- centrales termoeléctricas e hidroeléctricas, aun así, se han realizado
- proyectos enfocados en cambiar esto, es decir, a implementar sistemas de
- generación de energía solar fotovoltaica a baja escala en nuestro país.
- Se pueden destacar varios informes de pasantias realizados en nuestra casa
+Venezuela no es un país con una cultura enfocada en las energías renovables
+ de tipo solar o eólica, todo lo contrario, la mayor parte de la energía
+ eléctrica proviene de las centrales termoeléctricas e hidroeléctricas,
+ aun así, se han realizado proyectos enfocados en cambiar esto; es decir,
+ a implementar sistemas de generación de energía solar fotovoltaica a baja
+ escala en nuestro país.
+ Se pueden destacar varios informes de pasantías realizados en nuestra casa
  de estudio, en donde, se han diseñado e/o implementado sistemas de energía
  solar fotovoltaica para alimentar diversas cargas.
  
@@ -186,10 +187,11 @@ key "Garcia2016,Lopez2014,Huerta2018"
 \end_layout
 
 \begin_layout Standard
-En adición, la tecnología de la energía fotovoltaica ha ido mejorando, logrando
- que los módulos solares sean más eficientes, utilizando nuevos materiales
- para su construcción como la perovskita, o buscando nuevas formas de implementa
-rlos, como puede ser el caso del pavimento hecho con celdas solares.
+En adición, los avances tecnológicos relacionados con la energía solar fotovolta
+ica han ido mejorando, logrando que los módulos fotovoltaicos sean más eficiente
+s, utilizando nuevos materiales para su construcción como la perovskita,
+ o buscando nuevas formas de implementarlos, como puede ser el caso del
+ pavimento hecho con celdas solares.
 \end_layout
 
 \begin_layout Section*
@@ -205,10 +207,8 @@ as utilizadas para su construcción.
  Por lo mencionado anteriormente, y debido a las deficiencias en la generación,
  que se han presentado en el servicio eléctrico recientemente, se buscará
  proponer un sistema de generación de energía solar PV con respaldo dentro
- de las instalaciones de la Universidad Simón Bolívar con la misión de ayudar
- a la red, a suplir parte de la demanda de los edificios seleccionados.
- En caso de existir un exceso de energía, esta sería entregada a la red
- eléctrica nacional.
+ de las instalaciones de la Universidad Simón Bolívar con la misión de suplir
+ la demanda de los edificios seleccionados.
  
 \end_layout
 
@@ -280,7 +280,7 @@ Diseñar el sistema de almacenamiento de energía y el algoritmo del controlador
 
 \begin_layout Enumerate
 Diseñar la etapa de electrónica de potencia asociada con el proceso de generació
-n fotovoltaica y su interconexión con la red.
+n fotovoltaica.
 \end_layout
 
 \begin_layout Enumerate
@@ -292,14 +292,14 @@ Alcance
 \end_layout
 
 \begin_layout Itemize
-El sistema de energía solar fotovoltaico no se desconectara de la red eléctrica
- nacional en caso de existir una falla en el sistema.
+El sistema de energía solar fotovoltaico no se conectará a la red eléctrica
+ nacional.
  
 \end_layout
 
 \begin_layout Itemize
-No se consideran perdidas en los módulos fotovoltaicos, es decir, las perdidas
- producidas por las nubes, sombra de los arboles, polvo, entro otros, no
+No se consideran perdidas en los módulos fotovoltaicos, es decir, las pérdidas
+ producidas por las nubes, sombra de los árboles, polvo, entro otros, no
  serán tomadas en cuenta.
 \end_layout
 
@@ -308,13 +308,9 @@ No se considera el efecto de envejecimiento en las baterías.
 \end_layout
 
 \begin_layout Itemize
-El sistema fotovoltaico diseñado no cuenta con control de potencia activa
- o reactiva que se entregue a la red.
-\end_layout
-
-\begin_layout Itemize
-El sistema fotovoltaico no podrá sincronizarse adecuadamente a la red eléctrica
- en caso de existir fallas en el sistema, debido a que se utilizo un SRF-PLL.
+Todas las baterías implementadas en el banco de almacenamiento se considerarán
+ idénticas, de tal forma de que todas carguen y descarguen en proporciones
+ iguales.
 \end_layout
 
 \begin_layout Itemize

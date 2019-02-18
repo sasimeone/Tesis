@@ -102,6 +102,13 @@ thispagestyle{empty} 		% Evita numeración en la primera página del capitulo
 Base de datos
 \end_layout
 
+\begin_layout Standard
+Uno de los primeros pasos para diseñar un sistema de energia solar fotovoltaico,
+ es buscar una base de datos que proporcione todas las variables meteorologicas
+ deseadas.
+ Para poder 
+\end_layout
+
 \begin_layout Section
 Análisis de la base de datos
 \end_layout
