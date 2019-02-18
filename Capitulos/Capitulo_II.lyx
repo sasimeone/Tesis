@@ -198,8 +198,17 @@ Posición de Sol
 \end_layout
 
 \begin_layout Standard
-El Sol es la fuente de energía de los módulos fotovoltaicos, por ende, es
- de gran importancia entender ..........
+El Sol es la fuente de energía primaria de todos los seres vivos del planeta;
+ de hecho, la vida no es posible sin él.
+ La inclinación de los rayos solares, su incidencia en la capa terrestre
+ luego de atravesar la atmósfera, la densidad de energía que aporta el Sol
+ da pie a todas las reacciones fisicoquimicas que permiten el normal desenvolvim
+iento de la vida en la tierra.
+ Los módulos fotovoltaicos trabajan con este principio de captar la energía
+ proveniente del astro para transofrmarla a una forma de energía mas conveniente
+, la eléctrica.
+ por ende, es de gran importancia entender las variables que juegan a favor
+ de ello ..........
 \end_layout
 
 \begin_layout Subsection
@@ -960,7 +969,7 @@ key "Hanania2015"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1225,8 +1234,8 @@ name "fig: un diodo sin rp"
 \end_layout
 
 \begin_layout Standard
-El segundo circuito equivalente presenta una resistencia adicional, la cual
- se encuentra en paralelo con el diodo.
+El modelo con resistencia en paralelo presenta una resistencia adicional,
+ la cual se encuentra en paralelo con el diodo.
  Este modelo es más preciso que el anterior, ya que, la nueva resistencia
  proporciona un comportamiento más adecuado en presencia de una radiación
  baja.
@@ -1325,9 +1334,8 @@ ias, una en paralelo y otra en serie.
  Esta representación del comportamiento de las celdas fotovoltaicas es considera
 da por la literatura como la más precisa, especialmente para bajos niveles
  de iluminación.
- Cabe destacar que, el comportamiento de este circuito equivalente mejora
- si se está tratando de modelar celdas que están construidas son silicio
- policristalino.
+ El comportamiento de este circuito equivalente mejora si se está tratando
+ de modelar celdas que están construidas son silicio policristalino.
  La ecuación 
 \begin_inset CommandInset ref
 LatexCommand ref
