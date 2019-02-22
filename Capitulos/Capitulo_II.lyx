@@ -1460,7 +1460,7 @@ Curvas características
 \end_layout
 
 \begin_layout Standard
-Una celda o modulo fotovoltaico tienen dos curvas características: la curva
+Una celda o módulo fotovoltaico tienen dos curvas características: la curva
  voltaje contra corriente, y la curva de voltaje contra potencia.
  La Figura 
 \begin_inset CommandInset ref
@@ -1484,7 +1484,7 @@ Es una de las dos curvas características de una celda o modulo fotovoltaico.
 \end_layout
 
 \begin_layout Itemize
-La corriente de cortocircuito: es el primer valor de la curva.
+La corriente de cortocircuito: Es el primer valor de la curva.
  Se denota como 
 \begin_inset Formula $I_{sc}$
 \end_inset
@@ -1493,7 +1493,7 @@ La corriente de cortocircuito: es el primer valor de la curva.
 \end_layout
 
 \begin_layout Itemize
-El voltaje de circuito abierto: indica el valor final de la curva, y se
+El voltaje de circuito abierto: Indica el valor final de la curva, y se
  representa por las siglas 
 \begin_inset Formula $V_{oc}$
 \end_inset
@@ -1502,8 +1502,10 @@ El voltaje de circuito abierto: indica el valor final de la curva, y se
 \end_layout
 
 \begin_layout Itemize
-La corriente y el voltaje en el punto de máxima potencia: se representan
- por 
+La corriente y el voltaje en el punto de máxima potencia: Indica el punto
+ de potencia eléctrica máxima producida por la celda o módulo fotovoltaico
+ de acuerdo a las condiciones ambientales presentes.
+ Se representan por 
 \begin_inset Formula $I_{mp}$
 \end_inset
 
@@ -1512,13 +1514,6 @@ La corriente y el voltaje en el punto de máxima potencia: se representan
 \end_inset
 
  respectivamente.
- 
-\end_layout
-
-\begin_layout Standard
-El punto de máxima potencia es aquel donde, la potencia eléctrica producida
- por la celda o módulo fotovoltaico es la máxima posible de acuerdo a las
- condiciones ambientales presentes.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1536,8 +1531,8 @@ La curva de potencia contra voltaje, representa los distintos valores de
 \end_inset
 
 .
- Cabe mencionar, que los algoritmos de MPPT como P&O o conductancia incremental,
- basan su operación en esta curva.
+ P&O y conductancia incremental son algunos de los algoritmos MPPT más usados
+ por su sencillez de implementación.
 \end_layout
 
 \begin_layout Standard
@@ -1588,11 +1583,11 @@ name "fig:Curvas características de una celda fotovoltaica"
 \end_layout
 
 \begin_layout Subsection
-Tipos de celdas
+Tipos de celdas Fotovoltaicas
 \end_layout
 
 \begin_layout Subsubsection
-Monocristalina
+Celdas Monocristalinas
 \end_layout
 
 \begin_layout Standard
@@ -1617,11 +1612,11 @@ key "WebBaker2016,WebSendy2017"
 \end_layout
 
 \begin_layout Subsubsection
-Policristalina
+Celdas Policristalinas
 \end_layout
 
 \begin_layout Standard
-Formada por el agrupamiento de cristales de silicio.
+Están formadas por el agrupamiento de cristales de silicio.
  Tienen el aspecto de una amalgama de cristales de diferentes tonos azules
  y grises con un brillo metálico.
  El rendimiento no sobrepasa el 15% en modelos comerciales, esto causara
@@ -1646,7 +1641,7 @@ Película delgada
 
 \begin_layout Standard
 Los celdas de película delgada son una tecnología totalmente diferente a
- los módulos monocristalinos y policristalinos.
+ las convencionales celdas monocristalinas y policristalinas.
  Dichos módulos pueden identificarse debido a que tienen una apariencia
  negra sólida.
 \end_layout
@@ -1707,10 +1702,10 @@ Son sistemas fotovoltaicos que no están conectados a la red eléctrica principa
  fotovoltaicos.
  Estos sistemas pueden poseer o no, un sistema de almacenamiento de energía
  como lo son las baterías, cabe destacar que dichos dispositivos de almacenamien
-to deben ser capaces de alimentar la carga durante la noche y cuando se
- presenten condiciones climáticas deficientes.
- Por otro lado, este sistema fotovoltaico puede contener tanto cargas AC
- como DC.
+to deben ser capaces de alimentar, completa o parcialemente, la carga durante
+ la noche y cuando se presenten condiciones climáticas deficientes por un
+ determinado tiempo.
+ Este sistema fotovoltaico puede suplir tanto cargas AC como DC.
  En las Figuras 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1830,13 +1825,13 @@ Conectado a la red (Grid connected)
 \begin_layout Standard
 Es un sistema fotovoltaico que está conectado a la red eléctrica a través
  de un inversor, el cual se encarga de convertir las señales DC en AC.
- En caso de que los módulos fotovoltaicos no sean capaces de suplir la demanda
- de la carga, la red actuará entregando la potencia faltante; este fenómeno
- se puede presentar debido a factores ambientales o durante la noche, donde
- los módulos no generan energía eléctrica.
+ En caso de que los módulos fotovoltaicos no fuesen capaces de suplir la
+ demanda de la carga, la red actuará entregando la potencia faltante; este
+ fenómeno se puede presentar debido a factores ambientales o durante la
+ noche, donde los módulos no generan energía eléctrica.
  Por otro lado, estos sistemas no tienen la necesidad de tener un arreglo
- de baterías para el almacenamiento de energía, debido a lo mencionado anteriorm
-ente.
+ de baterías para el almacenamiento de energía, por lo tanto son mucho más
+ económicos debido a lo mencionado anteriormente.
  Los sistemas conectados a la red también son capaces de trabajar con cargas
  en corriente continua y alterna.
  La Figura 
@@ -1906,17 +1901,17 @@ Híbrido
 \end_layout
 
 \begin_layout Standard
-El sistema fotovoltaico híbrido, es aquel que cuenta con varias fuentes
- de generación de energía además de la solar fotovoltaica, es decir, son
- sistemas compuestos por módulos fotovoltaicos y una o varias fuentes de
- generación de energía eléctrica complementaria, estas pueden ser: eólica,
+El sistema fotovoltaico de tipo híbrido, es aquel que cuenta con varias
+ fuentes de generación de energía además de la solar fotovoltaica, es decir,
+ son sistemas compuestos por módulos fotovoltaicos y una o varias fuentes
+ de generación de energía eléctrica complementaria, estas pueden ser: eólica,
  gasolina, diésel, micro turbinas a gas, entre otros.
  Estos sistemas pueden alimentar tanto cargas en corriente alterna como
- en continua; y pueden tener o no un sistema de almacenamiento de energía.
+ en continua; y pueden contar o no con un sistema de almacenamiento de energía.
  Los sistemas híbridos pueden estar conectados a la red eléctrica principal
  o instalarse de forma aislada a la red.
  Al incluir varias fuentes de generación de energía, es necesario implementar
- sistemas de control más robustos y complicados a los que se usan en los
+ sistemas de control más robustos y complicados que los que se usan en los
  sistemas Stand Alone y Grid Conected.
  La Figura 
 \begin_inset CommandInset ref
@@ -1982,13 +1977,13 @@ name "fig:Hibrido"
 \end_layout
 
 \begin_layout Standard
-Tomando en cuenta la posición del Sol respecto al panel, visto desde el
- módulo, es el ángulo 
+Es el ángulo 
 \begin_inset Formula $\gamma$
 \end_inset
 
  formado entre la superficie normal y la dirección de incidencia de los
- rayos solares.
+ rayos solares, tomando en cuenta la posición del Sol respecto al panel,
+ visto desde el módulo.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2050,7 +2045,7 @@ Conversor DC-DC
 \end_layout
 
 \begin_layout Standard
-Es un dispositivo de electrónica de potencia, que suministra una tensión
+Es un dispositivo de electrónica de potencia que suministra una tensión
  de salida DC regulada a partir de una tensión de entrada DC fluctuante.
  Lo mencionado anteriormente, se logra gracias a los interruptores de potencia
  y a los elementos almacenadores de energía que conforman este dispositivo,
@@ -2076,10 +2071,10 @@ vos mencionados anteriormente, logrando así, aumentar o reducir el voltaje
 \end_layout
 
 \begin_layout Standard
-Para poder obtener el voltaje de salida deseado en estos convertidores,
- es necesario controlar el ciclo de trabajo de los interruptores, el cual
- se puede definir como la relación entre el tiempo de encendido y el periodo
- de la señal del interruptor de potencia.
+Para obtener el voltaje de salida deseado en estos convertidores, es necesario
+ controlar el ciclo de trabajo de los interruptores, el cual se define como
+ la relación entre el tiempo de encendido y el periodo de la señal del interrupt
+or de potencia.
  La Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2225,12 +2220,9 @@ Perturba y Observa (Perturb and Observe)
 \end_layout
 
 \begin_layout Standard
-Es un algoritmo derivado del método ascenso de colina, que tiene como objetivo
- buscar el punto de máxima potencia del módulo fotovoltaico independientemente
- de los niveles de radiación solar y temperatura que existan.
+Es un algoritmo derivado del método ascenso de colina.
  Mediante las variaciones de voltaje (que se producen modificando del ciclo
- se trabajó) y, por ende, de potencia, se puede deducir en que parte de
- la curva P-V nos encontramos.
+ se trabajo) se logra variar la potencia.
  En la Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2244,13 +2236,12 @@ reference "fig:Algoritmo-P&O."
  el MPP del módulo fotovoltaico.
  Lo mencionado anteriormente, se puede explicar de la siguiente manera:
  si la potencia obtenida en la iteración actual es superior a la anterior,
- se concluye que el punto de operación del módulo avanzo en dirección al
+ se concluye que el punto de operación del módulo avanzó en dirección al
  punto de máxima potencia, pero en cambio, si la potencia disminuye significa
  que el punto de operación se está alejando del MPP, por lo cual, se debe
  realizar una perturbación en sentido contrario a la producida anteriormente.
- Cabe destacar, que la eficiencia de este método es de aproximadamente 96%,
- pero puede mejorarse si se disminuye la tasa de cambio del ciclo de trabajo
- (
+ La eficiencia de este método es de aproximadamente 96%, pero puede mejorarse
+ si se disminuye la tasa de cambio del ciclo de trabajo (
 \begin_inset Formula $\triangle D$
 \end_inset
 
@@ -2313,14 +2304,16 @@ Enlace CD (DC link)
 \end_layout
 
 \begin_layout Standard
-Es un capacitor que se coloca entre el conversor DC-DC y el inversor, el
- cual se encarga de disminuir el rizado del voltaje a la salida del conversor
- DC-DC y, además, limita las fluctuaciones de voltaje en la entrada del
+Es el cableado de conexión que va de la salida del conversor DC-DC a el
  inversor.
+ Típicamente se coloca un capacitor que sirve como reservorio de energía,
+ el cual se encarga de disminuir el rizado del voltaje a la salida del conversor
+ DC-DC y limitar las fluctuaciones de voltaje en la entrada del inversor.
 \end_layout
 
 \begin_layout Subsection
-Conversor DC-DC Bidireccional
+Conversor DC-DC Bidireccional (creo que el profe tiene razon y debemos colocarlo
+ en conversores)
 \end_layout
 
 \begin_layout Standard
@@ -2419,14 +2412,15 @@ Es un dispositivo de electrónica de potencia, que tiene como objetivo llevar
 \end_layout
 
 \begin_layout Standard
-Existen diversas topologías para estos dispositivos, por el número de fases
- de salida los inversores se clasifican en monofásicos y trifásicos.
- El inversor monofásico está conformado por cuatros interruptores de potencias
- y toma una señal monofásica en DC, y la transforma en una señal monofásica
+Existen diversas topologías para estos dispositivos.
+ De acuerdoa el número de fases de salida los inversores se clasifican en:
+ monofásicos y trifásicos.
+ El inversor monofásico está conformado por cuatros interruptores de potencias.
+ Toma una señal monofásica en DC, y la transforma en una señal monofásica
  en AC.
  Por otro lado, el inversor trifásico se encarga de llevar una señal monofásica
- en DC a tres señales en AC desfasadas 120° entre ellas, esto lo logra gracias
- a sus seis interruptores de potencia.
+ en DC a tres señales en AC desfasadas 120° entre ellas, esto es posible
+ gracias a sus seis interruptores de potencia.
  La Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2580,7 +2574,7 @@ Se define como la relación entre la frecuencia de la onda portadora y la
  onda de referencia y presentará armónicos en y alrededor de los múltiplos
  de la frecuencia de la onda portadora.
  Un índice de modulación elevado ayuda al filtrado de armónicos de la señal
- de entrada del inversor, pero aumenta las perdidas en los interruptores.
+ a la salida del inversor, pero aumenta las perdidas en los interruptores.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2735,10 +2729,12 @@ Sistemas de almacenamiento de energía
 \end_layout
 
 \begin_layout Standard
-Los sistemas de almacenamiento de energía diseñados para aplicaciones en
- sistemas de generación de energía cumplen con dos tareas fundamentales.
- Primero aplanar la curva de demanda y segundo coadyuvan a la integración
- de energías renovables.
+Los sistemas de almacenamiento son dispositivos que acumulan la energía
+ excedente en la generación y la regresan al sistema en un momento de déficit
+ de generación.
+ Las aplicaciones en sistemas de generación de energía cumplen con dos tareas
+ fundamentales: primero aplanar la curva de demanda y segundo coadyuvan
+ a la integración de energías renovables.
 \end_layout
 
 \begin_layout Subsection
@@ -3102,18 +3098,18 @@ Densidad específica y volumétrica de Energía
 
 \begin_layout Standard
 Está definida como la cantidad disponible de energía de una batería totalmente
- cargada por unidad de volumen o por su peso en Kg; es decir que pueden
- caracterizarse en 
-\begin_inset Formula $\frac{Wh}{L}$
-\end_inset
-
- o 
+ cargada por peso en Kg o por unidad de volumen; es decir que pueden caracteriza
+rse en 
 \begin_inset Formula $\frac{Wh}{Kg}$
 \end_inset
 
+ o 
+\begin_inset Formula $\frac{Wh}{L}$
+\end_inset
+
 .
- El primero se conoce como energía específica y el segundo como densidad
- de energía volumétrica.
+ El primero se conoce como densidad de energía volumétrica y el segundo
+ como energía específica.
  Basado en la aplicación o el contexto se preferirá el uso de una unidad
  o de otra.
  
